@@ -99,6 +99,12 @@ h1{font-size:clamp(1.8rem,4vw,2.6rem);color:var(--ink);line-height:1.12;letter-s
 .card.feature .card-icon{width:54px;height:54px;border-radius:13px;display:flex;align-items:center;
   justify-content:center;font-weight:700;color:#fff;font-size:1.1rem;margin-bottom:.8rem;background:var(--grad)}
 .card.feature .i-champ{font-size:1.6rem}
+
+/* Linked cards (Frontier Program) */
+a.card.card-linked{display:block;text-decoration:none;color:inherit}
+a.card.card-linked:hover{text-decoration:none}
+.card-linked .card-open{display:inline-block;margin-top:.7rem;font-size:.82rem;font-weight:700;color:var(--purple)}
+.card-linked:hover .card-open{text-decoration:underline}
 .link-more{appearance:none;background:none;border:none;cursor:pointer;font-family:inherit;
   color:var(--purple);font-weight:600;font-size:.9rem;padding:0;margin-top:.6rem}
 .link-more:hover{text-decoration:underline}

@@ -190,7 +190,11 @@ let blogData = null;
 function fmtDate(iso) {
   if (!iso) return "";
   const d = new Date(iso);
-  return isNaN(d) ? "" : d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+  // Format in UTC so the displayed day matches the publish date and never
+  // shifts a day earlier/later based on the visitor's local timezone.
+  return isNaN(d)
+    ? ""
+    : d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
 }
 
 function renderBlogs() {
