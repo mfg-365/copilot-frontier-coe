@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T17:04:10.653Z",
+  "generatedAt": "2026-06-12T17:08:09.783Z",
   "count": 1,
   "editions": [
     {
@@ -28,15 +28,15 @@
       },
       "reads": [
         {
-          "title": "How to Connect Copilot Studio to Teams, Outlook, and OneDrive: A Complete Guide",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/how-to-connect-copilot-studio-to-teams-outlook-and-onedrive-a/m-p/4527896#M6564"
+          "title": "Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832"
         },
         {
-          "title": "Best Copilot Studio Agents for HR Teams: Transforming the Future of Human Resources",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/best-copilot-studio-agents-for-hr-teams-transforming-the-future/m-p/4527895#M6563"
+          "title": "Meet the new Copilot Studio: rebuilt for more complex, multi-step work",
+          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/meet-the-new-copilot-studio-rebuilt-for-more-complex-multi-step/ba-p/4526488"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 11, 2026)\n\nPROMPT OF THE WEEK — Compare and recommend\n\"Compare these [proposals/vendors/options] across cost, risk, time-to-value, and effort in a table. Recommend one and explain the trade-offs in two sentences.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Planner Agent in Microsoft 365 Copilot (In development)\nPlanner agent in Microsoft 365 will help you plan, organize, and manage work more efficiently. We’re starting with core task and plan management features to simplify project tracking and will introduce additional advanced project management capabilities over time. Updated May 21, 2026: We previously launched in Preview and GA is expected in June. We apologize for any inconvenience.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516576\n\nWORTH A READ\n- How to Connect Copilot Studio to Teams, Outlook, and OneDrive: A Complete Guide — https://techcommunity.microsoft.com/t5/microsoft-365-copilot/how-to-connect-copilot-studio-to-teams-outlook-and-onedrive-a/m-p/4527896#M6564\n- Best Copilot Studio Agents for HR Teams: Transforming the Future of Human Resources — https://techcommunity.microsoft.com/t5/microsoft-365-copilot/best-copilot-studio-agents-for-hr-teams-transforming-the-future/m-p/4527895#M6563\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 11, 2026)\n\nPROMPT OF THE WEEK — Compare and recommend\n\"Compare these [proposals/vendors/options] across cost, risk, time-to-value, and effort in a table. Recommend one and explain the trade-offs in two sentences.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Planner Agent in Microsoft 365 Copilot (In development)\nPlanner agent in Microsoft 365 will help you plan, organize, and manage work more efficiently. We’re starting with core task and plan management features to simplify project tracking and will introduce additional advanced project management capabilities over time. Updated May 21, 2026: We previously launched in Preview and GA is expected in June. We apologize for any inconvenience.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516576\n\nWORTH A READ\n- Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832\n- Meet the new Copilot Studio: rebuilt for more complex, multi-step work — https://techcommunity.microsoft.com/t5/copilot-studio-blog/meet-the-new-copilot-studio-rebuilt-for-more-complex-multi-step/ba-p/4526488\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     }
   ]
 }

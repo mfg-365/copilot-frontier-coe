@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T16:47:15.880Z",
+  "generatedAt": "2026-06-12T17:08:09.737Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -12,33 +12,6 @@
   ],
   "count": 30,
   "items": [
-    {
-      "title": "How to Connect Copilot Studio to Teams, Outlook, and OneDrive: A Complete Guide",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/how-to-connect-copilot-studio-to-teams-outlook-and-onedrive-a/m-p/4527896#M6564",
-      "pubDate": "Fri, 12 Jun 2026 15:42:11 GMT",
-      "description": "Artificial intelligence is changing the way businesses work, and AI assistants are becoming a regular part of everyday productivity. Microsoft Copilot Studio makes it easier for organizations to create custom AI agents that can answer quest",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-12T15:42:11.000Z"
-    },
-    {
-      "title": "Best Copilot Studio Agents for HR Teams: Transforming the Future of Human Resources",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/best-copilot-studio-agents-for-hr-teams-transforming-the-future/m-p/4527895#M6563",
-      "pubDate": "Fri, 12 Jun 2026 15:41:34 GMT",
-      "description": "Human Resources teams are constantly looking for better ways to support employees, improve productivity, and reduce repetitive administrative work. From answering employee questions to managing onboarding tasks, HR professionals handle hund",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-12T15:41:34.000Z"
-    },
-    {
-      "title": "Spent hours trying to build an employee feedback workflow with Power Automate",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/spent-hours-trying-to-build-an-employee-feedback-workflow-with/m-p/4527637#M6558",
-      "pubDate": "Fri, 12 Jun 2026 04:34:50 GMT",
-      "description": "Someone on our leadership team asked if we could set up a system where employees can give each other continuous feedback through Teams. I spent the last two days trying to build this with Power Automate + Forms + SharePoint and honestly its",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-12T04:34:50.000Z"
-    },
     {
       "title": "Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832",
@@ -191,6 +164,33 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-06-05T04:01:54.000Z"
+    },
+    {
+      "title": "Microsoft Introduces Scout: The Always-On Personal AI Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-introduces-scout-the-always-on-personal-ai-agent/m-p/4525534#M6534",
+      "pubDate": "Thu, 04 Jun 2026 13:04:09 GMT",
+      "description": "Microsoft has officially unveiled Microsoft Scout, a new AI-powered personal agent designed to work continuously in the background and help users manage tasks, schedules, communications, and workflows across the Microsoft 365 ecosystem. Ann",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-06-04T13:04:09.000Z"
+    },
+    {
+      "title": "Designing Multi-Agent Systems in Copilot Studio",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/designing-multi-agent-systems-in-copilot-studio/m-p/4525474#M6533",
+      "pubDate": "Thu, 04 Jun 2026 10:52:18 GMT",
+      "description": "Modern organizations rarely solve complex business problems with a single AI assistant. Customer support, IT operations, sales, HR, and analytics teams all have different goals, data sources, and workflows. This is where multi-agent systems",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-06-04T10:52:18.000Z"
+    },
+    {
+      "title": "Copilot Studio Pricing Explained for Enterprises: Licensing, Costs, and ROI in 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/copilot-studio-pricing-explained-for-enterprises-licensing-costs/m-p/4525473#M6532",
+      "pubDate": "Thu, 04 Jun 2026 10:51:36 GMT",
+      "description": "As enterprises accelerate their AI adoption strategies, Microsoft Copilot Studio has emerged as one of the most powerful platforms for building custom AI assistants, automating business processes, and creating intelligent customer experienc",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-06-04T10:51:36.000Z"
     },
     {
       "title": "Introducing Microsoft Scout: Your always-on personal agent",
