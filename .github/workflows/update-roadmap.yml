@@ -1,4 +1,4 @@
-name: Update Copilot Roadmap
+name: Update Copilot Data
 
 on:
   schedule:
@@ -21,14 +21,17 @@ jobs:
       - name: Refresh roadmap data
         run: node scripts/update-roadmap.mjs
 
+      - name: Refresh blog data
+        run: node scripts/update-blogs.mjs
+
       - name: Commit changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain data/roadmap.json)" ]]; then
-            git add data/roadmap.json
-            git commit -m "chore: weekly Copilot roadmap refresh"
+          if [[ -n "$(git status --porcelain data/)" ]]; then
+            git add data/roadmap.json data/blogs.json
+            git commit -m "chore: weekly Copilot roadmap + blog refresh"
             git push
           else
-            echo "No roadmap changes."
+            echo "No data changes."
           fi

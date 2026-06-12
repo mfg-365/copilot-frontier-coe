@@ -53,7 +53,7 @@ async function main() {
       availability: monthKey(f.publicDisclosureAvailabilityDate),
       preview: monthKey(f.publicPreviewDate),
       modified: f.modified || f.created || null,
-      link: `https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=${f.id}`,
+      link: `https://www.microsoft.com/en-us/microsoft-365/roadmap?id=${f.id}`,
     }))
     .sort((a, b) => new Date(b.modified) - new Date(a.modified))
     .slice(0, MAX_ITEMS);

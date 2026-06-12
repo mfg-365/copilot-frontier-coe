@@ -8,6 +8,7 @@ function activate(id) {
   if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
   window.scrollTo({ top: 0, behavior: "smooth" });
   if (id === "updates") loadRoadmap();
+  if (id === "blogs") loadBlogs();
 }
 
 tabs.forEach((t) => t.addEventListener("click", () => activate(t.dataset.tab)));
@@ -15,9 +16,7 @@ document.querySelectorAll("[data-jump]").forEach((b) =>
   b.addEventListener("click", () => activate(b.dataset.jump))
 );
 
-// Open the tab from the URL hash on load
-const initial = (location.hash || "#overview").slice(1);
-if (document.getElementById(initial)) activate(initial);
+// Deck links are wired below; the initial tab is activated at the end of the file.
 
 // ----- Deck links (optional, configured separately) -----
 // To enable, set window.DECK_LINKS in assets/js/decks.config.js, e.g.:
@@ -128,3 +127,66 @@ document.querySelectorAll("#statusFilter .chip").forEach((chip) =>
     renderRoadmap();
   })
 );
+
+// ----- Blogs (Copilot Blogs) -----
+let blogData = null;
+
+function fmtDate(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  return isNaN(d) ? "" : d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+}
+
+function renderBlogs() {
+  const list = document.getElementById("blogList");
+  if (!blogData) return;
+  const q = (document.getElementById("blogSearch").value || "").toLowerCase().trim();
+  const items = blogData.items.filter(
+    (i) => !q || (i.title + " " + i.description).toLowerCase().includes(q)
+  );
+  if (!items.length) {
+    list.innerHTML = '<div class="rm-empty">No matching posts. Try a different search.</div>';
+    return;
+  }
+  list.innerHTML = items
+    .map((i) => {
+      const meta = [];
+      if (i.date) meta.push(`<span class="m">${esc(fmtDate(i.date))}</span>`);
+      if (i.source) meta.push(`<span class="m">${esc(i.source)}</span>`);
+      return `<article class="rm-card blog-card">
+        <div class="rm-head">
+          <h3 class="rm-title"><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
+        </div>
+        ${i.description ? `<p class="rm-desc">${esc(i.description)}&hellip;</p>` : ""}
+        <div class="rm-meta">${meta.join("")}</div>
+      </article>`;
+    })
+    .join("");
+}
+
+async function loadBlogs() {
+  if (blogData) return;
+  const list = document.getElementById("blogList");
+  list.innerHTML = '<div class="rm-empty">Loading the latest Copilot blog posts&hellip;</div>';
+  try {
+    const res = await fetch("data/blogs.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("fetch failed");
+    blogData = await res.json();
+  } catch (e) {
+    list.innerHTML = '<div class="rm-empty">Could not load blog data. Please check back shortly.</div>';
+    return;
+  }
+  document.getElementById("blogMeta").innerHTML =
+    `<span class="count-badge"><i class="dot-launch"></i>${blogData.count || 0} recent posts</span>`;
+  const d = blogData.generatedAt ? new Date(blogData.generatedAt) : null;
+  document.getElementById("blogUpdated").textContent = d
+    ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
+    : "";
+  renderBlogs();
+}
+
+document.getElementById("blogSearch").addEventListener("input", renderBlogs);
+
+// Open the tab from the URL hash on load (after all state + handlers are defined)
+const initial = (location.hash || "#overview").slice(1);
+if (document.getElementById(initial)) activate(initial);

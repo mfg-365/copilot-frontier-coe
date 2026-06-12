@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T16:14:28.286Z",
+  "generatedAt": "2026-06-12T16:41:23.319Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
   "totalCopilotFeatures": 728,
   "counts": {
@@ -28,7 +28,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-11T23:15:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=559017"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559017"
     },
     {
       "id": 558933,
@@ -49,7 +49,7 @@
       "availability": "August CY2026",
       "preview": "",
       "modified": "2026-06-11T23:15:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=558933"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933"
     },
     {
       "id": 516576,
@@ -70,7 +70,7 @@
       "availability": "June CY2026",
       "preview": "March CY2026",
       "modified": "2026-06-11T23:15:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=516576"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516576"
     },
     {
       "id": 485724,
@@ -90,7 +90,7 @@
       "availability": "May CY2025",
       "preview": "",
       "modified": "2026-06-11T23:15:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=485724"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=485724"
     },
     {
       "id": 562345,
@@ -109,7 +109,7 @@
       "availability": "September CY2026",
       "preview": "",
       "modified": "2026-06-10T23:00:02",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=562345"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345"
     },
     {
       "id": 561208,
@@ -129,7 +129,7 @@
       "availability": "August CY2026",
       "preview": "June CY2026",
       "modified": "2026-06-10T23:00:02",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=561208"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208"
     },
     {
       "id": 558286,
@@ -154,7 +154,7 @@
       "availability": "August CY2026",
       "preview": "",
       "modified": "2026-06-10T23:00:02",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=558286"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558286"
     },
     {
       "id": 537269,
@@ -177,7 +177,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-10T23:00:02",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=537269"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=537269"
     },
     {
       "id": 472030,
@@ -198,7 +198,7 @@
       "availability": "July CY2026",
       "preview": "June CY2026",
       "modified": "2026-06-10T23:00:02",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=472030"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=472030"
     },
     {
       "id": 560540,
@@ -218,7 +218,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=560540"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560540"
     },
     {
       "id": 560340,
@@ -237,7 +237,7 @@
       "availability": "May CY2026",
       "preview": "",
       "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=560340"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560340"
     },
     {
       "id": 548641,
@@ -258,7 +258,7 @@
       "availability": "April CY2026",
       "preview": "",
       "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=548641"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=548641"
     },
     {
       "id": 490154,
@@ -277,7 +277,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=490154"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=490154"
     },
     {
       "id": 512429,
@@ -299,7 +299,7 @@
       "availability": "March CY2026",
       "preview": "January CY2026",
       "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=512429"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=512429"
     },
     {
       "id": 500632,
@@ -318,7 +318,7 @@
       "availability": "September CY2025",
       "preview": "",
       "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=500632"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=500632"
     },
     {
       "id": 500633,
@@ -337,7 +337,7 @@
       "availability": "October CY2025",
       "preview": "September CY2025",
       "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=500633"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=500633"
     },
     {
       "id": 500631,
@@ -356,7 +356,7 @@
       "availability": "October CY2025",
       "preview": "",
       "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=500631"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=500631"
     },
     {
       "id": 561041,
@@ -376,7 +376,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-09T20:46:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=561041"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561041"
     },
     {
       "id": 559993,
@@ -395,7 +395,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-09T20:46:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=559993"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559993"
     },
     {
       "id": 553595,
@@ -417,7 +417,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-09T20:46:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=553595"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553595"
     },
     {
       "id": 546246,
@@ -436,7 +436,7 @@
       "availability": "April CY2026",
       "preview": "",
       "modified": "2026-06-09T20:46:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=546246"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=546246"
     },
     {
       "id": 511801,
@@ -455,7 +455,7 @@
       "availability": "May CY2026",
       "preview": "",
       "modified": "2026-06-09T20:46:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=511801"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=511801"
     },
     {
       "id": 516039,
@@ -475,7 +475,7 @@
       "availability": "April CY2026",
       "preview": "",
       "modified": "2026-06-09T20:46:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=516039"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516039"
     },
     {
       "id": 516038,
@@ -495,7 +495,7 @@
       "availability": "April CY2026",
       "preview": "",
       "modified": "2026-06-09T20:46:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=516038"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516038"
     },
     {
       "id": 516037,
@@ -515,7 +515,7 @@
       "availability": "April CY2026",
       "preview": "",
       "modified": "2026-06-09T20:46:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=516037"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516037"
     },
     {
       "id": 561323,
@@ -536,7 +536,7 @@
       "availability": "June CY2026",
       "preview": "May CY2026",
       "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=561323"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561323"
     },
     {
       "id": 559996,
@@ -557,7 +557,7 @@
       "availability": "September CY2026",
       "preview": "June CY2026",
       "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=559996"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559996"
     },
     {
       "id": 557981,
@@ -577,7 +577,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=557981"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557981"
     },
     {
       "id": 555880,
@@ -597,7 +597,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555880"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555880"
     },
     {
       "id": 555879,
@@ -617,7 +617,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555879"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555879"
     },
     {
       "id": 555878,
@@ -637,7 +637,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555878"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555878"
     },
     {
       "id": 555891,
@@ -657,7 +657,7 @@
       "availability": "March CY2026",
       "preview": "",
       "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555891"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555891"
     },
     {
       "id": 555888,
@@ -677,7 +677,7 @@
       "availability": "March CY2026",
       "preview": "",
       "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555888"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555888"
     },
     {
       "id": 555886,
@@ -697,7 +697,7 @@
       "availability": "March CY2026",
       "preview": "",
       "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555886"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555886"
     },
     {
       "id": 498640,
@@ -719,7 +719,7 @@
       "availability": "August CY2026",
       "preview": "January CY2026",
       "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=498640"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=498640"
     },
     {
       "id": 511820,
@@ -743,7 +743,7 @@
       "availability": "March CY2026",
       "preview": "March CY2025",
       "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=511820"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=511820"
     },
     {
       "id": 559995,
@@ -763,7 +763,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-04T23:15:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=559995"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559995"
     },
     {
       "id": 559095,
@@ -784,7 +784,7 @@
       "availability": "May CY2026",
       "preview": "March CY2026",
       "modified": "2026-06-04T23:15:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=559095"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559095"
     },
     {
       "id": 558934,
@@ -808,7 +808,7 @@
       "availability": "May CY2026",
       "preview": "March CY2026",
       "modified": "2026-06-04T23:15:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=558934"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558934"
     },
     {
       "id": 553224,
@@ -827,7 +827,7 @@
       "availability": "July CY2026",
       "preview": "",
       "modified": "2026-06-04T23:15:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=553224"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553224"
     },
     {
       "id": 519571,
@@ -851,7 +851,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-04T23:15:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=519571"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571"
     },
     {
       "id": 422323,
@@ -871,7 +871,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-04T23:15:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=422323"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=422323"
     },
     {
       "id": 561491,
@@ -891,7 +891,7 @@
       "availability": "July CY2026",
       "preview": "June CY2026",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=561491"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561491"
     },
     {
       "id": 560396,
@@ -910,7 +910,7 @@
       "availability": "May CY2026",
       "preview": "",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=560396"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560396"
     },
     {
       "id": 559310,
@@ -933,7 +933,7 @@
       "availability": "May CY2026",
       "preview": "",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=559310"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559310"
     },
     {
       "id": 555898,
@@ -953,7 +953,7 @@
       "availability": "April CY2026",
       "preview": "",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555898"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555898"
     },
     {
       "id": 555896,
@@ -973,7 +973,7 @@
       "availability": "April CY2026",
       "preview": "",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555896"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555896"
     },
     {
       "id": 555893,
@@ -993,7 +993,7 @@
       "availability": "April CY2026",
       "preview": "",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555893"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555893"
     },
     {
       "id": 555892,
@@ -1013,7 +1013,7 @@
       "availability": "March CY2026",
       "preview": "",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555892"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555892"
     },
     {
       "id": 555889,
@@ -1033,7 +1033,7 @@
       "availability": "March CY2026",
       "preview": "",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555889"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555889"
     },
     {
       "id": 555887,
@@ -1053,7 +1053,7 @@
       "availability": "March CY2026",
       "preview": "",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555887"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555887"
     },
     {
       "id": 555885,
@@ -1073,7 +1073,7 @@
       "availability": "March CY2026",
       "preview": "",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555885"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555885"
     },
     {
       "id": 552592,
@@ -1093,7 +1093,7 @@
       "availability": "May CY2026",
       "preview": "",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=552592"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=552592"
     },
     {
       "id": 508529,
@@ -1115,7 +1115,7 @@
       "availability": "February CY2026",
       "preview": "January CY2026",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=508529"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=508529"
     },
     {
       "id": 496596,
@@ -1135,7 +1135,7 @@
       "availability": "June CY2026",
       "preview": "",
       "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=496596"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=496596"
     },
     {
       "id": 557681,
@@ -1155,7 +1155,7 @@
       "availability": "July CY2026",
       "preview": "",
       "modified": "2026-06-02T23:00:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=557681"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557681"
     },
     {
       "id": 558440,
@@ -1177,7 +1177,7 @@
       "availability": "May CY2026",
       "preview": "",
       "modified": "2026-06-02T23:00:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=558440"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558440"
     },
     {
       "id": 558105,
@@ -1197,7 +1197,7 @@
       "availability": "March CY2026",
       "preview": "",
       "modified": "2026-06-02T23:00:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=558105"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558105"
     },
     {
       "id": 555884,
@@ -1217,7 +1217,7 @@
       "availability": "March CY2026",
       "preview": "",
       "modified": "2026-06-02T23:00:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555884"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555884"
     },
     {
       "id": 555883,
@@ -1237,7 +1237,7 @@
       "availability": "March CY2026",
       "preview": "",
       "modified": "2026-06-02T23:00:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=555883"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555883"
     }
   ]
 }

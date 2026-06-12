@@ -34,6 +34,7 @@
     <button class="tab" role="tab" data-tab="champions">Champion Teams</button>
     <button class="tab" role="tab" data-tab="frontier">Frontier Program</button>
     <button class="tab" role="tab" data-tab="updates">Copilot Updates</button>
+    <button class="tab" role="tab" data-tab="blogs">Copilot Blogs</button>
     <button class="tab" role="tab" data-tab="resources">Resources</button>
   </nav>
 
@@ -220,6 +221,25 @@
 
       <div id="roadmapList" class="roadmap-list" aria-live="polite"></div>
       <p class="source-note">Source: <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot" target="_blank" rel="noopener">Microsoft 365 Roadmap (Copilot)</a>. Updated automatically via GitHub Actions.</p>
+    </section>
+
+    <!-- ============ BLOGS (auto) ============ -->
+    <section class="panel" id="blogs" role="tabpanel">
+      <span class="kicker">Updated weekly</span>
+      <h1>Copilot Blogs</h1>
+      <p class="lead">Recent Copilot-related articles from official Microsoft sources — the Microsoft 365 Blog and the Microsoft 365 Copilot blog on Tech Community. This list refreshes every week.</p>
+
+      <div class="updates-meta">
+        <div class="meta-counts" id="blogMeta"></div>
+        <div class="meta-updated" id="blogUpdated"></div>
+      </div>
+
+      <div class="updates-controls">
+        <input type="search" id="blogSearch" placeholder="Search blog posts&hellip;" aria-label="Search Copilot blog posts" />
+      </div>
+
+      <div id="blogList" class="roadmap-list" aria-live="polite"></div>
+      <p class="source-note">Sources: <a href="https://www.microsoft.com/en-us/microsoft-365/blog/" target="_blank" rel="noopener">Microsoft 365 Blog</a> and <a href="https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/bg-p/Microsoft365CopilotBlog" target="_blank" rel="noopener">Microsoft 365 Copilot Blog</a>. Updated automatically via GitHub Actions.</p>
     </section>
 
     <!-- ============ RESOURCES ============ -->
