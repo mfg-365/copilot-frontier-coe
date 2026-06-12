@@ -28,10 +28,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain data/roadmap.json data/blogs.json)" ]]; then
-            git add data/roadmap.json data/blogs.json
-            git commit -m "chore: 3-day Copilot roadmap + blog refresh"
-            git push
-          else
-            echo "No feed changes."
+          if [[ -z "$(git status --porcelain data/roadmap.json data/blogs.json)" ]]; then
+            echo "No feed changes."; exit 0
           fi
+          git add data/roadmap.json data/blogs.json
+          git commit -m "chore: 3-day Copilot roadmap + blog refresh"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            echo "Push attempt $i failed; retrying..."; sleep 7
+          done
+          echo "Push failed after retries"; exit 1
