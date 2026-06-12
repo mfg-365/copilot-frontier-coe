@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T19:07:28.191Z",
+  "generatedAt": "2026-06-12T19:08:42.833Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -13,9 +13,17 @@
   "count": 30,
   "items": [
     {
+      "title": "What’s New in Notebooks | June 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625",
+      "description": "Today, Copilot Notebooks is rolling out to more people across your team, making shared notebook collaboration broadly accessible in the Microsoft 365 Copilot app and OneNote . Copilot Notebooks are available to Copilot Chat users Previously",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-06-11T15:03:45.000Z"
+    },
+    {
       "title": "Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832",
-      "description": "We’re expanding model choice in Microsoft 365 Copilot with Anthropic’s latest model, Claude Fable 5 as a preview model—designed to support longer, multi-step workflows. As organizations move beyond simple prompts to more complex work, Copil",
+      "description": "We’re expanding model choice in Microsoft 365 Copilot with Anthropic’s latest model, Claude Fable 5 as a preview model—designed to support longer, multi-step workflows. As organizations move beyond simple prompts to more complex work, custo",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-06-10T23:45:46.000Z"
@@ -278,14 +286,6 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-04-16T17:45:47.000Z"
-    },
-    {
-      "title": "Copilot in Word: New Capabilities for Document Workflows",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-in-word-new-capabilities-for-document-workflows/ba-p/4508974",
-      "description": "Today, we are introducing new Copilot in Word capabilities for legal, finance, and compliance professionals doing high stakes, and detail intensive work. Whether reviewing contracts or finalizing policy documents, Copilot can track changes ",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-04-13T20:03:51.000Z"
     }
   ]
 }
