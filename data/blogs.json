@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T17:49:07.517Z",
+  "generatedAt": "2026-06-12T19:07:28.191Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -13,108 +13,62 @@
   "count": 30,
   "items": [
     {
-      "title": "Word: Legal Agent in Frontier",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/word-legal-agent-in-frontier/ba-p/4516218",
-      "pubDate": "Fri, 12 Jun 2026 14:50:28 GMT",
-      "description": "Legal workflows demand precision and auditability. While general-purpose AI tools can assist with document review, they aren’t designed to follow the structured processes legal teams rely on to evaluate risk and maintain consistency. Buildi",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-12T14:50:28.000Z"
-    },
-    {
-      "title": "What’s New in Notebooks | May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-may-2026/ba-p/4519838",
-      "pubDate": "Fri, 12 Jun 2026 14:34:37 GMT",
-      "description": "Copilot Notebooks gets smarter for Microsoft 365 Copilot users Work rarely lives in one place. A single project can span a deck in SharePoint, decisions in a Teams thread, customer context in email, and ideas captured in quick conversations",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-12T14:34:37.000Z"
-    },
-    {
       "title": "Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832",
-      "pubDate": "Thu, 11 Jun 2026 20:58:32 GMT",
-      "description": "We’re expanding model choice in Microsoft 365 Copilot with Anthropic’s latest model, Claude Fable 5 as a preview model—designed to support longer, multi-step workflows. As organizations move beyond simple prompts to more complex work, custo",
+      "description": "We’re expanding model choice in Microsoft 365 Copilot with Anthropic’s latest model, Claude Fable 5 as a preview model—designed to support longer, multi-step workflows. As organizations move beyond simple prompts to more complex work, Copil",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-11T20:58:32.000Z"
-    },
-    {
-      "title": "What’s New in Notebooks | June 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625",
-      "pubDate": "Thu, 11 Jun 2026 15:03:45 GMT",
-      "description": "Today, Copilot Notebooks is rolling out to more people across your team, making shared notebook collaboration broadly accessible in the Microsoft 365 Copilot app and OneNote . Copilot Notebooks are available to Copilot Chat users Previously",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-11T15:03:45.000Z"
+      "date": "2026-06-10T23:45:46.000Z"
     },
     {
       "title": "What’s New in Microsoft 365 Copilot | May 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-may-2026/ba-p/4522010",
-      "pubDate": "Mon, 08 Jun 2026 21:52:59 GMT",
       "description": "Welcome to the May 2026 edition of What's New in Microsoft 365 Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 admins up to date with Copilot features that help your users be more productive and effici",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-06-08T21:52:59.000Z"
     },
     {
-      "title": "Introducing Microsoft Scout: Your always-on personal agent",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
-      "pubDate": "Tue, 02 Jun 2026 18:00:00 +0000",
-      "description": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared first on Microsoft 365 Blog .",
-      "categories": [
-        "Agents",
-        "AI"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-06-02T18:00:00.000Z"
-    },
-    {
-      "title": "Announcing the new Work IQ APIs",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
-      "pubDate": "Tue, 02 Jun 2026 17:00:15 +0000",
-      "description": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations. The post Announcing the new Work IQ APIs appeared first on Microsoft 365 Blog .",
-      "categories": [
-        "Copilot for Work",
-        "Work IQ"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-06-02T17:00:15.000Z"
-    },
-    {
       "title": "Learning Agent now generally available — personalized AI upskilling for every employee",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/learning-agent-now-generally-available-personalized-ai/ba-p/4524571",
-      "pubDate": "Tue, 02 Jun 2026 15:00:00 GMT",
       "description": "Meet Learning Agent in Microsoft 365 Copilot Today we’re excited to announce the general availability of Learning Agent in Microsoft 365 Copilot, to help every employee build Copilot and AI skills where the work gets done. It provides perso",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-06-02T15:00:00.000Z"
     },
     {
+      "title": "Introducing Microsoft Scout: Your always-on personal agent",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
+      "description": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared first on Microsoft 365 Blog .",
+      "categories": [
+        "Agents",
+        "AI"
+      ],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-06-02T12:00:00.000Z"
+    },
+    {
+      "title": "Announcing the new Work IQ APIs",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
+      "description": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations. The post Announcing the new Work IQ APIs appeared first on Microsoft 365 Blog .",
+      "categories": [
+        "Copilot for Work",
+        "Work IQ"
+      ],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-06-02T12:00:00.000Z"
+    },
+    {
       "title": "Finance Agent Benchmark: evaluating and improving AI for Finance",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/finance-agent-benchmark-evaluating-and-improving-ai-for-finance/ba-p/4522978",
-      "pubDate": "Fri, 29 May 2026 20:43:08 GMT",
       "description": "As business complexity accelerates, finance organizations are being asked to support more stakeholders, guide more decisions, and operate at unprecedented speed, often without additional resources. As these demands outpace traditional tools",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-05-29T20:43:08.000Z"
     },
     {
-      "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
-      "pubDate": "Thu, 28 May 2026 19:00:00 +0000",
-      "description": "On July 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work. The post Introducing Microsoft 365 Business with Copilot: The new standard for small business appeared fi",
-      "categories": [
-        "AI",
-        "Copilot for Work"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-05-28T19:00:00.000Z"
-    },
-    {
       "title": "(Co)work in Progress",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
-      "pubDate": "Thu, 28 May 2026 18:40:01 GMT",
       "description": "A complete record of milestones, launches, and newest innovations. Today we are again expanding model choice in Microsoft 365 Copilot with the addition of Anthropic's latest model—Claude Opus 4.8—now available in Copilot Cowork (Frontier). ",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
@@ -123,28 +77,36 @@
     {
       "title": "Available today: Anthropic Claude Opus 4.8 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-4-8-in-microsoft-365/ba-p/4523405",
-      "pubDate": "Thu, 28 May 2026 18:37:31 GMT",
       "description": "Today we’re expanding model choice in Microsoft 365 Copilot with the addition of Anthropic’s latest model—Claude Opus 4.8. Available now in Copilot Cowork (Frontier) and rolling out to Copilot Chat, Excel, PowerPoint, and Copilot Studio. Op",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-05-28T18:37:31.000Z"
     },
     {
+      "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
+      "description": "On July 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work. The post Introducing Microsoft 365 Business with Copilot: The new standard for small business appeared fi",
+      "categories": [
+        "AI",
+        "Copilot for Work"
+      ],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-05-28T12:00:00.000Z"
+    },
+    {
       "title": "Introducing a new design for Microsoft 365 Copilot",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
-      "pubDate": "Thu, 28 May 2026 15:00:00 +0000",
       "description": "We’ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work. The post Introducing a new design for Microsoft 365 Copilot appeared first on Microso",
       "categories": [
         "AI",
         "Microsoft 365 Copilot"
       ],
       "source": "Microsoft 365 Blog",
-      "date": "2026-05-28T15:00:00.000Z"
+      "date": "2026-05-28T12:00:00.000Z"
     },
     {
       "title": "Recertified: How Microsoft 365 Copilot continues to earn trust and What Changed in a Year",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/recertified-how-microsoft-365-copilot-continues-to-earn-trust/ba-p/4521693",
-      "pubDate": "Wed, 27 May 2026 16:00:00 GMT",
       "description": "Recertification: ISO 42001 for the second consecutive year Today, we are announcing that Microsoft 365 Copilot and Copilot Chat (Copilot) have achieved ISO/IEC 42001:2023 recertification independently validated for the second consecutive ye",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
@@ -153,16 +115,22 @@
     {
       "title": "Scaling the reach of finance: what’s next with Finance Agent in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/scaling-the-reach-of-finance-what-s-next-with-finance-agent-in/ba-p/4522976",
-      "pubDate": "Wed, 27 May 2026 12:00:00 GMT",
       "description": "In most organizations, finance is a small but mighty strategic partner to the business, supporting enterprise-wide decisions while managing core processes from record-to-report and source-to-pay to forecast-to-plan. The insights and guidanc",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-05-27T12:00:00.000Z"
     },
     {
+      "title": "What’s New in Notebooks | May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-may-2026/ba-p/4519838",
+      "description": "Copilot Notebooks gets smarter for Microsoft 365 Copilot users Work rarely lives in one place. A single project can span a deck in SharePoint, decisions in a Teams thread, customer context in email, and ideas captured in quick conversations",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-05-26T16:48:59.000Z"
+    },
+    {
       "title": "New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences",
       "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
-      "pubDate": "Tue, 26 May 2026 16:00:00 +0000",
       "description": "Learn what’s new in Copilot Studio, May 2026: computer-using agents are now generally available, plus redesigned workflows and Work IQ extensibility. The post New and improved: Computer-using agents, a new workflows experience, and real-tim",
       "categories": [
         "AI",
@@ -174,7 +142,6 @@
     {
       "title": "Launched: Microsoft 365 Copilot Adoption Hub Redesign",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/launched-microsoft-365-copilot-adoption-hub-redesign/ba-p/4520841",
-      "pubDate": "Tue, 19 May 2026 22:53:07 GMT",
       "description": "One of the biggest barriers to Copilot adoption is people don’t always know where to start. Today, we released the first version of our redesigned Microsoft 365 Copilot business user hub. Take a look. We set out to simplify adoption by maki",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
@@ -183,7 +150,6 @@
     {
       "title": "What’s New in Microsoft 365 Copilot | April 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-april-2026/ba-p/4510935",
-      "pubDate": "Wed, 13 May 2026 18:08:00 GMT",
       "description": "Welcome to the April 2026 edition of What's new in Microsoft 365 Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 admins up to date with Copilot features that help your users be more productive and effi",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
@@ -192,7 +158,6 @@
     {
       "title": "How Workday and Microsoft are redefining the agentic workplace",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/how-workday-and-microsoft-are-redefining-the-agentic-workplace/ba-p/4518532",
-      "pubDate": "Wed, 13 May 2026 13:00:00 GMT",
       "description": "The modern employee is currently paying a \"fragmentation tax.\" Across a typical workday, the average professional navigates over 200 disparate apps and systems. Every time they switch from a collaborative space like Microsoft Teams to a dom",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
@@ -201,7 +166,6 @@
     {
       "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
       "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
-      "pubDate": "Mon, 11 May 2026 17:25:12 +0000",
       "description": "See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator. The post New and improved: Agent governance, intelligent workflows, and connected app experi",
       "categories": [
         "AI",
@@ -213,7 +177,6 @@
     {
       "title": "Available today: GPT-5.5 Instant in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-gpt-5-5-instant-in-microsoft-365-copilot/ba-p/4517084",
-      "pubDate": "Thu, 07 May 2026 18:42:35 GMT",
       "description": "Today, we're excited to announce the addition of OpenAI's GPT-5.5 Instant to Microsoft 365 Copilot and Microsoft Copilot Studio. Building on GPT-5.3 Instant, GPT-5.5 Instant improves the quality of everyday work tasks designed to deliver mo",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
@@ -222,7 +185,6 @@
     {
       "title": "Federated Copilot connectors - bringing real-time enterprise data within Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/federated-copilot-connectors-bringing-real-time-enterprise-data/ba-p/4515993",
-      "pubDate": "Tue, 05 May 2026 18:57:54 GMT",
       "description": "Microsoft 365 Copilot leverages Copilot connectors with sync capabilities that can further enrich Work IQ and unify enterprise knowledge across hundreds of SaaS systems into a single, coherent enterprise knowledge base in your Microsoft 365",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
@@ -231,7 +193,6 @@
     {
       "title": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
-      "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
       "description": "Today, we’re announcing additional capabilities in Cowork to expand on what it can make possible for you. The post Copilot Cowork: From conversation to action across skills, integrations, and devices appeared first on Microsoft 365 Blog .",
       "categories": [
         "AI",
@@ -245,7 +206,6 @@
     {
       "title": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
-      "pubDate": "Tue, 05 May 2026 10:00:00 +0000",
       "description": "As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organizatio",
       "categories": [
         "AI",
@@ -260,18 +220,24 @@
     {
       "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-      "pubDate": "Fri, 01 May 2026 15:00:00 +0000",
       "description": "Microsoft Agent 365 helps you take control of agent sprawl as your control plane to observe, govern, and secure agents and their interactions. The post Microsoft Agent 365, now generally available, expands capabilities and integrations appe",
       "categories": [
         "Agents"
       ],
       "source": "Microsoft 365 Blog",
-      "date": "2026-05-01T15:00:00.000Z"
+      "date": "2026-05-01T12:00:00.000Z"
+    },
+    {
+      "title": "Word: Legal Agent in Frontier",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/word-legal-agent-in-frontier/ba-p/4516218",
+      "description": "Legal workflows demand precision and auditability. While general-purpose AI tools can assist with document review, they aren’t designed to follow the structured processes legal teams rely on to evaluate risk and maintain consistency. Buildi",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-04-30T16:37:29.000Z"
     },
     {
       "title": "Microsoft 365 Copilot readiness and resiliency with SharePoint and M365 Backup/Archive",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/microsoft-365-copilot-readiness-and-resiliency-with-sharepoint/ba-p/4513048",
-      "pubDate": "Thu, 30 Apr 2026 12:07:12 GMT",
       "description": "As AI becomes embedded in everyday work, governance shifts from being a back‑office function to a strategic enabler. Organizations that succeed with Copilot and agents aren’t just moving fast ( 70% of early Copilot users said they were more",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
@@ -280,7 +246,6 @@
     {
       "title": "Copilot in OneNote now understands more of your notes",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-in-onenote-now-understands-more-of-your-notes/ba-p/4515922",
-      "pubDate": "Wed, 29 Apr 2026 17:09:55 GMT",
       "description": "In Microsoft OneNote, you can use Copilot to reason over your notes to summarize content, extract key insights, and build on your ideas. We’ve improved the way Copilot responds to your queries in OneNote, making it easier to interact with y",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
@@ -289,7 +254,6 @@
     {
       "title": "Available today: GPT-5.5 Thinking and ChatGPT Images 2.0 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-gpt-5-5-thinking-and-chatgpt-images-2-0-in/ba-p/4514243",
-      "pubDate": "Mon, 27 Apr 2026 15:33:18 GMT",
       "description": "Today, we’re expanding what Microsoft 365 Copilot can do with GPT-5.5 Thinking and ChatGPT Images 2.0 bringing stronger support for deeper analysis, multi-step work, and visual creation. GPT-5.5 Thinking is now available in Copilot Studio e",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
@@ -298,7 +262,6 @@
     {
       "title": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-      "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
       "description": "From first draft to final polish, Copilot acts as a true collaborator, taking action while you stay in control. The post Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available appeared first on Microsoft 365 B",
       "categories": [
         "AI",
@@ -306,16 +269,23 @@
         "Microsoft 365 Copilot"
       ],
       "source": "Microsoft 365 Blog",
-      "date": "2026-04-23T00:00:00.000Z"
+      "date": "2026-04-22T12:00:00.000Z"
     },
     {
       "title": "Available today: Anthropic Claude Opus 4.7 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-4-7-in-microsoft-365/ba-p/4511666",
-      "pubDate": "Thu, 16 Apr 2026 17:45:47 GMT",
       "description": "Today we're expanding model choice in Microsoft 365 Copilot with the addition of Anthropic's latest model—Claude Opus 4.7—now available in Copilot Cowork (Frontier) and Copilot Studio early release cycle environments , and rolling out to Co",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-04-16T17:45:47.000Z"
+    },
+    {
+      "title": "Copilot in Word: New Capabilities for Document Workflows",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-in-word-new-capabilities-for-document-workflows/ba-p/4508974",
+      "description": "Today, we are introducing new Copilot in Word capabilities for legal, finance, and compliance professionals doing high stakes, and detail intensive work. Whether reviewing contracts or finalizing policy documents, Copilot can track changes ",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-04-13T20:03:51.000Z"
     }
   ]
 }

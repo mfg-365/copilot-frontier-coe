@@ -10,6 +10,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(__dirname, "..", "data", "blogs.json");
 const MAX_ITEMS = 30;
 
+function readJson(file, fallback) {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", file), "utf8"));
+  } catch {
+    return fallback;
+  }
+}
+
 const FEEDS = [
   {
     url: "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
@@ -110,6 +118,16 @@ async function fetchFeed(feed) {
   }
 }
 
+// Microsoft 365 Blog URLs embed the publish date: /blog/YYYY/MM/DD/slug/.
+// This is authoritative and immune to feed "bump" behavior.
+function dateFromUrl(link) {
+  const m = (link || "").match(/\/blog\/(\d{4})\/(\d{2})\/(\d{2})\//);
+  if (!m) return null;
+  const iso = `${m[1]}-${m[2]}-${m[3]}T12:00:00.000Z`;
+  const t = Date.parse(iso);
+  return isNaN(t) ? null : iso;
+}
+
 async function main() {
   const results = await Promise.all(FEEDS.map(fetchFeed));
   let items = results.flat();
@@ -123,14 +141,36 @@ async function main() {
     return true;
   });
 
+  // Load the previously published data so we can lock in the EARLIEST date
+  // ever observed per article. The Tech Community board feed intermittently
+  // "bumps" pubDate to the current time on activity, which would otherwise
+  // make old articles appear published today. Taking the earliest seen date
+  // (and the date embedded in microsoft.com blog URLs) is self-correcting.
+  const prior = readJson("blogs.json", { items: [] });
+  const priorByLink = new Map();
+  (prior.items || []).forEach((it) => {
+    if (it.link && it.date) priorByLink.set(it.link, it.date);
+  });
+
+  const stableDate = (it) => {
+    const candidates = [];
+    const urlDate = dateFromUrl(it.link);
+    if (urlDate) candidates.push(urlDate);              // authoritative when present
+    const feedDate = it.pubDate ? new Date(it.pubDate).toISOString() : null;
+    if (feedDate) candidates.push(feedDate);
+    const priorDate = priorByLink.get(it.link);
+    if (priorDate) candidates.push(priorDate);
+    if (!candidates.length) return null;
+    // Earliest observed date wins — defeats feed bumping.
+    return candidates.reduce((a, b) => (Date.parse(a) <= Date.parse(b) ? a : b));
+  };
+
   items = items
-    .map((it) => ({ ...it, _t: Date.parse(it.pubDate) || 0 }))
+    .map((it) => ({ ...it, date: stableDate(it) }))
+    .map((it) => ({ ...it, _t: it.date ? Date.parse(it.date) : 0 }))
     .sort((a, b) => b._t - a._t)
     .slice(0, MAX_ITEMS)
-    .map(({ _t, ...rest }) => ({
-      ...rest,
-      date: rest.pubDate ? new Date(rest.pubDate).toISOString() : null,
-    }));
+    .map(({ _t, pubDate, ...rest }) => rest);
 
   const payload = {
     generatedAt: new Date().toISOString(),
