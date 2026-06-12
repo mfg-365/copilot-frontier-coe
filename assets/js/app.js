@@ -9,6 +9,7 @@ function activate(id) {
   window.scrollTo({ top: 0, behavior: "smooth" });
   if (id === "updates") loadRoadmap();
   if (id === "blogs") loadBlogs();
+  if (id === "newsletter") loadNewsletter();
 }
 
 tabs.forEach((t) => t.addEventListener("click", () => activate(t.dataset.tab)));
@@ -46,8 +47,39 @@ document.querySelectorAll("[data-jump]").forEach((b) =>
   }
 })();
 
-// ----- Roadmap (Copilot Updates) -----
-let roadmapData = null;
+// ----- Driver cards (link to their deep-dive decks if configured) -----
+(function wireDrivers() {
+  const links = window.DECK_LINKS || {};
+  document.querySelectorAll(".driver-card").forEach((card) => {
+    const url = links[card.dataset.deck];
+    if (!url) return;
+    card.classList.add("clickable");
+    card.setAttribute("role", "link");
+    card.setAttribute("tabindex", "0");
+    const open = () => window.open(url, "_blank", "noopener");
+    card.addEventListener("click", open);
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); }
+    });
+    const hint = document.createElement("span");
+    hint.className = "card-open";
+    hint.textContent = "Open deck \u2192";
+    card.appendChild(hint);
+  });
+})();
+
+// ----- Champions deck CTA on the Champion Teams page -----
+(function wireChampionsCta() {
+  const links = window.DECK_LINKS || {};
+  const cta = document.getElementById("championsDeckCta");
+  const link = document.getElementById("championsDeckLink");
+  if (!cta || !link) return;
+  if (links.champions) {
+    link.href = links.champions;
+  } else {
+    cta.style.display = "none";
+  }
+})();
 let activeStatus = "all";
 
 function statusClass(s) {
@@ -186,6 +218,102 @@ async function loadBlogs() {
 }
 
 document.getElementById("blogSearch").addEventListener("input", renderBlogs);
+
+// ----- Newsletter (Champion Newsletter) -----
+let newsletterData = null;
+
+function renderNewsletter() {
+  const list = document.getElementById("newsletterList");
+  if (!newsletterData) return;
+  const eds = newsletterData.editions || [];
+  if (!eds.length) {
+    list.innerHTML = '<div class="rm-empty">No editions yet. Check back soon.</div>';
+    return;
+  }
+  list.innerHTML = eds
+    .map((ed, idx) => {
+      const reads = (ed.reads || [])
+        .map((r) => `<li><a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.title)}</a></li>`)
+        .join("");
+      const roadmap = ed.roadmap
+        ? `<div class="nl-block"><span class="nl-label">On the roadmap</span>
+             <p class="nl-h">${esc(ed.roadmap.title)} <span class="nl-pill">${esc(ed.roadmap.status)}</span></p>
+             <p class="nl-text">${esc(ed.roadmap.description)}</p>
+             <a class="nl-link" href="${esc(ed.roadmap.link)}" target="_blank" rel="noopener">See details &rarr;</a></div>`
+        : "";
+      return `<article class="nl-card" data-idx="${idx}">
+        <div class="nl-head">
+          <div>
+            <span class="nl-edition">Champion Weekly</span>
+            <h3 class="nl-date">${esc(ed.dateLabel)} &middot; ${esc(ed.id)}</h3>
+          </div>
+          <button class="copy-btn" data-copy="${idx}">Copy post</button>
+        </div>
+        <div class="nl-block">
+          <span class="nl-label">Prompt of the week</span>
+          <p class="nl-h">${esc(ed.prompt.title)}</p>
+          <p class="nl-quote">${esc(ed.prompt.text)}</p>
+        </div>
+        <div class="nl-block">
+          <span class="nl-label">Copilot in ${esc(ed.tip.app)}</span>
+          <p class="nl-text">${esc(ed.tip.tip)}</p>
+        </div>
+        <div class="nl-block">
+          <span class="nl-label">Frontier spotlight</span>
+          <p class="nl-h">${esc(ed.capability.name)}</p>
+          <p class="nl-text">${esc(ed.capability.text)}</p>
+          <a class="nl-link" href="${esc(ed.capability.link)}" target="_blank" rel="noopener">Learn more &rarr;</a>
+        </div>
+        ${roadmap}
+        ${reads ? `<div class="nl-block"><span class="nl-label">Worth a read</span><ul class="nl-reads">${reads}</ul></div>` : ""}
+      </article>`;
+    })
+    .join("");
+
+  list.querySelectorAll(".copy-btn").forEach((btn) =>
+    btn.addEventListener("click", async () => {
+      const ed = eds[+btn.dataset.copy];
+      try {
+        await navigator.clipboard.writeText(ed.copyText);
+        const orig = btn.textContent;
+        btn.textContent = "Copied \u2713";
+        btn.classList.add("copied");
+        setTimeout(() => { btn.textContent = orig; btn.classList.remove("copied"); }, 1800);
+      } catch {
+        // Fallback: select a hidden textarea
+        const ta = document.createElement("textarea");
+        ta.value = ed.copyText;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        ta.remove();
+        btn.textContent = "Copied \u2713";
+        setTimeout(() => (btn.textContent = "Copy post"), 1800);
+      }
+    })
+  );
+}
+
+async function loadNewsletter() {
+  if (newsletterData) return;
+  const list = document.getElementById("newsletterList");
+  list.innerHTML = '<div class="rm-empty">Loading the latest editions&hellip;</div>';
+  try {
+    const res = await fetch("data/newsletters.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("fetch failed");
+    newsletterData = await res.json();
+  } catch (e) {
+    list.innerHTML = '<div class="rm-empty">Could not load newsletter data. Please check back shortly.</div>';
+    return;
+  }
+  document.getElementById("nlMeta").innerHTML =
+    `<span class="count-badge"><i class="dot-launch"></i>${newsletterData.count || 0} editions</span>`;
+  const d = newsletterData.generatedAt ? new Date(newsletterData.generatedAt) : null;
+  document.getElementById("nlUpdated").textContent = d
+    ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
+    : "";
+  renderNewsletter();
+}
 
 // Open the tab from the URL hash on load (after all state + handlers are defined)
 const initial = (location.hash || "#overview").slice(1);

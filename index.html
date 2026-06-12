@@ -35,6 +35,7 @@
     <button class="tab" role="tab" data-tab="frontier">Frontier Program</button>
     <button class="tab" role="tab" data-tab="updates">Copilot Updates</button>
     <button class="tab" role="tab" data-tab="blogs">Copilot Blogs</button>
+    <button class="tab" role="tab" data-tab="newsletter">Champion Newsletter</button>
     <button class="tab" role="tab" data-tab="resources">Resources</button>
   </nav>
 
@@ -127,12 +128,12 @@
 
       <h2 class="section-title">Five drivers of AI value</h2>
       <p class="muted" style="max-width:72ch;margin-bottom:1rem">Microsoft has observed five consistent drivers that determine whether organizations deliver value with AI. This is a diagnostic framework, not a prescribed sequence — and durable impact depends on how well the drivers work <em>together</em>, not how advanced any single one is.</p>
-      <div class="card-grid five">
-        <div class="card"><div class="pill p1">01</div><h3>Business Strategy</h3><p>Align AI to enterprise goals, prioritize high-value use cases, and define how success is measured.</p></div>
-        <div class="card"><div class="pill p2">02</div><h3>Technology &amp; Data Strategy</h3><p>Ready your data estate, architecture, and platforms so AI can be deployed safely at scale.</p></div>
-        <div class="card"><div class="pill p3">03</div><h3>AI Strategy &amp; Experience</h3><p>Design the agentic experiences and roadmap that turn capability into everyday outcomes.</p></div>
-        <div class="card"><div class="pill p4">04</div><h3>AI Governance &amp; Security</h3><p>Set guardrails that prevent shadow AI and protect data — enabling safe, compliant adoption.</p></div>
-        <div class="card"><div class="pill p5">05</div><h3>Organization &amp; Culture</h3><p>Build the vision, skills, and culture that sustain adoption — where champions live.</p></div>
+      <div class="card-grid five" id="driversGrid">
+        <div class="card driver-card" data-deck="business"><div class="pill p1">01</div><h3>Business Strategy</h3><p>Align AI to enterprise goals, prioritize high-value use cases, and define how success is measured.</p></div>
+        <div class="card driver-card" data-deck="tech"><div class="pill p2">02</div><h3>Technology &amp; Data Strategy</h3><p>Ready your data estate, architecture, and platforms so AI can be deployed safely at scale.</p></div>
+        <div class="card driver-card" data-deck="ai"><div class="pill p3">03</div><h3>AI Strategy &amp; Experience</h3><p>Design the agentic experiences and roadmap that turn capability into everyday outcomes.</p></div>
+        <div class="card driver-card" data-deck="gov"><div class="pill p4">04</div><h3>AI Governance &amp; Security</h3><p>Set guardrails that prevent shadow AI and protect data — enabling safe, compliant adoption.</p></div>
+        <div class="card driver-card" data-deck="org"><div class="pill p5">05</div><h3>Organization &amp; Culture</h3><p>Build the vision, skills, and culture that sustain adoption — where champions live.</p></div>
       </div>
 
       <h2 class="section-title">Four motions that scale AI fluency</h2>
@@ -194,6 +195,15 @@
       <div class="callout success">
         <div class="callout-mark">&#127942;</div>
         <p><strong>Proof it works:</strong> UK law firm Shoosmiths offered a &pound;1M bonus pool for reaching one million Copilot prompts. The reward made usage tangible and collective — but communities, training, and leadership reinforcement behind it are what made adoption stick.</p>
+      </div>
+
+      <div class="cta-banner" id="championsDeckCta">
+        <div class="cta-text">
+          <span class="cta-kicker">Go deeper</span>
+          <h3>The Copilot Champions Network playbook</h3>
+          <p>Want the full picture? The Champions Network presentation covers how to recruit, structure, and run your network — including why 2&ndash;3 champions per line of business matter and how Frontier makes them a force multiplier.</p>
+        </div>
+        <a class="cta-action" id="championsDeckLink" href="#" target="_blank" rel="noopener">Learn more &rarr;</a>
       </div>
     </section>
 
@@ -278,6 +288,21 @@
       <p class="source-note">Sources: <a href="https://www.microsoft.com/en-us/microsoft-365/blog/" target="_blank" rel="noopener">Microsoft 365 Blog</a> and <a href="https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/bg-p/Microsoft365CopilotBlog" target="_blank" rel="noopener">Microsoft 365 Copilot Blog</a>. Updated automatically via GitHub Actions.</p>
     </section>
 
+    <!-- ============ NEWSLETTER (auto) ============ -->
+    <section class="panel" id="newsletter" role="tabpanel">
+      <span class="kicker">Updated weekly</span>
+      <h1>Champion Newsletter</h1>
+      <p class="lead">Ready-to-share, copy-and-paste posts for your Champion teams — a fresh edition every week. Each issue bundles an advanced prompt, a "Copilot in your apps" tip, and a Frontier capability to explore. Hit copy and drop it into Teams, email, or your community channel.</p>
+
+      <div class="updates-meta">
+        <div class="meta-counts" id="nlMeta"></div>
+        <div class="meta-updated" id="nlUpdated"></div>
+      </div>
+
+      <div id="newsletterList" class="newsletter-list" aria-live="polite"></div>
+      <p class="source-note">Editions assemble automatically from the Frontier features, Copilot roadmap, and a rotating prompt library. Refreshed weekly via GitHub Actions.</p>
+    </section>
+
     <!-- ============ RESOURCES ============ -->
     <section class="panel" id="resources" role="tabpanel">
       <span class="kicker">Go deeper</span>
@@ -312,7 +337,7 @@
 
   <footer class="site-footer">
     <div class="ribbon"></div>
-    <p>Built for internal enablement. Microsoft, Microsoft 365, and Copilot are trademarks of the Microsoft group of companies. Content references public Microsoft sources; for informational purposes only.</p>
+    <p>Built for guidance only. Microsoft, Microsoft 365, and Copilot are trademarks of Microsoft. Content references public Microsoft sources; for informational purposes only.</p>
   </footer>
 
   <script src="assets/js/decks.config.js"></script>

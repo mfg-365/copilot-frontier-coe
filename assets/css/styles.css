@@ -118,6 +118,51 @@ h1{font-size:clamp(1.8rem,4vw,2.6rem);color:var(--ink);line-height:1.12;letter-s
 .why-num{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;
   background:var(--grad);color:#fff;font-weight:700;margin-bottom:.6rem}
 
+/* Clickable driver cards */
+.driver-card.clickable{cursor:pointer;position:relative}
+.driver-card.clickable:focus-visible{outline:2px solid var(--purple);outline-offset:2px}
+.card-open{display:inline-block;margin-top:.7rem;font-size:.82rem;font-weight:700;color:var(--purple)}
+.driver-card.clickable:hover .card-open{text-decoration:underline}
+
+/* Newsletter */
+.newsletter-list{display:grid;gap:1.1rem}
+.nl-card{background:#fff;border:1px solid var(--hair);border-radius:var(--radius);padding:1.3rem 1.4rem;
+  box-shadow:var(--shadow);border-top:5px solid transparent;
+  border-image:var(--grad) 1;position:relative}
+.nl-head{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;margin-bottom:.5rem}
+.nl-edition{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--purple)}
+.nl-date{color:var(--ink);font-size:1.15rem;margin-top:.15rem}
+.copy-btn{appearance:none;border:none;cursor:pointer;font-family:inherit;font-weight:600;font-size:.85rem;
+  color:#fff;background:var(--grad);padding:.55rem 1.05rem;border-radius:9px;white-space:nowrap;
+  box-shadow:0 4px 12px rgba(47,107,255,.3);transition:transform .12s}
+.copy-btn:hover{transform:translateY(-1px)}
+.copy-btn.copied{background:var(--teal);box-shadow:none}
+.nl-block{padding:.75rem 0;border-top:1px solid var(--hair)}
+.nl-block:first-of-type{border-top:none}
+.nl-label{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:.35rem}
+.nl-h{color:var(--ink);font-weight:600;font-size:1.02rem;margin-bottom:.25rem}
+.nl-quote{background:var(--light);border-left:3px solid var(--teal);border-radius:8px;padding:.7rem .9rem;
+  color:var(--body);font-size:.92rem;font-style:italic}
+.nl-text{color:var(--body);font-size:.92rem}
+.nl-pill{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+  vertical-align:middle;margin-left:.4rem;padding:.12rem .5rem;border-radius:20px;background:rgba(47,107,255,.12);color:var(--blue)}
+.nl-link{display:inline-block;margin-top:.4rem;font-size:.85rem;font-weight:600;color:var(--purple)}
+.nl-reads{margin:.2rem 0 0 1.1rem;color:var(--body);font-size:.9rem}
+.nl-reads li{margin-bottom:.25rem}
+
+/* CTA banner (Champions deck) */
+.cta-banner{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;
+  background:var(--navy);border-radius:var(--radius);padding:1.5rem 1.7rem;margin-top:1.6rem;
+  border-left:5px solid transparent;border-image:var(--grad) 1;box-shadow:var(--shadow)}
+.cta-text{flex:1;min-width:260px}
+.cta-kicker{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin-bottom:.3rem}
+.cta-text h3{color:#fff;font-size:1.25rem;margin-bottom:.4rem}
+.cta-text p{color:#C9D2F0;font-size:.95rem;max-width:62ch}
+.cta-action{flex:0 0 auto;background:var(--grad);color:#fff;font-weight:700;font-size:.95rem;
+  padding:.8rem 1.5rem;border-radius:10px;box-shadow:0 6px 18px rgba(124,92,252,.4);white-space:nowrap}
+.cta-action:hover{transform:translateY(-1px);text-decoration:none}
+
 /* Ratio band */
 .ratio-band{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap;
   background:var(--navy);border-radius:var(--radius);padding:1.6rem;margin-top:1.4rem}

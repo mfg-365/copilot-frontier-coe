@@ -24,12 +24,15 @@ jobs:
       - name: Refresh blog data
         run: node scripts/update-blogs.mjs
 
+      - name: Refresh champion newsletter
+        run: node scripts/update-newsletter.mjs
+
       - name: Commit changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain data/)" ]]; then
-            git add data/roadmap.json data/blogs.json
+            git add data/roadmap.json data/blogs.json data/newsletters.json
             git commit -m "chore: weekly Copilot roadmap + blog refresh"
             git push
           else
