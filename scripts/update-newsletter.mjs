@@ -143,25 +143,31 @@ function makeEdition(year, week) {
 
 function main() {
   const existing = readJson("newsletters.json", { editions: [] });
-  const editions = existing.editions || [];
+  let editions = existing.editions || [];
 
   const now = new Date();
-  const { year, week } = isoWeek(now);
-  const id = `${year}-W${String(week).padStart(2, "0")}`;
 
-  if (!editions.find((e) => e.id === id)) {
-    editions.unshift(makeEdition(year, week));
-  } else {
-    // Refresh the current edition in place (roadmap/blogs may have changed).
+  // Ensure the current week plus the previous few weeks each have an edition
+  // (newest first). This backfills history on first run and self-heals gaps.
+  const WEEKS_TO_ENSURE = 4;
+  for (let back = 0; back < WEEKS_TO_ENSURE; back++) {
+    const d = new Date(now.getTime() - back * 7 * 86400000);
+    const { year, week } = isoWeek(d);
+    const id = `${year}-W${String(week).padStart(2, "0")}`;
     const i = editions.findIndex((e) => e.id === id);
-    editions[i] = makeEdition(year, week);
+    const fresh = makeEdition(year, week);
+    if (i === -1) editions.push(fresh);
+    else editions[i] = fresh; // refresh in place (roadmap/blogs may have changed)
   }
 
+  // Sort newest-first by week index and cap the history.
+  editions.sort((a, b) => weekIndex(b.year, b.week) - weekIndex(a.year, a.week));
   const trimmed = editions.slice(0, MAX_EDITIONS);
+
   const payload = { generatedAt: now.toISOString(), count: trimmed.length, editions: trimmed };
   fs.mkdirSync(DATA, { recursive: true });
   fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
-  console.log(`Wrote ${trimmed.length} newsletter edition(s); current = ${id}`);
+  console.log(`Wrote ${trimmed.length} newsletter edition(s); current = ${trimmed[0] && trimmed[0].id}`);
 }
 
 main();

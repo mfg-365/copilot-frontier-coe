@@ -119,6 +119,8 @@ h1{font-size:clamp(1.8rem,4vw,2.6rem);color:var(--ink);line-height:1.12;letter-s
   background:var(--grad);color:#fff;font-weight:700;margin-bottom:.6rem}
 
 /* Clickable driver cards */
+a.driver-card{display:block;text-decoration:none;color:inherit}
+a.driver-card:hover{text-decoration:none}
 .driver-card.clickable{cursor:pointer;position:relative}
 .driver-card.clickable:focus-visible{outline:2px solid var(--purple);outline-offset:2px}
 .card-open{display:inline-block;margin-top:.7rem;font-size:.82rem;font-weight:700;color:var(--purple)}
@@ -153,15 +155,18 @@ h1{font-size:clamp(1.8rem,4vw,2.6rem);color:var(--ink);line-height:1.12;letter-s
 
 /* CTA banner (Champions deck) */
 .cta-banner{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;
-  background:var(--navy);border-radius:var(--radius);padding:1.5rem 1.7rem;margin-top:1.6rem;
-  border-left:5px solid transparent;border-image:var(--grad) 1;box-shadow:var(--shadow)}
-.cta-text{flex:1;min-width:260px}
-.cta-kicker{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin-bottom:.3rem}
-.cta-text h3{color:#fff;font-size:1.25rem;margin-bottom:.4rem}
-.cta-text p{color:#C9D2F0;font-size:.95rem;max-width:62ch}
-.cta-action{flex:0 0 auto;background:var(--grad);color:#fff;font-weight:700;font-size:.95rem;
-  padding:.8rem 1.5rem;border-radius:10px;box-shadow:0 6px 18px rgba(124,92,252,.4);white-space:nowrap}
-.cta-action:hover{transform:translateY(-1px);text-decoration:none}
+  background:var(--navy);border-radius:var(--radius);padding:2rem 2.1rem;margin-top:1.8rem;
+  box-shadow:0 14px 40px rgba(10,17,48,.28);position:relative;overflow:hidden}
+.cta-banner::before{content:"";position:absolute;left:0;top:0;bottom:0;width:7px;background:var(--grad)}
+.cta-banner::after{content:"";position:absolute;right:-60px;top:-60px;width:240px;height:240px;border-radius:50%;
+  background:radial-gradient(circle,rgba(124,92,252,.45),transparent 70%);filter:blur(20px);pointer-events:none}
+.cta-text{flex:1;min-width:260px;position:relative;z-index:1}
+.cta-kicker{display:inline-block;font-size:.74rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin-bottom:.4rem}
+.cta-text h3{color:#fff;font-size:1.5rem;margin-bottom:.5rem;line-height:1.2}
+.cta-text p{color:#C9D2F0;font-size:.98rem;max-width:64ch}
+.cta-action{flex:0 0 auto;position:relative;z-index:1;background:var(--grad);color:#fff;font-weight:700;font-size:1rem;
+  padding:.9rem 1.7rem;border-radius:11px;box-shadow:0 8px 22px rgba(124,92,252,.5);white-space:nowrap}
+.cta-action:hover{transform:translateY(-2px);text-decoration:none}
 
 /* Ratio band */
 .ratio-band{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap;

@@ -47,24 +47,19 @@ document.querySelectorAll("[data-jump]").forEach((b) =>
   }
 })();
 
-// ----- Driver cards (link to their deep-dive decks if configured) -----
+// ----- Driver cards (convert to real links to their deep-dive decks) -----
 (function wireDrivers() {
   const links = window.DECK_LINKS || {};
   document.querySelectorAll(".driver-card").forEach((card) => {
     const url = links[card.dataset.deck];
     if (!url) return;
-    card.classList.add("clickable");
-    card.setAttribute("role", "link");
-    card.setAttribute("tabindex", "0");
-    const open = () => window.open(url, "_blank", "noopener");
-    card.addEventListener("click", open);
-    card.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); }
-    });
-    const hint = document.createElement("span");
-    hint.className = "card-open";
-    hint.textContent = "Open deck \u2192";
-    card.appendChild(hint);
+    const a = document.createElement("a");
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.className = card.className + " clickable";
+    a.innerHTML = card.innerHTML + '<span class="card-open">Open deck \u2192</span>';
+    card.replaceWith(a);
   });
 })();
 
