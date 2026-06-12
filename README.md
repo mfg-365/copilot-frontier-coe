@@ -21,16 +21,24 @@ Built as a static site for **GitHub Pages**. Microsoft Copilot branded.
 - [Copilot Adoption Hub](https://adoption.microsoft.com/en-us/copilot/)
 - [Microsoft 365 Roadmap (Copilot)](https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot)
 
-## Weekly updates
-`.github/workflows/update-roadmap.yml` runs every Monday (and on demand). It executes
-`scripts/update-roadmap.mjs`, which pulls the public Microsoft 365 Roadmap API, filters for
-Copilot features that are in development, rolling out, or recently launched, and writes
-`data/roadmap.json`. Any change is committed automatically, which rebuilds the Pages site.
+## Automated updates
+Two GitHub Actions keep the site current:
 
-To run it locally:
+- **`.github/workflows/update-feeds.yml`** — runs **every 3 days** (and on demand). Executes
+  `scripts/update-roadmap.mjs` (public Microsoft 365 Roadmap → `data/roadmap.json`) and
+  `scripts/update-blogs.mjs` (official Microsoft blog feeds → `data/blogs.json`).
+- **`.github/workflows/update-newsletter.yml`** — runs **weekly (Mondays)** (and on demand).
+  Executes `scripts/update-newsletter.mjs` to assemble the Champion Newsletter edition →
+  `data/newsletters.json`.
+
+Any change is committed automatically, which rebuilds the Pages site.
+
+To run them locally:
 
 ```bash
 node scripts/update-roadmap.mjs
+node scripts/update-blogs.mjs
+node scripts/update-newsletter.mjs
 ```
 
 ## Enabling the deck links

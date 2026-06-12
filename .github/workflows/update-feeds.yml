@@ -1,9 +1,9 @@
-name: Update Copilot Data
+name: Update Feeds (Roadmap + Blogs)
 
 on:
   schedule:
-    - cron: "0 12 * * 1"   # every Monday 12:00 UTC
-  workflow_dispatch:        # allow manual runs
+    - cron: "0 12 */3 * *"   # every 3 days at 12:00 UTC
+  workflow_dispatch:          # allow manual runs
 
 permissions:
   contents: write
@@ -24,17 +24,14 @@ jobs:
       - name: Refresh blog data
         run: node scripts/update-blogs.mjs
 
-      - name: Refresh champion newsletter
-        run: node scripts/update-newsletter.mjs
-
       - name: Commit changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain data/)" ]]; then
-            git add data/roadmap.json data/blogs.json data/newsletters.json
-            git commit -m "chore: weekly Copilot roadmap + blog refresh"
+          if [[ -n "$(git status --porcelain data/roadmap.json data/blogs.json)" ]]; then
+            git add data/roadmap.json data/blogs.json
+            git commit -m "chore: 3-day Copilot roadmap + blog refresh"
             git push
           else
-            echo "No data changes."
+            echo "No feed changes."
           fi
