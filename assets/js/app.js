@@ -17,6 +17,28 @@ document.querySelectorAll("[data-jump]").forEach((b) =>
   b.addEventListener("click", () => activate(b.dataset.jump))
 );
 
+// ----- Robust JSON fetch: cache-busting + timeout -----
+async function fetchJson(path) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 12000);
+  try {
+    const url = path + (path.includes("?") ? "&" : "?") + "t=" + Date.now();
+    const res = await fetch(url, { cache: "no-store", signal: ctrl.signal });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function errorBox(msg, retryFn) {
+  const span = document.createElement("div");
+  span.className = "rm-empty";
+  span.innerHTML = esc(msg) + ' <button class="retry-btn">Retry</button>';
+  span.querySelector(".retry-btn").addEventListener("click", retryFn);
+  return span;
+}
+
 // Deck links are wired below; the initial tab is activated at the end of the file.
 
 // ----- Deck links (optional, configured separately) -----
@@ -75,6 +97,9 @@ document.querySelectorAll("[data-jump]").forEach((b) =>
     cta.style.display = "none";
   }
 })();
+
+// ----- Roadmap (Copilot Updates) -----
+let roadmapData = null;
 let activeStatus = "all";
 
 function statusClass(s) {
@@ -88,7 +113,7 @@ function renderRoadmap() {
   const list = document.getElementById("roadmapList");
   if (!roadmapData) return;
   const q = (document.getElementById("roadmapSearch").value || "").toLowerCase().trim();
-  const items = roadmapData.items.filter((i) => {
+  const items = (roadmapData.items || []).filter((i) => {
     const okStatus = activeStatus === "all" || i.status === activeStatus;
     const okQ = !q || (i.title + " " + i.description).toLowerCase().includes(q);
     return okStatus && okQ;
@@ -118,31 +143,35 @@ function renderRoadmap() {
     .join("");
 }
 
+let roadmapLoading = null;
 async function loadRoadmap() {
-  if (roadmapData) return; // load once
+  if (roadmapData) { renderRoadmap(); return; } // already loaded — re-render
+  if (roadmapLoading) return roadmapLoading;    // a load is in flight — dedupe
   const list = document.getElementById("roadmapList");
   list.innerHTML = '<div class="rm-empty">Loading the latest Copilot roadmap&hellip;</div>';
-  try {
-    const res = await fetch("data/roadmap.json", { cache: "no-store" });
-    if (!res.ok) throw new Error("fetch failed");
-    roadmapData = await res.json();
-  } catch (e) {
-    list.innerHTML = '<div class="rm-empty">Could not load roadmap data. Please check back shortly.</div>';
-    return;
-  }
-
-  // meta
-  const c = roadmapData.counts || {};
-  document.getElementById("metaCounts").innerHTML =
-    `<span class="count-badge"><i class="dot-dev"></i>${c.inDevelopment || 0} in development</span>` +
-    `<span class="count-badge"><i class="dot-roll"></i>${c.rollingOut || 0} rolling out</span>` +
-    `<span class="count-badge"><i class="dot-launch"></i>${c.launched || 0} launched</span>`;
-  const d = roadmapData.generatedAt ? new Date(roadmapData.generatedAt) : null;
-  document.getElementById("metaUpdated").textContent = d
-    ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
-    : "";
-
-  renderRoadmap();
+  roadmapLoading = (async () => {
+    try {
+      const data = await fetchJson("data/roadmap.json");
+      if (!data || !Array.isArray(data.items)) throw new Error("unexpected data shape");
+      roadmapData = data; // cache only on success
+      const c = roadmapData.counts || {};
+      document.getElementById("metaCounts").innerHTML =
+        `<span class="count-badge"><i class="dot-dev"></i>${c.inDevelopment || 0} in development</span>` +
+        `<span class="count-badge"><i class="dot-roll"></i>${c.rollingOut || 0} rolling out</span>` +
+        `<span class="count-badge"><i class="dot-launch"></i>${c.launched || 0} launched</span>`;
+      const d = roadmapData.generatedAt ? new Date(roadmapData.generatedAt) : null;
+      document.getElementById("metaUpdated").textContent = d
+        ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
+        : "";
+      renderRoadmap();
+    } catch (e) {
+      list.innerHTML = "";
+      list.appendChild(errorBox("Couldn't load roadmap data.", loadRoadmap));
+    } finally {
+      roadmapLoading = null; // allow retry
+    }
+  })();
+  return roadmapLoading;
 }
 
 document.getElementById("roadmapSearch").addEventListener("input", renderRoadmap);
@@ -168,7 +197,7 @@ function renderBlogs() {
   const list = document.getElementById("blogList");
   if (!blogData) return;
   const q = (document.getElementById("blogSearch").value || "").toLowerCase().trim();
-  const items = blogData.items.filter(
+  const items = (blogData.items || []).filter(
     (i) => !q || (i.title + " " + i.description).toLowerCase().includes(q)
   );
   if (!items.length) {
@@ -191,25 +220,32 @@ function renderBlogs() {
     .join("");
 }
 
+let blogLoading = null;
 async function loadBlogs() {
-  if (blogData) return;
+  if (blogData) { renderBlogs(); return; }
+  if (blogLoading) return blogLoading;
   const list = document.getElementById("blogList");
   list.innerHTML = '<div class="rm-empty">Loading the latest Copilot blog posts&hellip;</div>';
-  try {
-    const res = await fetch("data/blogs.json", { cache: "no-store" });
-    if (!res.ok) throw new Error("fetch failed");
-    blogData = await res.json();
-  } catch (e) {
-    list.innerHTML = '<div class="rm-empty">Could not load blog data. Please check back shortly.</div>';
-    return;
-  }
-  document.getElementById("blogMeta").innerHTML =
-    `<span class="count-badge"><i class="dot-launch"></i>${blogData.count || 0} recent posts</span>`;
-  const d = blogData.generatedAt ? new Date(blogData.generatedAt) : null;
-  document.getElementById("blogUpdated").textContent = d
-    ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
-    : "";
-  renderBlogs();
+  blogLoading = (async () => {
+    try {
+      const data = await fetchJson("data/blogs.json");
+      if (!data || !Array.isArray(data.items)) throw new Error("unexpected data shape");
+      blogData = data;
+      document.getElementById("blogMeta").innerHTML =
+        `<span class="count-badge"><i class="dot-launch"></i>${blogData.count || 0} recent posts</span>`;
+      const d = blogData.generatedAt ? new Date(blogData.generatedAt) : null;
+      document.getElementById("blogUpdated").textContent = d
+        ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
+        : "";
+      renderBlogs();
+    } catch (e) {
+      list.innerHTML = "";
+      list.appendChild(errorBox("Couldn't load blog data.", loadBlogs));
+    } finally {
+      blogLoading = null;
+    }
+  })();
+  return blogLoading;
 }
 
 document.getElementById("blogSearch").addEventListener("input", renderBlogs);
@@ -289,27 +325,40 @@ function renderNewsletter() {
   );
 }
 
+let newsletterLoading = null;
 async function loadNewsletter() {
-  if (newsletterData) return;
+  if (newsletterData) { renderNewsletter(); return; }
+  if (newsletterLoading) return newsletterLoading;
   const list = document.getElementById("newsletterList");
   list.innerHTML = '<div class="rm-empty">Loading the latest editions&hellip;</div>';
-  try {
-    const res = await fetch("data/newsletters.json", { cache: "no-store" });
-    if (!res.ok) throw new Error("fetch failed");
-    newsletterData = await res.json();
-  } catch (e) {
-    list.innerHTML = '<div class="rm-empty">Could not load newsletter data. Please check back shortly.</div>';
-    return;
-  }
-  document.getElementById("nlMeta").innerHTML =
-    `<span class="count-badge"><i class="dot-launch"></i>${newsletterData.count || 0} editions</span>`;
-  const d = newsletterData.generatedAt ? new Date(newsletterData.generatedAt) : null;
-  document.getElementById("nlUpdated").textContent = d
-    ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
-    : "";
-  renderNewsletter();
+  newsletterLoading = (async () => {
+    try {
+      const data = await fetchJson("data/newsletters.json");
+      if (!data || !Array.isArray(data.editions)) throw new Error("unexpected data shape");
+      newsletterData = data;
+      document.getElementById("nlMeta").innerHTML =
+        `<span class="count-badge"><i class="dot-launch"></i>${newsletterData.count || 0} editions</span>`;
+      const d = newsletterData.generatedAt ? new Date(newsletterData.generatedAt) : null;
+      document.getElementById("nlUpdated").textContent = d
+        ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
+        : "";
+      renderNewsletter();
+    } catch (e) {
+      list.innerHTML = "";
+      list.appendChild(errorBox("Couldn't load newsletter data.", loadNewsletter));
+    } finally {
+      newsletterLoading = null;
+    }
+  })();
+  return newsletterLoading;
 }
 
 // Open the tab from the URL hash on load (after all state + handlers are defined)
 const initial = (location.hash || "#overview").slice(1);
 if (document.getElementById(initial)) activate(initial);
+
+// Preload all data in the background so tab content is ready instantly and
+// resilient to transient CDN hiccups (each loader retries independently).
+window.addEventListener("load", () => {
+  setTimeout(() => { loadRoadmap(); loadBlogs(); loadNewsletter(); }, 150);
+});

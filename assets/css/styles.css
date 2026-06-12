@@ -245,6 +245,9 @@ a.driver-card:hover{text-decoration:none}
 .rm-meta{display:flex;gap:.5rem;flex-wrap:wrap;font-size:.74rem;color:var(--muted)}
 .rm-meta .m{background:var(--light);border-radius:6px;padding:.2rem .5rem}
 .rm-empty{text-align:center;color:var(--muted);padding:2rem}
+.retry-btn{appearance:none;border:1px solid var(--hair);background:#fff;cursor:pointer;font-family:inherit;
+  font-size:.82rem;font-weight:600;color:var(--purple);padding:.4rem .9rem;border-radius:8px;margin-left:.5rem}
+.retry-btn:hover{background:var(--light)}
 
 /* Footer */
 .site-footer{margin-top:2rem;background:var(--navy);color:#9AA4CC}
