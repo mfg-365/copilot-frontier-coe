@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T17:08:09.737Z",
+  "generatedAt": "2026-06-12T17:32:59.606Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -7,11 +7,29 @@
     },
     {
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/Category?category.id=Microsoft365Copilot"
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365CopilotBlog"
     }
   ],
   "count": 30,
   "items": [
+    {
+      "title": "Word: Legal Agent in Frontier",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/word-legal-agent-in-frontier/ba-p/4516218",
+      "pubDate": "Fri, 12 Jun 2026 14:50:28 GMT",
+      "description": "Legal workflows demand precision and auditability. While general-purpose AI tools can assist with document review, they aren’t designed to follow the structured processes legal teams rely on to evaluate risk and maintain consistency. Buildi",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-06-12T14:50:28.000Z"
+    },
+    {
+      "title": "What’s New in Notebooks | May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-may-2026/ba-p/4519838",
+      "pubDate": "Fri, 12 Jun 2026 14:34:37 GMT",
+      "description": "Copilot Notebooks gets smarter for Microsoft 365 Copilot users Work rarely lives in one place. A single project can span a deck in SharePoint, decisions in a Teams thread, customer context in email, and ideas captured in quick conversations",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-06-12T14:34:37.000Z"
+    },
     {
       "title": "Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832",
@@ -20,15 +38,6 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-06-11T20:58:32.000Z"
-    },
-    {
-      "title": "Meet the new Copilot Studio: rebuilt for more complex, multi-step work",
-      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/meet-the-new-copilot-studio-rebuilt-for-more-complex-multi-step/ba-p/4526488",
-      "pubDate": "Thu, 11 Jun 2026 17:16:17 GMT",
-      "description": "We consistently hear feedback from our customers. You want to build more capable agents and workflows that work together naturally. You need agents that can handle multi-step tasks reliably, without breaking down midway. You need more intui",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-11T17:16:17.000Z"
     },
     {
       "title": "What’s New in Notebooks | June 2026",
@@ -40,157 +49,13 @@
       "date": "2026-06-11T15:03:45.000Z"
     },
     {
-      "title": "Copilot and DLP policy behaviours",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/copilot-and-dlp-policy-behaviours/m-p/4527526#M6556",
-      "pubDate": "Thu, 11 Jun 2026 12:55:48 GMT",
-      "description": "Hi Copilot Brain Trust, Looking for some real-world experiences with Microsoft 365 Copilot DLP enforcement. We've implemented a DLP policy targeting the Microsoft 365 Copilot location with the action to prevent Copilot from processing conte",
+      "title": "What’s New in Microsoft 365 Copilot | May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-may-2026/ba-p/4522010",
+      "pubDate": "Mon, 08 Jun 2026 21:52:59 GMT",
+      "description": "Welcome to the May 2026 edition of What's New in Microsoft 365 Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 admins up to date with Copilot features that help your users be more productive and effici",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-11T12:55:48.000Z"
-    },
-    {
-      "title": "End users not seeing the option \"Select Brand\" from PowerPoint Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/copilot-for-small-and-medium/end-users-not-seeing-the-option-quot-select-brand-quot-from/m-p/4527438#M596",
-      "pubDate": "Thu, 11 Jun 2026 09:09:04 GMT",
-      "description": "Hello I have followed the instructions in this guide https://learn.microsoft.com/en-us/microsoft-365/copilot/enterprise-brand-manager to push out a brand kit to end users, however very frustratingly, users do not have access to the \"Select ",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-11T09:09:04.000Z"
-    },
-    {
-      "title": "Microsoft Cowork (Frontier) Scheduled Runs Can't Access Custom Plugins/MCP Tools",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-cowork-frontier-scheduled-runs-can-t-access-custom/m-p/4527373#M6555",
-      "pubDate": "Thu, 11 Jun 2026 05:48:48 GMT",
-      "description": "Hi everyone, I'm currently building a ServiceNow incident handling automation using Microsoft Cowork (available through the Microsoft Frontier program) and have run into an issue that I haven't been able to resolve. Solution Architecture I ",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-11T05:48:48.000Z"
-    },
-    {
-      "title": "Live AMA: Microsoft 365 Copilot app",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-events/live-ama-microsoft-365-copilot-app/ec-p/4527302#M2909",
-      "pubDate": "Wed, 10 Jun 2026 20:01:54 GMT",
-      "description": "Join us for a live AMA (Ask Microsoft Anything) supporting the Microsoft 365 Copilot app learning series: \"From research to polished outputs.\" Work today often spans chats, files, meetings, and tools, and this session gives you a chance to ",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-10T20:01:54.000Z"
-    },
-    {
-      "title": "The Windows App isn't viable at present",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/the-windows-app-isn-t-viable-at-present/m-p/4526824#M6551",
-      "pubDate": "Tue, 09 Jun 2026 16:56:03 GMT",
-      "description": "The Windows Copilot app is not viable for real work because it only stores three conversations. Edge Copilot and the mobile app preserve full history and sync across devices, which makes them usable for long‑term projects. The Windows app s",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-09T16:56:03.000Z"
-    },
-    {
-      "title": "Copilot Podcast Creations Stuck in “Creating” State",
-      "link": "https://techcommunity.microsoft.com/t5/copilot-studio/copilot-podcast-creations-stuck-in-creating-state/m-p/4526596#M40",
-      "pubDate": "Tue, 09 Jun 2026 02:51:38 GMT",
-      "description": "My Copilot podcast creations are stuck in the “Creating” state and will not delete. The delete button is greyed out. I have already tried closing all browsers, restarting my iPad, phone, and PC, and the issue persists across all devices. It",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-09T02:51:38.000Z"
-    },
-    {
-      "title": "Issues with using Copilot on Outlook Calendars",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/issues-with-using-copilot-on-outlook-calendars/m-p/4526546#M6550",
-      "pubDate": "Mon, 08 Jun 2026 19:44:16 GMT",
-      "description": "Seems that Copilot cannot decipher calendars very well. I have tried several times to automate some work on Outlook Calendars and Copilot is completely lost when it comes to working with calendars. One example was when I tried to move 3 att",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-08T19:44:16.000Z"
-    },
-    {
-      "title": "File Uploads Not Passed to Custom Engine Agent in Microsoft 365 Copilot Chat",
-      "link": "https://techcommunity.microsoft.com/t5/copilot-studio/file-uploads-not-passed-to-custom-engine-agent-in-microsoft-365/m-p/4526460#M39",
-      "pubDate": "Mon, 08 Jun 2026 15:56:12 GMT",
-      "description": "Hi all, I'm working with a custom agent built in Copilot Studio (full authoring experience — topics, knowledge sources, agent flows) published to both the Microsoft Teams channel and the Microsoft 365 channel . I've noticed a significant UX",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-08T15:56:12.000Z"
-    },
-    {
-      "title": "Best Practices for Copilot Studio Environment Strategy and Application Lifecycle Management (ALM)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/best-practices-for-copilot-studio-environment-strategy-and/m-p/4526375#M6549",
-      "pubDate": "Mon, 08 Jun 2026 12:06:45 GMT",
-      "description": "As organizations increasingly adopt Microsoft Copilot Studio to build intelligent copilots, virtual assistants, and AI-powered business solutions, establishing a robust environment strategy and Application Lifecycle Management (ALM) framewo",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-08T12:06:45.000Z"
-    },
-    {
-      "title": "Deleted Copilot Chats and Temporary Chat: What End Users Should Know",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/deleted-copilot-chats-and-temporary-chat-what-end-users-should/m-p/4526167#M6545",
-      "pubDate": "Sun, 07 Jun 2026 17:23:02 GMT",
-      "description": "I published a short video for end users who are asking a practical Copilot question: Can employers see deleted Copilot chats? The question usually starts when users see the “Permanently delete chat?” warning in Copilot. That warning can be ",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-07T17:23:02.000Z"
-    },
-    {
-      "title": "Copilot Studio Preview : MCP Agent works in Teams but not in Microsoft 365 Copilot Chat",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/copilot-studio-preview-mcp-agent-works-in-teams-but-not-in/m-p/4526114#M6542",
-      "pubDate": "Sun, 07 Jun 2026 05:45:06 GMT",
-      "description": "I’m currently testing the new preview version of Copilot Studio and I ran into a behavior I’d like to validate with the community. I created a custom Copilot agent using the new interface, connected to a Microsoft Learn MCP server (for retr",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-07T05:45:06.000Z"
-    },
-    {
-      "title": "Learning Agent by Microsoft: The Future of Personalized AI-Powered Employee Upskilling Has Arrived",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/learning-agent-by-microsoft-the-future-of-personalized-ai/m-p/4525944#M6538",
-      "pubDate": "Fri, 05 Jun 2026 14:32:44 GMT",
-      "description": "In today’s rapidly evolving workplace, one challenge continues to stand out for organizations across industries: keeping employee skills aligned with changing business needs. Traditional training programs often struggle to deliver relevant ",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-05T14:32:44.000Z"
-    },
-    {
-      "title": "Creating Forms/Fields",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/creating-forms-fields/m-p/4525896#M6537",
-      "pubDate": "Fri, 05 Jun 2026 12:09:04 GMT",
-      "description": "Can I do the following with CP Create a custom form with fields Have CP search a particular document on my server for particulars words(s) Have those results automatically populate in the form/fields I created Thanks",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-05T12:09:04.000Z"
-    },
-    {
-      "title": "Can Microsoft Frontier Program Copilot Cowork Agent Delegate Tasks to Other Copilot Agents?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/can-microsoft-frontier-program-copilot-cowork-agent-delegate/m-p/4525712#M6536",
-      "pubDate": "Fri, 05 Jun 2026 04:01:54 GMT",
-      "description": "Hi everyone, I'm currently exploring the capabilities of Copilot Cowork that is available through the Microsoft Frontier Program , and I'm trying to understand whether a multi-agent orchestration pattern is officially supported. My Use Case",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-05T04:01:54.000Z"
-    },
-    {
-      "title": "Microsoft Introduces Scout: The Always-On Personal AI Agent",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-introduces-scout-the-always-on-personal-ai-agent/m-p/4525534#M6534",
-      "pubDate": "Thu, 04 Jun 2026 13:04:09 GMT",
-      "description": "Microsoft has officially unveiled Microsoft Scout, a new AI-powered personal agent designed to work continuously in the background and help users manage tasks, schedules, communications, and workflows across the Microsoft 365 ecosystem. Ann",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-04T13:04:09.000Z"
-    },
-    {
-      "title": "Designing Multi-Agent Systems in Copilot Studio",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/designing-multi-agent-systems-in-copilot-studio/m-p/4525474#M6533",
-      "pubDate": "Thu, 04 Jun 2026 10:52:18 GMT",
-      "description": "Modern organizations rarely solve complex business problems with a single AI assistant. Customer support, IT operations, sales, HR, and analytics teams all have different goals, data sources, and workflows. This is where multi-agent systems",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-04T10:52:18.000Z"
-    },
-    {
-      "title": "Copilot Studio Pricing Explained for Enterprises: Licensing, Costs, and ROI in 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot/copilot-studio-pricing-explained-for-enterprises-licensing-costs/m-p/4525473#M6532",
-      "pubDate": "Thu, 04 Jun 2026 10:51:36 GMT",
-      "description": "As enterprises accelerate their AI adoption strategies, Microsoft Copilot Studio has emerged as one of the most powerful platforms for building custom AI assistants, automating business processes, and creating intelligent customer experienc",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-04T10:51:36.000Z"
+      "date": "2026-06-08T21:52:59.000Z"
     },
     {
       "title": "Introducing Microsoft Scout: Your always-on personal agent",
@@ -217,6 +82,24 @@
       "date": "2026-06-02T17:00:15.000Z"
     },
     {
+      "title": "Learning Agent now generally available — personalized AI upskilling for every employee",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/learning-agent-now-generally-available-personalized-ai/ba-p/4524571",
+      "pubDate": "Tue, 02 Jun 2026 15:00:00 GMT",
+      "description": "Meet Learning Agent in Microsoft 365 Copilot Today we’re excited to announce the general availability of Learning Agent in Microsoft 365 Copilot, to help every employee build Copilot and AI skills where the work gets done. It provides perso",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-06-02T15:00:00.000Z"
+    },
+    {
+      "title": "Finance Agent Benchmark: evaluating and improving AI for Finance",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/finance-agent-benchmark-evaluating-and-improving-ai-for-finance/ba-p/4522978",
+      "pubDate": "Fri, 29 May 2026 20:43:08 GMT",
+      "description": "As business complexity accelerates, finance organizations are being asked to support more stakeholders, guide more decisions, and operate at unprecedented speed, often without additional resources. As these demands outpace traditional tools",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-05-29T20:43:08.000Z"
+    },
+    {
       "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
       "pubDate": "Thu, 28 May 2026 19:00:00 +0000",
@@ -227,6 +110,24 @@
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-05-28T19:00:00.000Z"
+    },
+    {
+      "title": "(Co)work in Progress",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
+      "pubDate": "Thu, 28 May 2026 18:40:01 GMT",
+      "description": "A complete record of milestones, launches, and newest innovations. Today we are again expanding model choice in Microsoft 365 Copilot with the addition of Anthropic's latest model—Claude Opus 4.8—now available in Copilot Cowork (Frontier). ",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-05-28T18:40:01.000Z"
+    },
+    {
+      "title": "Available today: Anthropic Claude Opus 4.8 in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-4-8-in-microsoft-365/ba-p/4523405",
+      "pubDate": "Thu, 28 May 2026 18:37:31 GMT",
+      "description": "Today we’re expanding model choice in Microsoft 365 Copilot with the addition of Anthropic’s latest model—Claude Opus 4.8. Available now in Copilot Cowork (Frontier) and rolling out to Copilot Chat, Excel, PowerPoint, and Copilot Studio. Op",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-05-28T18:37:31.000Z"
     },
     {
       "title": "Introducing a new design for Microsoft 365 Copilot",
@@ -241,6 +142,24 @@
       "date": "2026-05-28T15:00:00.000Z"
     },
     {
+      "title": "Recertified: How Microsoft 365 Copilot continues to earn trust and What Changed in a Year",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/recertified-how-microsoft-365-copilot-continues-to-earn-trust/ba-p/4521693",
+      "pubDate": "Wed, 27 May 2026 16:00:00 GMT",
+      "description": "Recertification: ISO 42001 for the second consecutive year Today, we are announcing that Microsoft 365 Copilot and Copilot Chat (Copilot) have achieved ISO/IEC 42001:2023 recertification independently validated for the second consecutive ye",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-05-27T16:00:00.000Z"
+    },
+    {
+      "title": "Scaling the reach of finance: what’s next with Finance Agent in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/scaling-the-reach-of-finance-what-s-next-with-finance-agent-in/ba-p/4522976",
+      "pubDate": "Wed, 27 May 2026 12:00:00 GMT",
+      "description": "In most organizations, finance is a small but mighty strategic partner to the business, supporting enterprise-wide decisions while managing core processes from record-to-report and source-to-pay to forecast-to-plan. The insights and guidanc",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-05-27T12:00:00.000Z"
+    },
+    {
       "title": "New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences",
       "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
       "pubDate": "Tue, 26 May 2026 16:00:00 +0000",
@@ -253,6 +172,33 @@
       "date": "2026-05-26T16:00:00.000Z"
     },
     {
+      "title": "Launched: Microsoft 365 Copilot Adoption Hub Redesign",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/launched-microsoft-365-copilot-adoption-hub-redesign/ba-p/4520841",
+      "pubDate": "Tue, 19 May 2026 22:53:07 GMT",
+      "description": "One of the biggest barriers to Copilot adoption is people don’t always know where to start. Today, we released the first version of our redesigned Microsoft 365 Copilot business user hub. Take a look. We set out to simplify adoption by maki",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-05-19T22:53:07.000Z"
+    },
+    {
+      "title": "What’s New in Microsoft 365 Copilot | April 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-april-2026/ba-p/4510935",
+      "pubDate": "Wed, 13 May 2026 18:08:00 GMT",
+      "description": "Welcome to the April 2026 edition of What's new in Microsoft 365 Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 admins up to date with Copilot features that help your users be more productive and effi",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-05-13T18:08:00.000Z"
+    },
+    {
+      "title": "How Workday and Microsoft are redefining the agentic workplace",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/how-workday-and-microsoft-are-redefining-the-agentic-workplace/ba-p/4518532",
+      "pubDate": "Wed, 13 May 2026 13:00:00 GMT",
+      "description": "The modern employee is currently paying a \"fragmentation tax.\" Across a typical workday, the average professional navigates over 200 disparate apps and systems. Every time they switch from a collaborative space like Microsoft Teams to a dom",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-05-13T13:00:00.000Z"
+    },
+    {
       "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
       "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
       "pubDate": "Mon, 11 May 2026 17:25:12 +0000",
@@ -263,6 +209,24 @@
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-05-11T17:25:12.000Z"
+    },
+    {
+      "title": "Available today: GPT-5.5 Instant in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-gpt-5-5-instant-in-microsoft-365-copilot/ba-p/4517084",
+      "pubDate": "Thu, 07 May 2026 18:42:35 GMT",
+      "description": "Today, we're excited to announce the addition of OpenAI's GPT-5.5 Instant to Microsoft 365 Copilot and Microsoft Copilot Studio. Building on GPT-5.3 Instant, GPT-5.5 Instant improves the quality of everyday work tasks designed to deliver mo",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-05-07T18:42:35.000Z"
+    },
+    {
+      "title": "Federated Copilot connectors - bringing real-time enterprise data within Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/federated-copilot-connectors-bringing-real-time-enterprise-data/ba-p/4515993",
+      "pubDate": "Tue, 05 May 2026 18:57:54 GMT",
+      "description": "Microsoft 365 Copilot leverages Copilot connectors with sync capabilities that can further enrich Work IQ and unify enterprise knowledge across hundreds of SaaS systems into a single, coherent enterprise knowledge base in your Microsoft 365",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-05-05T18:57:54.000Z"
     },
     {
       "title": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
@@ -305,6 +269,33 @@
       "date": "2026-05-01T15:00:00.000Z"
     },
     {
+      "title": "Microsoft 365 Copilot readiness and resiliency with SharePoint and M365 Backup/Archive",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/microsoft-365-copilot-readiness-and-resiliency-with-sharepoint/ba-p/4513048",
+      "pubDate": "Thu, 30 Apr 2026 12:07:12 GMT",
+      "description": "As AI becomes embedded in everyday work, governance shifts from being a back‑office function to a strategic enabler. Organizations that succeed with Copilot and agents aren’t just moving fast ( 70% of early Copilot users said they were more",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-04-30T12:07:12.000Z"
+    },
+    {
+      "title": "Copilot in OneNote now understands more of your notes",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-in-onenote-now-understands-more-of-your-notes/ba-p/4515922",
+      "pubDate": "Wed, 29 Apr 2026 17:09:55 GMT",
+      "description": "In Microsoft OneNote, you can use Copilot to reason over your notes to summarize content, extract key insights, and build on your ideas. We’ve improved the way Copilot responds to your queries in OneNote, making it easier to interact with y",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-04-29T17:09:55.000Z"
+    },
+    {
+      "title": "Available today: GPT-5.5 Thinking and ChatGPT Images 2.0 in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-gpt-5-5-thinking-and-chatgpt-images-2-0-in/ba-p/4514243",
+      "pubDate": "Mon, 27 Apr 2026 15:33:18 GMT",
+      "description": "Today, we’re expanding what Microsoft 365 Copilot can do with GPT-5.5 Thinking and ChatGPT Images 2.0 bringing stronger support for deeper analysis, multi-step work, and visual creation. GPT-5.5 Thinking is now available in Copilot Studio e",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-04-27T15:33:18.000Z"
+    },
+    {
       "title": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
       "pubDate": "Thu, 23 Apr 2026 00:00:00 +0000",
@@ -316,6 +307,15 @@
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-04-23T00:00:00.000Z"
+    },
+    {
+      "title": "Available today: Anthropic Claude Opus 4.7 in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-4-7-in-microsoft-365/ba-p/4511666",
+      "pubDate": "Thu, 16 Apr 2026 17:45:47 GMT",
+      "description": "Today we're expanding model choice in Microsoft 365 Copilot with the addition of Anthropic's latest model—Claude Opus 4.7—now available in Copilot Cowork (Frontier) and Copilot Studio early release cycle environments , and rolling out to Co",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-04-16T17:45:47.000Z"
     }
   ]
 }

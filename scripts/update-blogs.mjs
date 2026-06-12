@@ -17,9 +17,9 @@ const FEEDS = [
     copilotOnly: false, // this blog is broadly AI/Copilot; keep AI + Copilot + agent posts
   },
   {
-    url: "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/Category?category.id=Microsoft365Copilot",
+    url: "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365CopilotBlog",
     source: "Microsoft 365 Copilot Blog (Tech Community)",
-    copilotOnly: false, // already a Copilot category
+    copilotOnly: false, // dedicated Copilot blog board — official articles only
   },
 ];
 
@@ -90,6 +90,14 @@ async function fetchFeed(feed) {
     const xml = await res.text();
     return parseItems(xml)
       .filter((it) => it.title && it.link)
+      // Blog articles only — exclude community discussion/forum/idea threads.
+      // Tech Community blog posts use /ba-p/; discussions use /m-p/, /td-p/, /idi-p/.
+      .filter((it) => {
+        if (/techcommunity\.microsoft\.com/i.test(it.link)) {
+          return /\/ba-p\//i.test(it.link) && !/\/(m-p|td-p|idi-p|qa-p)\//i.test(it.link);
+        }
+        return true; // microsoft.com/blog is already official published content
+      })
       .filter((it) => {
         if (feed.copilotOnly === false && /copilot/i.test(feed.url)) return true; // dedicated Copilot feed
         const hay = it.title + " " + it.description + " " + it.categories.join(" ");
