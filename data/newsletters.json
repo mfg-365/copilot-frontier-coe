@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-06-12T19:24:43.786Z",
-  "count": 4,
+  "generatedAt": "2026-06-15T17:36:19.380Z",
+  "count": 5,
   "editions": [
+    {
+      "id": "2026-W25",
+      "year": 2026,
+      "week": 25,
+      "dateLabel": "June 18, 2026",
+      "prompt": {
+        "title": "Prep me for a 1:1",
+        "text": "Using our recent emails, chats, and shared files, prepare me for my 1:1 with [name]. Summarize what we last agreed, what's outstanding, and suggest three thoughtful questions to ask."
+      },
+      "tip": {
+        "app": "Outlook",
+        "tip": "Try 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send."
+      },
+      "capability": {
+        "name": "Agentic Copilot in Outlook",
+        "text": "Copilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
+      },
+      "roadmap": {
+        "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
+        "status": "In development",
+        "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This report provides insights into overall connector activity, and connector powered response patterns over time, along with detailed user-level connectors adoption data. With these analytics, admins can monitor adoption, identify usage patterns, and optimize Copilot experiences to drive greater value across their organization. #copilotcontrolsystem",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571"
+      },
+      "reads": [
+        {
+          "title": "What’s New in Notebooks | June 2026",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625"
+        },
+        {
+          "title": "Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832"
+        }
+      ],
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 18, 2026)\n\nPROMPT OF THE WEEK — Prep me for a 1:1\n\"Using our recent emails, chats, and shared files, prepare me for my 1:1 with [name]. Summarize what we last agreed, what's outstanding, and suggest three thoughtful questions to ask.\"\n\nCOPILOT IN OUTLOOK\nTry 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send.\n\nFRONTIER SPOTLIGHT — Agentic Copilot in Outlook\nCopilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors (In development)\nA new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This report provides insights into overall connector activity, and connector powered response patterns over time, along with detailed user-level connectors adoption data. With these analytics, admins can monitor adoption, identify usage patterns, and optimize Copilot experiences to drive greater value across their organization. #copilotcontrolsystem\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571\n\nWORTH A READ\n- What’s New in Notebooks | June 2026 — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625\n- Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+    },
     {
       "id": "2026-W24",
       "year": 2026,
@@ -21,10 +57,10 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Planner Agent in Microsoft 365 Copilot",
+        "title": "Microsoft Viva: Copilot Enhanced Topic Assignment",
         "status": "In development",
-        "description": "Planner agent in Microsoft 365 will help you plan, organize, and manage work more efficiently. We’re starting with core task and plan management features to simplify project tracking and will introduce additional advanced project management capabilities over time. Updated May 21, 2026: We previously launched in Preview and GA is expected in June. We apologize for any inconvenience.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516576"
+        "description": "We're upgrading our topic assignment pipeline to be powered by Copilot, delivering significantly improved accuracy in categorizing survey comments into relevant topics.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553224"
       },
       "reads": [
         {
@@ -36,7 +72,7 @@
           "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 11, 2026)\n\nPROMPT OF THE WEEK — Compare and recommend\n\"Compare these [proposals/vendors/options] across cost, risk, time-to-value, and effort in a table. Recommend one and explain the trade-offs in two sentences.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Planner Agent in Microsoft 365 Copilot (In development)\nPlanner agent in Microsoft 365 will help you plan, organize, and manage work more efficiently. We’re starting with core task and plan management features to simplify project tracking and will introduce additional advanced project management capabilities over time. Updated May 21, 2026: We previously launched in Preview and GA is expected in June. We apologize for any inconvenience.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516576\n\nWORTH A READ\n- What’s New in Notebooks | June 2026 — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625\n- Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 11, 2026)\n\nPROMPT OF THE WEEK — Compare and recommend\n\"Compare these [proposals/vendors/options] across cost, risk, time-to-value, and effort in a table. Recommend one and explain the trade-offs in two sentences.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Viva: Copilot Enhanced Topic Assignment (In development)\nWe're upgrading our topic assignment pipeline to be powered by Copilot, delivering significantly improved accuracy in categorizing survey comments into relevant topics.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553224\n\nWORTH A READ\n- What’s New in Notebooks | June 2026 — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625\n- Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W23",
@@ -57,10 +93,10 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Microsoft Teams: AI-generated meeting archive for knowledge retention",
+        "title": "Microsoft Viva: Unlocking Deeper Copilot Insights with Enhanced Power BI Filtering",
         "status": "In development",
-        "description": "Admins can enable a tenant-wide policy that allows Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods. This enables Copilot to continue answering questions about past meetings even after transcripts expire. Admins can also configure how long this AI-generated meeting archive is stored.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933"
+        "description": "Enable Global and Insights admins to turn on additional attributes as filters in Power BI reports, including reserved attributes and your organization’s custom attributes. Users who have access to Power BI reports can then use these newly enabled filters to tailor reports to their business needs.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559995"
       },
       "reads": [
         {
@@ -72,7 +108,7 @@
           "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 4, 2026)\n\nPROMPT OF THE WEEK — Executive-ready summary\n\"Summarize this document for a busy executive in 5 bullet points, then add a one-line 'so what' that explains the business impact. Flag anything that needs a decision from me.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Teams: AI-generated meeting archive for knowledge retention (In development)\nAdmins can enable a tenant-wide policy that allows Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods. This enables Copilot to continue answering questions about past meetings even after transcripts expire. Admins can also configure how long this AI-generated meeting archive is stored.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933\n\nWORTH A READ\n- What’s New in Notebooks | June 2026 — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625\n- Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 4, 2026)\n\nPROMPT OF THE WEEK — Executive-ready summary\n\"Summarize this document for a busy executive in 5 bullet points, then add a one-line 'so what' that explains the business impact. Flag anything that needs a decision from me.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Viva: Unlocking Deeper Copilot Insights with Enhanced Power BI Filtering (In development)\nEnable Global and Insights admins to turn on additional attributes as filters in Power BI reports, including reserved attributes and your organization’s custom attributes. Users who have access to Power BI reports can then use these newly enabled filters to tailor reports to their business needs.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559995\n\nWORTH A READ\n- What’s New in Notebooks | June 2026 — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625\n- Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W22",
@@ -93,10 +129,10 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Work IQ APIs: Pay-As-You-Go usage",
+        "title": "Capture voice notes in the Microsoft 365 Copilot mobile app",
         "status": "In development",
-        "description": "Enables metered, pay-as-you-go access to Work IQ endpoints, allowing developers to invoke agents and capabilities without requiring pre-assigned licenses, with usage billed based on the agents and models invoked per request.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559017"
+        "description": "With a Microsoft 365 Copilot license, transform offline discussions into structured, actionable, and searchable content with voice notes in Copilot.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=498640"
       },
       "reads": [
         {
@@ -108,7 +144,7 @@
           "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (May 28, 2026)\n\nPROMPT OF THE WEEK — Turn a meeting into an action plan\n\"Based on the transcript and chat from my last meeting with [team], list every decision made, every open question, and a table of action items with owners and due dates. Then draft a short follow-up email I can send to attendees.\"\n\nCOPILOT IN WORD\nAsk Copilot to 'draft a [document type] from these bullet points', then 'add a section on [topic]' and 'rewrite the intro to be more concise'. Reference an existing file with the / command to ground it in your own content.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Work IQ APIs: Pay-As-You-Go usage (In development)\nEnables metered, pay-as-you-go access to Work IQ endpoints, allowing developers to invoke agents and capabilities without requiring pre-assigned licenses, with usage billed based on the agents and models invoked per request.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559017\n\nWORTH A READ\n- What’s New in Notebooks | June 2026 — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625\n- Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (May 28, 2026)\n\nPROMPT OF THE WEEK — Turn a meeting into an action plan\n\"Based on the transcript and chat from my last meeting with [team], list every decision made, every open question, and a table of action items with owners and due dates. Then draft a short follow-up email I can send to attendees.\"\n\nCOPILOT IN WORD\nAsk Copilot to 'draft a [document type] from these bullet points', then 'add a section on [topic]' and 'rewrite the intro to be more concise'. Reference an existing file with the / command to ground it in your own content.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Capture voice notes in the Microsoft 365 Copilot mobile app (In development)\nWith a Microsoft 365 Copilot license, transform offline discussions into structured, actionable, and searchable content with voice notes in Copilot.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=498640\n\nWORTH A READ\n- What’s New in Notebooks | June 2026 — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625\n- Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W21",
