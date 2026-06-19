@@ -1,13 +1,123 @@
 {
-  "generatedAt": "2026-06-18T14:17:42.803Z",
+  "generatedAt": "2026-06-19T14:50:06.236Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 724,
+  "totalCopilotFeatures": 725,
   "counts": {
-    "inDevelopment": 29,
-    "rollingOut": 4,
-    "launched": 27
+    "inDevelopment": 27,
+    "rollingOut": 5,
+    "launched": 28
   },
   "items": [
+    {
+      "id": 566322,
+      "title": "OneNote: Multimodal Capture in Copilot Notebooks (Windows)",
+      "description": "Capture on Windows helps you bring conversations and ideas from meetings, brainstorming sessions, and everyday work into Copilot Notebooks. Capture audio, images, and notes in one experience, then let Copilot turn them into structured notes with key insights, decisions, and action items, in a Copilot Notebook of your choice",
+      "status": "In development",
+      "products": [
+        "OneNote"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-06-18T23:00:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566322"
+    },
+    {
+      "id": 566318,
+      "title": "Microsoft 365 app: Updated light-weight Notebooks experience in the Microsoft 365 Copilot App (iOS)",
+      "description": "Copilot Notebooks in the Microsoft 365 Copilot app (iOS) now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time.",
+      "status": "In development",
+      "products": [
+        "Microsoft 365 app"
+      ],
+      "platforms": [
+        "iOS"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-06-18T23:00:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566318"
+    },
+    {
+      "id": 559418,
+      "title": "Outlook: Copilot provides coaching feedback in chat as you draft, edit and format emails",
+      "description": "Copilot now provides coaching feedback on email drafts via chat and can apply suggestions directly to your message in Outlook. Users have the option to choose which suggestions are applied, and Copilot updates your email in place.",
+      "status": "Launched",
+      "products": [
+        "Outlook",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "May CY2026",
+      "preview": "",
+      "modified": "2026-06-18T23:00:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559418"
+    },
+    {
+      "id": 558938,
+      "title": "Microsoft Copilot (Microsoft 365): Create PowerPoint presentations from Copilot Notebooks",
+      "description": "Copilot Notebooks enables users to generate PowerPoint presentations directly from the content and references collected in a notebook. Using the notebook’s curated context, Copilot creates a structured, editable slide deck that users can open and refine in PowerPoint, helping turn research, notes, and insights into shareable presentations more quickly.",
+      "status": "Launched",
+      "products": [
+        "Microsoft 365",
+        "OneNote",
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "May CY2026",
+      "preview": "March CY2026",
+      "modified": "2026-06-18T23:00:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558938"
+    },
+    {
+      "id": 558934,
+      "title": "Microsoft Copilot (Microsoft 365): Create Word documents from Copilot Notebooks",
+      "description": "Copilot Notebooks allows users to generate Word documents using the content and references gathered in a notebook. Copilot drafts a structured document grounded in the notebook’s context, which can be opened and edited in Word, helping users move from ideas and source material to a ready-to-use document with fewer manual steps.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft 365",
+        "OneNote",
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "May CY2026",
+      "preview": "March CY2026",
+      "modified": "2026-06-18T23:00:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558934"
+    },
     {
       "id": 554936,
       "title": "Outlook: Copilot Chat available in shared and delegate mailboxes",
@@ -1138,113 +1248,6 @@
       "preview": "March CY2026",
       "modified": "2026-06-04T23:15:54",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559095"
-    },
-    {
-      "id": 558934,
-      "title": "Microsoft Copilot (Microsoft 365): Create Word documents from Copilot Notebooks",
-      "description": "Copilot Notebooks allows users to generate Word documents using the content and references gathered in a notebook. Copilot drafts a structured document grounded in the notebook’s context, which can be opened and edited in Word, helping users move from ideas and source material to a ready-to-use document with fewer manual steps.",
-      "status": "Launched",
-      "products": [
-        "Microsoft 365",
-        "OneNote",
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "May CY2026",
-      "preview": "March CY2026",
-      "modified": "2026-06-04T23:15:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558934"
-    },
-    {
-      "id": 553224,
-      "title": "Microsoft Viva: Copilot Enhanced Topic Assignment",
-      "description": "We're upgrading our topic assignment pipeline to be powered by Copilot, delivering significantly improved accuracy in categorizing survey comments into relevant topics.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "July CY2026",
-      "preview": "",
-      "modified": "2026-06-04T23:15:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553224"
-    },
-    {
-      "id": 519571,
-      "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
-      "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This report provides insights into overall connector activity, and connector powered response patterns over time, along with detailed user-level connectors adoption data. With these analytics, admins can monitor adoption, identify usage patterns, and optimize Copilot experiences to drive greater value across their organization. #copilotcontrolsystem",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft 365 admin center"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-06-04T23:15:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571"
-    },
-    {
-      "id": 422323,
-      "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Android)",
-      "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "OneNote"
-      ],
-      "platforms": [
-        "Android"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-06-04T23:15:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=422323"
-    },
-    {
-      "id": 561491,
-      "title": "Outlook: Copilot Settings in classic Outlook for Windows",
-      "description": "You will now be able to access different Copilot settings directly in classic Outlook for Windows.",
-      "status": "In development",
-      "products": [
-        "Outlook"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "July CY2026",
-      "preview": "June CY2026",
-      "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561491"
     }
   ]
 }
