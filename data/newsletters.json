@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-06-22T17:16:08.251Z",
-  "count": 6,
+  "generatedAt": "2026-06-29T16:23:55.362Z",
+  "count": 7,
   "editions": [
+    {
+      "id": "2026-W27",
+      "year": 2026,
+      "week": 27,
+      "dateLabel": "July 2, 2026",
+      "prompt": {
+        "title": "Find the signal in my inbox",
+        "text": "Review my unread email from the past week and group it into 'Needs my reply', 'FYI', and 'Can wait'. For the first group, draft a one-line suggested reply for each."
+      },
+      "tip": {
+        "app": "Copilot Chat",
+        "tip": "Use the work grounding to ask cross-app questions: 'What are the latest updates on [project] from my emails, chats, and files?' Then turn the answer into a Copilot Page to collaborate on it."
+      },
+      "capability": {
+        "name": "Finance Agent",
+        "text": "Gives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
+      },
+      "roadmap": {
+        "title": "Microsoft Purview: Data Lifecycle Management – Archive OneDrive and SharePoint files under retention",
+        "status": "In development",
+        "description": "Retention based file archiving moves inactive content to low-cost storage, lowering costs without compromising on Compliance - while keeping data discoverable and Copilot results highly relevant.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208"
+      },
+      "reads": [
+        {
+          "title": "Copilot in Excel: Built for the era of Frontier Finance",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/"
+        },
+        {
+          "title": "Copilot Cowork is now generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
+        }
+      ],
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 2, 2026)\n\nPROMPT OF THE WEEK — Find the signal in my inbox\n\"Review my unread email from the past week and group it into 'Needs my reply', 'FYI', and 'Can wait'. For the first group, draft a one-line suggested reply for each.\"\n\nCOPILOT IN COPILOT CHAT\nUse the work grounding to ask cross-app questions: 'What are the latest updates on [project] from my emails, chats, and files?' Then turn the answer into a Copilot Page to collaborate on it.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Purview: Data Lifecycle Management – Archive OneDrive and SharePoint files under retention (In development)\nRetention based file archiving moves inactive content to low-cost storage, lowering costs without compromising on Compliance - while keeping data discoverable and Copilot results highly relevant.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208\n\nWORTH A READ\n- Copilot in Excel: Built for the era of Frontier Finance — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+    },
     {
       "id": "2026-W26",
       "year": 2026,
@@ -21,22 +57,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program"
       },
       "roadmap": {
-        "title": "Reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation",
+        "title": "Microsoft Purview: Data Lifecycle Management - Archive OneDrive and SharePoint files under retention",
         "status": "In development",
-        "description": "You can now reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555886"
+        "description": "Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345"
       },
       "reads": [
         {
-          "title": "Copilot Cowork is now generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
+          "title": "Copilot in Excel: Built for the era of Frontier Finance",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/"
         },
         {
-          "title": "What’s New in Notebooks | June 2026",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625"
+          "title": "Copilot Cowork is now generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 25, 2026)\n\nPROMPT OF THE WEEK — Draft, then sharpen\n\"Draft a [proposal/update/announcement] about [topic] for [audience]. Keep it under 200 words, confident and concrete. Then give me an alternate version that's more concise and one that's more persuasive.\"\n\nCOPILOT IN TEAMS\nDuring or after a meeting, ask Copilot to 'recap the key points', 'list action items and owners', or 'what was decided about [topic]?'. Catch up on long chats with 'summarize what I missed'.\n\nFRONTIER SPOTLIGHT — Researcher\nA reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program\n\nON THE ROADMAP — Reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation (In development)\nYou can now reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555886\n\nWORTH A READ\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n- What’s New in Notebooks | June 2026 — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 25, 2026)\n\nPROMPT OF THE WEEK — Draft, then sharpen\n\"Draft a [proposal/update/announcement] about [topic] for [audience]. Keep it under 200 words, confident and concrete. Then give me an alternate version that's more concise and one that's more persuasive.\"\n\nCOPILOT IN TEAMS\nDuring or after a meeting, ask Copilot to 'recap the key points', 'list action items and owners', or 'what was decided about [topic]?'. Catch up on long chats with 'summarize what I missed'.\n\nFRONTIER SPOTLIGHT — Researcher\nA reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program\n\nON THE ROADMAP — Microsoft Purview: Data Lifecycle Management - Archive OneDrive and SharePoint files under retention (In development)\nRetention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345\n\nWORTH A READ\n- Copilot in Excel: Built for the era of Frontier Finance — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W25",
@@ -57,22 +93,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation",
+        "title": "Planner Agent in Microsoft 365 Copilot",
         "status": "In development",
-        "description": "You can now reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555888"
+        "description": "Planner agent in Microsoft 365 will help you plan, organize, and manage work more efficiently. We’re starting with core task and plan management features to simplify project tracking and will introduce additional advanced project management capabilities over time. Updated May 21, 2026: We previously launched in Preview and GA is expected in June. We apologize for any inconvenience.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516576"
       },
       "reads": [
         {
-          "title": "Copilot Cowork is now generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
+          "title": "Copilot in Excel: Built for the era of Frontier Finance",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/"
         },
         {
-          "title": "What’s New in Notebooks | June 2026",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625"
+          "title": "Copilot Cowork is now generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 18, 2026)\n\nPROMPT OF THE WEEK — Prep me for a 1:1\n\"Using our recent emails, chats, and shared files, prepare me for my 1:1 with [name]. Summarize what we last agreed, what's outstanding, and suggest three thoughtful questions to ask.\"\n\nCOPILOT IN OUTLOOK\nTry 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send.\n\nFRONTIER SPOTLIGHT — Agentic Copilot in Outlook\nCopilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation (In development)\nYou can now reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555888\n\nWORTH A READ\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n- What’s New in Notebooks | June 2026 — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 18, 2026)\n\nPROMPT OF THE WEEK — Prep me for a 1:1\n\"Using our recent emails, chats, and shared files, prepare me for my 1:1 with [name]. Summarize what we last agreed, what's outstanding, and suggest three thoughtful questions to ask.\"\n\nCOPILOT IN OUTLOOK\nTry 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send.\n\nFRONTIER SPOTLIGHT — Agentic Copilot in Outlook\nCopilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Planner Agent in Microsoft 365 Copilot (In development)\nPlanner agent in Microsoft 365 will help you plan, organize, and manage work more efficiently. We’re starting with core task and plan management features to simplify project tracking and will introduce additional advanced project management capabilities over time. Updated May 21, 2026: We previously launched in Preview and GA is expected in June. We apologize for any inconvenience.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516576\n\nWORTH A READ\n- Copilot in Excel: Built for the era of Frontier Finance — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W24",
@@ -93,22 +129,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation",
+        "title": "Work IQ APIs: Pay-As-You-Go usage",
         "status": "In development",
-        "description": "You can now reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555891"
+        "description": "Enables metered, pay-as-you-go access to Work IQ endpoints, allowing developers to invoke agents and capabilities without requiring pre-assigned licenses, with usage billed based on the agents and models invoked per request.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559017"
       },
       "reads": [
         {
-          "title": "Copilot Cowork is now generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
+          "title": "Copilot in Excel: Built for the era of Frontier Finance",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/"
         },
         {
-          "title": "What’s New in Notebooks | June 2026",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625"
+          "title": "Copilot Cowork is now generally available",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 11, 2026)\n\nPROMPT OF THE WEEK — Compare and recommend\n\"Compare these [proposals/vendors/options] across cost, risk, time-to-value, and effort in a table. Recommend one and explain the trade-offs in two sentences.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation (In development)\nYou can now reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555891\n\nWORTH A READ\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n- What’s New in Notebooks | June 2026 — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 11, 2026)\n\nPROMPT OF THE WEEK — Compare and recommend\n\"Compare these [proposals/vendors/options] across cost, risk, time-to-value, and effort in a table. Recommend one and explain the trade-offs in two sentences.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Work IQ APIs: Pay-As-You-Go usage (In development)\nEnables metered, pay-as-you-go access to Work IQ endpoints, allowing developers to invoke agents and capabilities without requiring pre-assigned licenses, with usage billed based on the agents and models invoked per request.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559017\n\nWORTH A READ\n- Copilot in Excel: Built for the era of Frontier Finance — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W23",
