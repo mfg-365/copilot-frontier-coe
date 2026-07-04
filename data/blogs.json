@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T14:20:51.238Z",
+  "generatedAt": "2026-07-04T13:09:10.757Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -12,6 +12,49 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188",
+      "description": "Starting today, Anthropic's Claude Sonnet 5 is available in Microsoft 365 Copilot—a new frontier model rolling out in Copilot Cowork and PowerPoint, built for agentic, multi-step work across everyday work: documents, spreadsheets, and prese",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-07-02T15:55:25.000Z"
+    },
+    {
+      "title": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
+      "description": "Give every seller the customer and deal context they need, wherever work happens—helping them prepare faster, follow up sooner, and keep CRM data current. Built for the pace of modern selling, Sales Agent helps sellers quickly access the cu",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-07-02T15:00:00.000Z"
+    },
+    {
+      "title": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
+      "description": "Most of the work that matters doesn't happen in one place. A quarterly review, a win-loss analysis, an onboarding plan—each one draws on several systems, moves through several tools, and depends on someone holding the thread across all of t",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-06-30T15:30:00.000Z"
+    },
+    {
+      "title": "What’s New in Microsoft 365 Copilot | June 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-june-2026/ba-p/4529572",
+      "description": "Welcome to the June 2026 edition of What's New in Microsoft 365 Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and ef",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-06-30T15:30:00.000Z"
+    },
+    {
+      "title": "Copilot in Excel: Built for the era of Frontier Finance",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+      "description": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft 365 Blog .",
+      "categories": [
+        "AI",
+        "Work IQ"
+      ],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-06-25T12:00:00.000Z"
+    },
     {
       "title": "Copilot Cowork is now generally available",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
@@ -87,7 +130,7 @@
     {
       "title": "(Co)work in Progress",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
-      "description": "A complete record of milestones, launches, and newest innovations. Delegate complex work​ – Copilot Cowork is now GA Now generally available worldwide, Copilot Cowork is an agentic system that plans, executes, and delivers real work. Gettin",
+      "description": "A complete record of milestones, launches, and newest innovations. Customizing Cowork just got easier Skills are custom instructions that make Cowork work the way you do, and plugins help you expand into the systems you rely on every day — ",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-05-28T18:40:01.000Z"
@@ -236,54 +279,12 @@
       "date": "2026-05-05T10:00:00.000Z"
     },
     {
-      "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-      "description": "Microsoft Agent 365 helps you take control of agent sprawl as your control plane to observe, govern, and secure agents and their interactions. The post Microsoft Agent 365, now generally available, expands capabilities and integrations appe",
-      "categories": [
-        "Agents"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-05-01T12:00:00.000Z"
-    },
-    {
       "title": "Word: Legal Agent in Frontier",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/word-legal-agent-in-frontier/ba-p/4516218",
       "description": "Legal workflows demand precision and auditability. While general-purpose AI tools can assist with document review, they aren’t designed to follow the structured processes legal teams rely on to evaluate risk and maintain consistency. Buildi",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-04-30T16:37:29.000Z"
-    },
-    {
-      "title": "Microsoft 365 Copilot readiness and resiliency with SharePoint and M365 Backup/Archive",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/microsoft-365-copilot-readiness-and-resiliency-with-sharepoint/ba-p/4513048",
-      "description": "As AI becomes embedded in everyday work, governance shifts from being a back‑office function to a strategic enabler. Organizations that succeed with Copilot and agents aren’t just moving fast ( 70% of early Copilot users said they were more",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-04-30T12:07:12.000Z"
-    },
-    {
-      "title": "Copilot in OneNote now understands more of your notes",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-in-onenote-now-understands-more-of-your-notes/ba-p/4515922",
-      "description": "In Microsoft OneNote, you can use Copilot to reason over your notes to summarize content, extract key insights, and build on your ideas. We’ve improved the way Copilot responds to your queries in OneNote, making it easier to interact with y",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-04-29T17:09:55.000Z"
-    },
-    {
-      "title": "Available today: GPT-5.5 Thinking and ChatGPT Images 2.0 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-gpt-5-5-thinking-and-chatgpt-images-2-0-in/ba-p/4514243",
-      "description": "Today, we’re expanding what Microsoft 365 Copilot can do with GPT-5.5 Thinking and ChatGPT Images 2.0 bringing stronger support for deeper analysis, multi-step work, and visual creation. GPT-5.5 Thinking is now available in Copilot Studio e",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-04-27T15:33:18.000Z"
-    },
-    {
-      "title": "Available today: Anthropic Claude Opus 4.7 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-4-7-in-microsoft-365/ba-p/4511666",
-      "description": "Today we're expanding model choice in Microsoft 365 Copilot with the addition of Anthropic's latest model—Claude Opus 4.7—now available in Copilot Cowork (Frontier) and Copilot Studio early release cycle environments , and rolling out to Co",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-04-16T17:45:47.000Z"
     }
   ]
 }
