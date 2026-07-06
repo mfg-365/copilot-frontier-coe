@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-06-29T16:23:55.362Z",
-  "count": 7,
+  "generatedAt": "2026-07-06T16:00:20.981Z",
+  "count": 8,
   "editions": [
+    {
+      "id": "2026-W28",
+      "year": 2026,
+      "week": 28,
+      "dateLabel": "July 9, 2026",
+      "prompt": {
+        "title": "Build a project tracker",
+        "text": "From these notes, create a project plan: phases, key milestones with target dates, risks with mitigations, and a RACI for the core team. Output it as a table I can paste into a doc."
+      },
+      "tip": {
+        "app": "Loop / Pages",
+        "tip": "Promote a great Copilot answer into a Copilot Page, then @mention teammates to co-edit. It's the fastest way to turn an AI draft into shared, living team content."
+      },
+      "capability": {
+        "name": "Copilot Cowork",
+        "text": "Describe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
+      },
+      "roadmap": {
+        "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
+        "status": "In development",
+        "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This report provides insights into overall connector activity, and connector powered response patterns over time, along with detailed user-level connectors adoption data. With these analytics, admins can monitor adoption, identify usage patterns, and optimize Copilot experiences to drive greater value across their organization. #copilotcontrolsystem",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571"
+      },
+      "reads": [
+        {
+          "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188"
+        },
+        {
+          "title": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629"
+        }
+      ],
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 9, 2026)\n\nPROMPT OF THE WEEK — Build a project tracker\n\"From these notes, create a project plan: phases, key milestones with target dates, risks with mitigations, and a RACI for the core team. Output it as a table I can paste into a doc.\"\n\nCOPILOT IN LOOP / PAGES\nPromote a great Copilot answer into a Copilot Page, then @mention teammates to co-edit. It's the fastest way to turn an AI draft into shared, living team content.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors (In development)\nA new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This report provides insights into overall connector activity, and connector powered response patterns over time, along with detailed user-level connectors adoption data. With these analytics, admins can monitor adoption, identify usage patterns, and optimize Copilot experiences to drive greater value across their organization. #copilotcontrolsystem\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571\n\nWORTH A READ\n- Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188\n- Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+    },
     {
       "id": "2026-W27",
       "year": 2026,
@@ -21,22 +57,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Microsoft Purview: Data Lifecycle Management – Archive OneDrive and SharePoint files under retention",
+        "title": "Copilot improved long files navigation using document structure, enabling more accurate answers and clearer citations.",
         "status": "In development",
-        "description": "Retention based file archiving moves inactive content to low-cost storage, lowering costs without compromising on Compliance - while keeping data discoverable and Copilot results highly relevant.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208"
+        "description": "We’ve improved how Copilot reads long and complex files by making it more aware of document structure. When you ask a question, Copilot can now navigate to the most relevant parts of your document (for example, specific sections/pages) before answering—helping reduce missed details and improving confidence with clearer citations that are easier to trace back to the source.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559614"
       },
       "reads": [
         {
-          "title": "Copilot in Excel: Built for the era of Frontier Finance",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/"
+          "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188"
         },
         {
-          "title": "Copilot Cowork is now generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
+          "title": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 2, 2026)\n\nPROMPT OF THE WEEK — Find the signal in my inbox\n\"Review my unread email from the past week and group it into 'Needs my reply', 'FYI', and 'Can wait'. For the first group, draft a one-line suggested reply for each.\"\n\nCOPILOT IN COPILOT CHAT\nUse the work grounding to ask cross-app questions: 'What are the latest updates on [project] from my emails, chats, and files?' Then turn the answer into a Copilot Page to collaborate on it.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Purview: Data Lifecycle Management – Archive OneDrive and SharePoint files under retention (In development)\nRetention based file archiving moves inactive content to low-cost storage, lowering costs without compromising on Compliance - while keeping data discoverable and Copilot results highly relevant.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208\n\nWORTH A READ\n- Copilot in Excel: Built for the era of Frontier Finance — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 2, 2026)\n\nPROMPT OF THE WEEK — Find the signal in my inbox\n\"Review my unread email from the past week and group it into 'Needs my reply', 'FYI', and 'Can wait'. For the first group, draft a one-line suggested reply for each.\"\n\nCOPILOT IN COPILOT CHAT\nUse the work grounding to ask cross-app questions: 'What are the latest updates on [project] from my emails, chats, and files?' Then turn the answer into a Copilot Page to collaborate on it.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Copilot improved long files navigation using document structure, enabling more accurate answers and clearer citations. (In development)\nWe’ve improved how Copilot reads long and complex files by making it more aware of document structure. When you ask a question, Copilot can now navigate to the most relevant parts of your document (for example, specific sections/pages) before answering—helping reduce missed details and improving confidence with clearer citations that are easier to trace back to the source.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559614\n\nWORTH A READ\n- Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188\n- Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W26",
@@ -57,22 +93,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program"
       },
       "roadmap": {
-        "title": "Microsoft Purview: Data Lifecycle Management - Archive OneDrive and SharePoint files under retention",
+        "title": "Copilot in PowerPoint for Government clouds",
         "status": "In development",
-        "description": "Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345"
+        "description": "Copilot in PowerPoint lets you create, edit, and refine presentations through natural conversation, directly in your presentation. You can start a new presentation or build on an existing one, asking Copilot to generate slides, update content, improve layouts, and polish design—while preserving formatting, structure, and branding. Copilot uses your files, meetings, emails, and more to help shape content and iterate quickly, and it connects to your brand kit so you can apply branded templates, insert brand approved images, and check for brand compliance. Available to Microsoft 365 Copilot–licensed users.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561322"
       },
       "reads": [
         {
-          "title": "Copilot in Excel: Built for the era of Frontier Finance",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/"
+          "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188"
         },
         {
-          "title": "Copilot Cowork is now generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
+          "title": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 25, 2026)\n\nPROMPT OF THE WEEK — Draft, then sharpen\n\"Draft a [proposal/update/announcement] about [topic] for [audience]. Keep it under 200 words, confident and concrete. Then give me an alternate version that's more concise and one that's more persuasive.\"\n\nCOPILOT IN TEAMS\nDuring or after a meeting, ask Copilot to 'recap the key points', 'list action items and owners', or 'what was decided about [topic]?'. Catch up on long chats with 'summarize what I missed'.\n\nFRONTIER SPOTLIGHT — Researcher\nA reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program\n\nON THE ROADMAP — Microsoft Purview: Data Lifecycle Management - Archive OneDrive and SharePoint files under retention (In development)\nRetention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345\n\nWORTH A READ\n- Copilot in Excel: Built for the era of Frontier Finance — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 25, 2026)\n\nPROMPT OF THE WEEK — Draft, then sharpen\n\"Draft a [proposal/update/announcement] about [topic] for [audience]. Keep it under 200 words, confident and concrete. Then give me an alternate version that's more concise and one that's more persuasive.\"\n\nCOPILOT IN TEAMS\nDuring or after a meeting, ask Copilot to 'recap the key points', 'list action items and owners', or 'what was decided about [topic]?'. Catch up on long chats with 'summarize what I missed'.\n\nFRONTIER SPOTLIGHT — Researcher\nA reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program\n\nON THE ROADMAP — Copilot in PowerPoint for Government clouds (In development)\nCopilot in PowerPoint lets you create, edit, and refine presentations through natural conversation, directly in your presentation. You can start a new presentation or build on an existing one, asking Copilot to generate slides, update content, improve layouts, and polish design—while preserving formatting, structure, and branding. Copilot uses your files, meetings, emails, and more to help shape content and iterate quickly, and it connects to your brand kit so you can apply branded templates, insert brand approved images, and check for brand compliance. Available to Microsoft 365 Copilot–licensed users.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561322\n\nWORTH A READ\n- Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188\n- Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W25",
@@ -93,22 +129,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Planner Agent in Microsoft 365 Copilot",
+        "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App (iOS)",
         "status": "In development",
-        "description": "Planner agent in Microsoft 365 will help you plan, organize, and manage work more efficiently. We’re starting with core task and plan management features to simplify project tracking and will introduce additional advanced project management capabilities over time. Updated May 21, 2026: We previously launched in Preview and GA is expected in June. We apologize for any inconvenience.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516576"
+        "description": "Copilot Notebooks in the Microsoft 365 Copilot app (iOS) now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566318"
       },
       "reads": [
         {
-          "title": "Copilot in Excel: Built for the era of Frontier Finance",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/"
+          "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188"
         },
         {
-          "title": "Copilot Cowork is now generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
+          "title": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 18, 2026)\n\nPROMPT OF THE WEEK — Prep me for a 1:1\n\"Using our recent emails, chats, and shared files, prepare me for my 1:1 with [name]. Summarize what we last agreed, what's outstanding, and suggest three thoughtful questions to ask.\"\n\nCOPILOT IN OUTLOOK\nTry 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send.\n\nFRONTIER SPOTLIGHT — Agentic Copilot in Outlook\nCopilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Planner Agent in Microsoft 365 Copilot (In development)\nPlanner agent in Microsoft 365 will help you plan, organize, and manage work more efficiently. We’re starting with core task and plan management features to simplify project tracking and will introduce additional advanced project management capabilities over time. Updated May 21, 2026: We previously launched in Preview and GA is expected in June. We apologize for any inconvenience.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516576\n\nWORTH A READ\n- Copilot in Excel: Built for the era of Frontier Finance — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 18, 2026)\n\nPROMPT OF THE WEEK — Prep me for a 1:1\n\"Using our recent emails, chats, and shared files, prepare me for my 1:1 with [name]. Summarize what we last agreed, what's outstanding, and suggest three thoughtful questions to ask.\"\n\nCOPILOT IN OUTLOOK\nTry 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send.\n\nFRONTIER SPOTLIGHT — Agentic Copilot in Outlook\nCopilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App (iOS) (In development)\nCopilot Notebooks in the Microsoft 365 Copilot app (iOS) now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566318\n\nWORTH A READ\n- Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188\n- Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W24",
