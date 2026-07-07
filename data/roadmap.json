@@ -1,13 +1,110 @@
 {
-  "generatedAt": "2026-07-04T13:09:10.584Z",
+  "generatedAt": "2026-07-07T14:14:48.467Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 725,
+  "totalCopilotFeatures": 717,
   "counts": {
-    "inDevelopment": 35,
-    "rollingOut": 8,
-    "launched": 17
+    "inDevelopment": 37,
+    "rollingOut": 9,
+    "launched": 14
   },
   "items": [
+    {
+      "id": 567121,
+      "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 admin center - Usage reports - Copilot Chat for GCC, GCC High and DoD",
+      "description": "We will be introducing a new Usage report covering Copilot Chat. This report will include total active users, Copilot Chat usage with a breakout per Microsoft 365 app, and user-level activity insights (anonymized by default). #copilotcontrolsystem",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-07-06T23:00:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567121"
+    },
+    {
+      "id": 567120,
+      "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 admin center – New Microsoft 365 Copilot usage report for GCC High & DoD",
+      "description": "We will be introducing a new Usage report covering Microsoft 365 Copilot. This report will include total enabled and active users, Copilot usage with a breakout per Microsoft 365 app, and user-level activity insights (anonymized by default). #copilotcontrolsystem",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-07-06T23:00:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567120"
+    },
+    {
+      "id": 562662,
+      "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App",
+      "description": "The new Copilot Notebooks design in the Microsoft 365 Copilot app now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. While this is the quicker, light-weight Notebooks experience, you can still find the fuller, workspace-forward experience in OneNote.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft 365 app"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview",
+        "Targeted Release"
+      ],
+      "availability": "July CY2026",
+      "preview": "June CY2026",
+      "modified": "2026-07-06T23:00:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562662"
+    },
+    {
+      "id": 502532,
+      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] [Search UX] Enable customization of icon & name for data sources in Search (& chat)",
+      "description": "Enable customization of icon & name for data sources in Search (& chat).",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-07-06T23:00:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=502532"
+    },
+    {
+      "id": 421612,
+      "title": "Microsoft 365 app: Microsoft Loop - Departed user content workflows for user-owned Loop workspaces",
+      "description": "Manage retention and deletion workflows for user-owned Loop workspaces like Copilot Pages when users leave the organization. Notify and provide temporary access to other employees or administrators to save important data before deletion policies take effect.",
+      "status": "Launched",
+      "products": [
+        "Microsoft 365 app"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "April CY2026",
+      "preview": "",
+      "modified": "2026-07-06T23:00:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=421612"
+    },
     {
       "id": 566997,
       "title": "Microsoft Copilot Studio: Block the use of maker-provided credentials for authentication",
@@ -153,25 +250,6 @@
       "preview": "",
       "modified": "2026-07-02T23:12:48",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=502529"
-    },
-    {
-      "id": 502532,
-      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] [Search UX] Enable customization of icon & name for data sources in Search (& chat)",
-      "description": "Enable customization of icon & name for data sources in Search (& chat).",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-07-02T23:12:48",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=502532"
     },
     {
       "id": 566998,
@@ -1175,97 +1253,6 @@
       "preview": "",
       "modified": "2026-06-19T22:15:36",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557981"
-    },
-    {
-      "id": 559418,
-      "title": "Outlook: Copilot provides coaching feedback in chat as you draft, edit and format emails",
-      "description": "Copilot now provides coaching feedback on email drafts via chat and can apply suggestions directly to your message in Outlook. Users have the option to choose which suggestions are applied, and Copilot updates your email in place.",
-      "status": "Launched",
-      "products": [
-        "Outlook",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "May CY2026",
-      "preview": "",
-      "modified": "2026-06-18T23:00:06",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559418"
-    },
-    {
-      "id": 558938,
-      "title": "Microsoft Copilot (Microsoft 365): Create PowerPoint presentations from Copilot Notebooks",
-      "description": "Copilot Notebooks enables users to generate PowerPoint presentations directly from the content and references collected in a notebook. Using the notebook’s curated context, Copilot creates a structured, editable slide deck that users can open and refine in PowerPoint, helping turn research, notes, and insights into shareable presentations more quickly.",
-      "status": "Launched",
-      "products": [
-        "Microsoft 365",
-        "OneNote",
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "May CY2026",
-      "preview": "March CY2026",
-      "modified": "2026-06-18T23:00:06",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558938"
-    },
-    {
-      "id": 554936,
-      "title": "Outlook: Copilot Chat available in shared and delegate mailboxes",
-      "description": "Shared mailbox users and delegates with Read and manage (full access), and/or mail folder-level permission will now be able to access Copilot Chat directly from their shared and delegate mailboxes in new Outlook.",
-      "status": "Launched",
-      "products": [
-        "Outlook"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "March CY2026",
-      "preview": "",
-      "modified": "2026-06-17T23:15:06",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=554936"
-    },
-    {
-      "id": 543421,
-      "title": "Microsoft Copilot (Microsoft 365): PowerPoint Agent",
-      "description": "PowerPoint Agent helps you build polished presentations with strong storytelling and visual structure. It streamlines research, formatting, and layout so you can stay focused on your message. Use multi-turn chat to refine content or open the deck in PowerPoint for full editing and collaboration. Ideal for executive presentations, strategic updates, and market overviews. Available to Microsoft 365 users with or without a Microsoft 365 Copilot license.",
-      "status": "Launched",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "March CY2026",
-      "preview": "November CY2025",
-      "modified": "2026-06-17T23:15:06",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=543421"
     }
   ]
 }
