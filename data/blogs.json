@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T13:28:15.651Z",
+  "generatedAt": "2026-07-19T13:01:49.268Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -12,6 +12,14 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "Join Us Live: Understanding Copilot Cowork and Managing Copilot Credits",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-us-live-understanding-copilot-cowork-and-managing-copilot/ba-p/4537935",
+      "description": "The way we work with AI is evolving rapidly, and so is the way organizations manage and scale those experiences. If you're exploring Copilot Cowork , navigating Copilot Credits , or looking for guidance on consumption-based AI experiences, ",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-07-16T16:36:52.000Z"
+    },
     {
       "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
@@ -138,7 +146,7 @@
     {
       "title": "(Co)work in Progress",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
-      "description": "A complete record of milestones, launches, and newest innovations. Starting today, OpenAI's GPT-5.6 family of models is available in Microsoft 365 Copilot Cowork. OpenAI and Microsoft partnered together to optimize GPT-5.6 for knowledge wor",
+      "description": "A complete record of milestones, launches, and newest innovations. Introducing event-triggered tasks in Cowork: delegate the watching, not just the work Scheduled tasks handle the predictable. But most of what matters at work doesn't run on",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-05-28T18:40:01.000Z"
@@ -215,14 +223,6 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-05-19T22:53:07.000Z"
-    },
-    {
-      "title": "What’s New in Microsoft 365 Copilot | April 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-april-2026/ba-p/4510935",
-      "description": "Welcome to the April 2026 edition of What's new in Microsoft 365 Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 admins up to date with Copilot features that help your users be more productive and effi",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-05-13T18:08:00.000Z"
     },
     {
       "title": "How Workday and Microsoft are redefining the agentic workplace",
