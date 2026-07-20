@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-07-13T15:22:23.806Z",
-  "count": 9,
+  "generatedAt": "2026-07-20T14:38:27.915Z",
+  "count": 10,
   "editions": [
+    {
+      "id": "2026-W30",
+      "year": 2026,
+      "week": 30,
+      "dateLabel": "July 23, 2026",
+      "prompt": {
+        "title": "Stress-test my thinking",
+        "text": "Act as a skeptical reviewer. Here is my plan for [topic]. Identify the three weakest assumptions, what could go wrong, and what evidence would change your mind."
+      },
+      "tip": {
+        "app": "Word",
+        "tip": "Ask Copilot to 'draft a [document type] from these bullet points', then 'add a section on [topic]' and 'rewrite the intro to be more concise'. Reference an existing file with the / command to ground it in your own content."
+      },
+      "capability": {
+        "name": "Microsoft Scout",
+        "text": "An AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
+      },
+      "roadmap": {
+        "title": "Enrich Sales agent meeting prep with more data sources",
+        "status": "In development",
+        "description": "Walking into a customer meeting with incomplete context can mean missed risks, overlooked issues, and conversations that fall flat. With access to richer data, like service tickets, directly in your meeting prep, you can spot open issues and opportunities before the conversation starts. This insight helps you engage more meaningfully, build stronger relationships, and drive better sales outcomes.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567003"
+      },
+      "reads": [
+        {
+          "title": "Join Us Live: Understanding Copilot Cowork and Managing Copilot Credits",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-us-live-understanding-copilot-cowork-and-managing-copilot/ba-p/4537935"
+        },
+        {
+          "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152"
+        }
+      ],
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 23, 2026)\n\nPROMPT OF THE WEEK — Stress-test my thinking\n\"Act as a skeptical reviewer. Here is my plan for [topic]. Identify the three weakest assumptions, what could go wrong, and what evidence would change your mind.\"\n\nCOPILOT IN WORD\nAsk Copilot to 'draft a [document type] from these bullet points', then 'add a section on [topic]' and 'rewrite the intro to be more concise'. Reference an existing file with the / command to ground it in your own content.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Enrich Sales agent meeting prep with more data sources (In development)\nWalking into a customer meeting with incomplete context can mean missed risks, overlooked issues, and conversations that fall flat. With access to richer data, like service tickets, directly in your meeting prep, you can spot open issues and opportunities before the conversation starts. This insight helps you engage more meaningfully, build stronger relationships, and drive better sales outcomes.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567003\n\nWORTH A READ\n- Join Us Live: Understanding Copilot Cowork and Managing Copilot Credits — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-us-live-understanding-copilot-cowork-and-managing-copilot/ba-p/4537935\n- Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+    },
     {
       "id": "2026-W29",
       "year": 2026,
@@ -21,22 +57,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Engage prospects faster with Sales Agent-enriched leads",
+        "title": "Link meetings to CRM records automatically with AI",
         "status": "In development",
-        "description": "To reach their sales goals, sales teams need to constantly generate enough pipeline. They need to decide which inbound leads to engage. This decision takes a lot of time because sellers must sift through large amounts of data across tools and data sources. This data includes information from internal systems like their CRM and external resources like the web and third-party data services. Sales Agent handles the work of reviewing every available data source to create a comprehensive summary for each lead. As a seller, you can quickly decide whether to engage with a prospect or pass on them. Sales Agent reviews every lead in your queue and gathers information. It synthesizes insights that are specific to your business. At a glance, you can see if a lead is worth reaching out to and what they're interested in. Use this information to personalize your engagement with the prospect. With Sales Agent, you spend less time and get higher response rates, leading to a larger, more qualified pipeline.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567000"
+        "description": "This feature saves you time by automatically connecting your meetings to the correct CRM records. You have the right deal insights at your fingertips when preparing for customer conversations, so you can focus less on updating records and more on selling with confidence and context.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567004"
       },
       "reads": [
         {
-          "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152"
+          "title": "Join Us Live: Understanding Copilot Cowork and Managing Copilot Credits",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-us-live-understanding-copilot-cowork-and-managing-copilot/ba-p/4537935"
         },
         {
-          "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188"
+          "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 16, 2026)\n\nPROMPT OF THE WEEK — Catch me up\n\"I've been out for [N] days. Catch me up on [project/channel]: what changed, what decisions were made, what needs my attention, and anything I was @mentioned in.\"\n\nCOPILOT IN ONENOTE\nAsk Copilot to 'summarize my notes from this section', 'turn these notes into a to-do list', or 'draft a plan based on this brainstorm' to convert messy notes into structured next steps.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Engage prospects faster with Sales Agent-enriched leads (In development)\nTo reach their sales goals, sales teams need to constantly generate enough pipeline. They need to decide which inbound leads to engage. This decision takes a lot of time because sellers must sift through large amounts of data across tools and data sources. This data includes information from internal systems like their CRM and external resources like the web and third-party data services. Sales Agent handles the work of reviewing every available data source to create a comprehensive summary for each lead. As a seller, you can quickly decide whether to engage with a prospect or pass on them. Sales Agent reviews every lead in your queue and gathers information. It synthesizes insights that are specific to your business. At a glance, you can see if a lead is worth reaching out to and what they're interested in. Use this information to personalize your engagement with the prospect. With Sales Agent, you spend less time and get higher response rates, leading to a larger, more qualified pipeline.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567000\n\nWORTH A READ\n- Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152\n- Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 16, 2026)\n\nPROMPT OF THE WEEK — Catch me up\n\"I've been out for [N] days. Catch me up on [project/channel]: what changed, what decisions were made, what needs my attention, and anything I was @mentioned in.\"\n\nCOPILOT IN ONENOTE\nAsk Copilot to 'summarize my notes from this section', 'turn these notes into a to-do list', or 'draft a plan based on this brainstorm' to convert messy notes into structured next steps.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Link meetings to CRM records automatically with AI (In development)\nThis feature saves you time by automatically connecting your meetings to the correct CRM records. You have the right deal insights at your fingertips when preparing for customer conversations, so you can focus less on updating records and more on selling with confidence and context.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567004\n\nWORTH A READ\n- Join Us Live: Understanding Copilot Cowork and Managing Copilot Credits — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-us-live-understanding-copilot-cowork-and-managing-copilot/ba-p/4537935\n- Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W28",
@@ -57,22 +93,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Engage customers across multiple channels (web, voice, SMS & email)",
+        "title": "Deep citations in Copilot",
         "status": "In development",
-        "description": "A multi-channel outreach capability, spanning web chat, voice, SMS, and email, is critical for meeting customers in the channel they naturally prefer and increasing the likelihood of timely engagement. By activating the agent across multiple surfaces, we ensure continuity of conversations, reduce drop-off when a single channel fails, and support the FY27 goal of always-on, end-to-end engagement from initial intent to close. This creates higher response rates, faster qualification, and a more seamless handoff to sales motions.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567001"
+        "description": "Deep citations let users quickly verify Copilot's results by linking directly to the relevant part of the reference, boosting trust. We're starting with Word and PPT files, then adding Meetings, Web, and PDF references.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=523223"
       },
       "reads": [
         {
-          "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152"
+          "title": "Join Us Live: Understanding Copilot Cowork and Managing Copilot Credits",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-us-live-understanding-copilot-cowork-and-managing-copilot/ba-p/4537935"
         },
         {
-          "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188"
+          "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 9, 2026)\n\nPROMPT OF THE WEEK — Build a project tracker\n\"From these notes, create a project plan: phases, key milestones with target dates, risks with mitigations, and a RACI for the core team. Output it as a table I can paste into a doc.\"\n\nCOPILOT IN LOOP / PAGES\nPromote a great Copilot answer into a Copilot Page, then @mention teammates to co-edit. It's the fastest way to turn an AI draft into shared, living team content.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Engage customers across multiple channels (web, voice, SMS & email) (In development)\nA multi-channel outreach capability, spanning web chat, voice, SMS, and email, is critical for meeting customers in the channel they naturally prefer and increasing the likelihood of timely engagement. By activating the agent across multiple surfaces, we ensure continuity of conversations, reduce drop-off when a single channel fails, and support the FY27 goal of always-on, end-to-end engagement from initial intent to close. This creates higher response rates, faster qualification, and a more seamless handoff to sales motions.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567001\n\nWORTH A READ\n- Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152\n- Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 9, 2026)\n\nPROMPT OF THE WEEK — Build a project tracker\n\"From these notes, create a project plan: phases, key milestones with target dates, risks with mitigations, and a RACI for the core team. Output it as a table I can paste into a doc.\"\n\nCOPILOT IN LOOP / PAGES\nPromote a great Copilot answer into a Copilot Page, then @mention teammates to co-edit. It's the fastest way to turn an AI draft into shared, living team content.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Deep citations in Copilot (In development)\nDeep citations let users quickly verify Copilot's results by linking directly to the relevant part of the reference, boosting trust. We're starting with Word and PPT files, then adding Meetings, Web, and PDF references.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=523223\n\nWORTH A READ\n- Join Us Live: Understanding Copilot Cowork and Managing Copilot Credits — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-us-live-understanding-copilot-cowork-and-managing-copilot/ba-p/4537935\n- Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W27",
@@ -93,22 +129,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Add custom insights to record summaries in Sales agent",
+        "title": "Support for MCP Agents with Interactive UI Widgets in Government Clouds",
         "status": "In development",
-        "description": "Sales agent gives you strong CRM-based account and opportunity summaries, but important context is often spread across non-CRM systems. With this capability, you can add insights from any application to enrich account and opportunity summaries in Sales agent, so sellers get a unified view of their accounts and deals in one place without switching applications.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567002"
+        "description": "Feature description: Model Context Protocol (MCP) based agents in Microsoft 365 Copilot Chat will now be able to surface rich, interactive UI widgets directly within chat. This enhancement enables developers to deliver more engaging and structured agent interactions. Users will experience these widgets when interacting with agents that implement them, and admins will continue to manage these agents through the Microsoft 365 Admin Center.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=564608"
       },
       "reads": [
         {
-          "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152"
+          "title": "Join Us Live: Understanding Copilot Cowork and Managing Copilot Credits",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-us-live-understanding-copilot-cowork-and-managing-copilot/ba-p/4537935"
         },
         {
-          "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188"
+          "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 2, 2026)\n\nPROMPT OF THE WEEK — Find the signal in my inbox\n\"Review my unread email from the past week and group it into 'Needs my reply', 'FYI', and 'Can wait'. For the first group, draft a one-line suggested reply for each.\"\n\nCOPILOT IN COPILOT CHAT\nUse the work grounding to ask cross-app questions: 'What are the latest updates on [project] from my emails, chats, and files?' Then turn the answer into a Copilot Page to collaborate on it.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Add custom insights to record summaries in Sales agent (In development)\nSales agent gives you strong CRM-based account and opportunity summaries, but important context is often spread across non-CRM systems. With this capability, you can add insights from any application to enrich account and opportunity summaries in Sales agent, so sellers get a unified view of their accounts and deals in one place without switching applications.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567002\n\nWORTH A READ\n- Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152\n- Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 2, 2026)\n\nPROMPT OF THE WEEK — Find the signal in my inbox\n\"Review my unread email from the past week and group it into 'Needs my reply', 'FYI', and 'Can wait'. For the first group, draft a one-line suggested reply for each.\"\n\nCOPILOT IN COPILOT CHAT\nUse the work grounding to ask cross-app questions: 'What are the latest updates on [project] from my emails, chats, and files?' Then turn the answer into a Copilot Page to collaborate on it.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Support for MCP Agents with Interactive UI Widgets in Government Clouds (In development)\nFeature description: Model Context Protocol (MCP) based agents in Microsoft 365 Copilot Chat will now be able to surface rich, interactive UI widgets directly within chat. This enhancement enables developers to deliver more engaging and structured agent interactions. Users will experience these widgets when interacting with agents that implement them, and admins will continue to manage these agents through the Microsoft 365 Admin Center.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=564608\n\nWORTH A READ\n- Join Us Live: Understanding Copilot Cowork and Managing Copilot Credits — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-us-live-understanding-copilot-cowork-and-managing-copilot/ba-p/4537935\n- Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W26",
