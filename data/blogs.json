@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T13:27:56.076Z",
+  "generatedAt": "2026-07-25T13:09:43.540Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -12,6 +12,22 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524",
+      "description": "Today we’re expanding model choice in Microsoft 365 Copilot with the addition of Anthropic’s latest model—Claude Opus 5. Claude Opus 5 is the newest model in Anthropic’s Opus family. Designed to be used every day for complex, multi-step wor",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-07-24T21:11:08.000Z"
+    },
+    {
+      "title": "1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/1-million-documents-to-300-agents-building-an-enterprise-scale/ba-p/4540155",
+      "description": "1 million documents. 100,000+ monthly users. 300+ Copilot Studio agents. Here's what we learned building the Microsoft 365 Copilot connector behind them. Most enterprise knowledge lives in portals and repositories that people trust but rare",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-07-23T18:57:12.000Z"
+    },
     {
       "title": "Join Us Live: Understanding Copilot Cowork and Managing Copilot Credits",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-us-live-understanding-copilot-cowork-and-managing-copilot/ba-p/4537935",
@@ -144,14 +160,6 @@
       "date": "2026-05-29T20:43:08.000Z"
     },
     {
-      "title": "(Co)work in Progress",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
-      "description": "A complete record of milestones, launches, and newest innovations. Introducing event-triggered tasks in Cowork: delegate the watching, not just the work Scheduled tasks handle the predictable. But most of what matters at work doesn't run on",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-05-28T18:40:01.000Z"
-    },
-    {
       "title": "Available today: Anthropic Claude Opus 4.8 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-4-8-in-microsoft-365/ba-p/4523405",
       "description": "Today we’re expanding model choice in Microsoft 365 Copilot with the addition of Anthropic’s latest model—Claude Opus 4.8. Available now in Copilot Cowork (Frontier) and rolling out to Copilot Chat, Excel, PowerPoint, and Copilot Studio. Op",
@@ -250,14 +258,6 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-05-07T18:42:35.000Z"
-    },
-    {
-      "title": "Federated Copilot connectors - bringing real-time enterprise data within Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/federated-copilot-connectors-bringing-real-time-enterprise-data/ba-p/4515993",
-      "description": "Microsoft 365 Copilot leverages Copilot connectors with sync capabilities that can further enrich Work IQ and unify enterprise knowledge across hundreds of SaaS systems into a single, coherent enterprise knowledge base in your Microsoft 365",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-05-05T18:57:54.000Z"
     },
     {
       "title": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
