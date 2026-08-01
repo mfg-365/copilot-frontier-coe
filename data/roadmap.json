@@ -1,13 +1,128 @@
 {
-  "generatedAt": "2026-07-31T13:48:50.864Z",
+  "generatedAt": "2026-08-01T13:03:51.191Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
   "totalCopilotFeatures": 696,
   "counts": {
-    "inDevelopment": 43,
+    "inDevelopment": 44,
     "rollingOut": 4,
-    "launched": 13
+    "launched": 12
   },
   "items": [
+    {
+      "id": 566322,
+      "title": "OneNote: Multimodal capture in Copilot Notebooks (Windows)",
+      "description": "Capture on Windows helps you bring conversations and ideas from meetings, brainstorming sessions, and everyday work into Copilot Notebooks. Capture audio, images, and notes in one experience, then let Copilot turn them into structured notes with key insights, decisions, and action items, in a Copilot Notebook of your choice",
+      "status": "In development",
+      "products": [
+        "OneNote",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-31T21:54:12",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566322"
+    },
+    {
+      "id": 560823,
+      "title": "Microsoft Edge: Work Search Banner for Google",
+      "description": "When a user performs a search on google.com from a work profile, Microsoft Edge can detect whether organization-specific results are available for that query. When relevant results are found, a banner is shown with a link to explore those work results with Microsoft 365 Copilot. This builds on the existing experience already available on Bing and extends it to Google, helping users seamlessly access work-related information regardless of their search engine. Admins can control access to this feature using the EdgeWorkSearchBannerEnabled policy.",
+      "status": "In development",
+      "products": [
+        "Microsoft Edge"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-07-31T21:54:12",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560823"
+    },
+    {
+      "id": 557561,
+      "title": "Microsoft Edge: Auto-open Copilot side pane for Outlook links",
+      "description": "When users open links from Outlook, Microsoft Edge can automatically open the Copilot side pane to provide contextual insights and actionable suggestion chips based on email and destination content - such as highlighting key points, and recommending next actions - without disrupting the browsing flow. This experience helps users quickly understand content, take action with fewer steps, and get more value from Copilot while extending productive browsing time in Edge. Admins can control availability to this feature using the M365LinksAutoOpenCopilotEnabled policy.",
+      "status": "In development",
+      "products": [
+        "Microsoft Edge"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-07-31T21:54:12",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557561"
+    },
+    {
+      "id": 503772,
+      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users in DoD will be able to use custom engine agents",
+      "description": "Users in DoD will be able to use custom engine agents.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2025",
+      "preview": "",
+      "modified": "2026-07-31T21:54:12",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503772"
+    },
+    {
+      "id": 503771,
+      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users in GCC-H will be able to use custom engine agents",
+      "description": "Users in GCC-H will be able to use custom engine agents.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-31T21:54:12",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503771"
+    },
+    {
+      "id": 501111,
+      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users in GCC-M will able to use custom engine agents",
+      "description": "Users in GCC-M will be able to use custom engine agents.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-31T21:54:12",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=501111"
+    },
     {
       "id": 558933,
       "title": "Microsoft Teams: AI-generated meeting archive for knowledge retention",
@@ -526,25 +641,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=497844"
     },
     {
-      "id": 501111,
-      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users in GCC-M will able to use custom engine agents",
-      "description": "Users in GCC-M will be able to use custom engine agents.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2025",
-      "preview": "",
-      "modified": "2026-07-28T22:43:45",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=501111"
-    },
-    {
       "id": 380842,
       "title": "Microsoft Copilot (Microsoft 365): Referenced sources are cited in drafted content",
       "description": "When drafting content using the inline canvas Copilot experience that's based on referenced sources, Copilot includes citations in the text it generates, indicating references to information in the content.",
@@ -766,25 +862,6 @@
       "preview": "",
       "modified": "2026-07-22T22:41:54",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567007"
-    },
-    {
-      "id": 503772,
-      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users in DoD will be able to use custom engine agents",
-      "description": "Users in DoD will be able to use custom engine agents.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "July CY2025",
-      "preview": "",
-      "modified": "2026-07-22T22:41:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503772"
     },
     {
       "id": 537281,
@@ -1166,89 +1243,6 @@
       "preview": "August CY2026",
       "modified": "2026-07-16T23:08:19",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566703"
-    },
-    {
-      "id": 567667,
-      "title": "Microsoft Viva: Copilot Analytics - Agent 365 Dashboard in Insights",
-      "description": "Customers can now access their Agent 365 data through the Agent Dashboard in Copilot Analytics (Insights), enabling leaders to understand activity across all agents registered through Agent 365. Customers with Agent 365 and Copilot will now see the Agent 365 Dashboard with the ability to view historical data in Agent Dashboard.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "July CY2026",
-      "preview": "",
-      "modified": "2026-07-15T22:55:27",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567667"
-    },
-    {
-      "id": 567458,
-      "title": "Microsoft Teams: Multilingual recap available with translation button",
-      "description": "After meeting recap is automatically generated in the translation language chosen during the meeting, users can continue to change the language of the meeting recap after its generated.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-15T22:55:27",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567458"
-    },
-    {
-      "id": 561920,
-      "title": "Microsoft Copilot (Microsoft 365): SharePoint list support in Agent Builder",
-      "description": "Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Support for list attachments and lookup columns is not yet available.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-07-15T22:55:27",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561920"
-    },
-    {
-      "id": 560705,
-      "title": "Microsoft Viva: Copilot Analytics - Power user insights in Copilot dashboard",
-      "description": "Understand who is building a habit using Copilot with the new power user insights in Copilot dashboard",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-15T22:55:27",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560705"
     }
   ]
 }
