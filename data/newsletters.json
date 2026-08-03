@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-07-27T15:24:20.244Z",
-  "count": 11,
+  "generatedAt": "2026-08-03T15:25:05.689Z",
+  "count": 12,
   "editions": [
+    {
+      "id": "2026-W32",
+      "year": 2026,
+      "week": 32,
+      "dateLabel": "August 6, 2026",
+      "prompt": {
+        "title": "Data to narrative",
+        "text": "Look at this spreadsheet and tell me the three most important trends. Explain what's driving each one and suggest a chart that would communicate it best to leadership."
+      },
+      "tip": {
+        "app": "PowerPoint",
+        "tip": "Turn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast."
+      },
+      "capability": {
+        "name": "Researcher",
+        "text": "A reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program"
+      },
+      "roadmap": {
+        "title": "Microsoft Teams: AI-generated meeting archive for knowledge retention",
+        "status": "In development",
+        "description": "Admins can enable a tenant-wide policy that allows Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods. This enables Copilot to continue answering questions about past meetings even after transcripts expire. Admins can also configure how long this AI-generated meeting archive is stored.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933"
+      },
+      "reads": [
+        {
+          "title": "More control over web grounding with Domain Exclusion for Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151"
+        },
+        {
+          "title": "Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524"
+        }
+      ],
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 6, 2026)\n\nPROMPT OF THE WEEK — Data to narrative\n\"Look at this spreadsheet and tell me the three most important trends. Explain what's driving each one and suggest a chart that would communicate it best to leadership.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Researcher\nA reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program\n\nON THE ROADMAP — Microsoft Teams: AI-generated meeting archive for knowledge retention (In development)\nAdmins can enable a tenant-wide policy that allows Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods. This enables Copilot to continue answering questions about past meetings even after transcripts expire. Admins can also configure how long this AI-generated meeting archive is stored.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933\n\nWORTH A READ\n- More control over web grounding with Domain Exclusion for Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151\n- Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+    },
     {
       "id": "2026-W31",
       "year": 2026,
@@ -21,22 +57,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "[Copilot Extensibility]​​[Search UX] Rich entity representation for connectors in Search results",
+        "title": "[Copilot Extensibility] Users in GCC-M will able to use custom engine agents",
         "status": "In development",
-        "description": "Rich entity representation for connectors in Search results.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=502533"
+        "description": "Users in GCC-M will be able to use custom engine agents.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=501111"
       },
       "reads": [
         {
-          "title": "Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524"
+          "title": "More control over web grounding with Domain Exclusion for Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151"
         },
         {
-          "title": "1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/1-million-documents-to-300-agents-building-an-enterprise-scale/ba-p/4540155"
+          "title": "Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 30, 2026)\n\nPROMPT OF THE WEEK — Role-based onboarding\n\"Create a 30-day onboarding checklist for a new [role] on my team, including who they should meet, what systems they need, and three quick wins for their first two weeks.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Agentic Copilot in Outlook\nCopilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — [Copilot Extensibility]​​[Search UX] Rich entity representation for connectors in Search results (In development)\nRich entity representation for connectors in Search results.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=502533\n\nWORTH A READ\n- Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524\n- 1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/1-million-documents-to-300-agents-building-an-enterprise-scale/ba-p/4540155\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 30, 2026)\n\nPROMPT OF THE WEEK — Role-based onboarding\n\"Create a 30-day onboarding checklist for a new [role] on my team, including who they should meet, what systems they need, and three quick wins for their first two weeks.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Agentic Copilot in Outlook\nCopilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — [Copilot Extensibility] Users in GCC-M will able to use custom engine agents (In development)\nUsers in GCC-M will be able to use custom engine agents.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=501111\n\nWORTH A READ\n- More control over web grounding with Domain Exclusion for Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151\n- Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W30",
@@ -57,22 +93,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Edit with Copilot in Excel (Web, Win32, Mac) - GCC",
+        "title": "[Copilot Extensibility] Users in GCC-H will be able to use custom engine agents",
         "status": "In development",
-        "description": "Edit with Copilot lets you build and edit workbooks side by side with Copilot. When you're updating budgets, creating financial models, or analyzing data, Copilot uses Excel's most powerful tools like tables, charts, PivotTables, and formulas to help you get the job done.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=542181"
+        "description": "Users in GCC-H will be able to use custom engine agents.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503771"
       },
       "reads": [
         {
-          "title": "Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524"
+          "title": "More control over web grounding with Domain Exclusion for Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151"
         },
         {
-          "title": "1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/1-million-documents-to-300-agents-building-an-enterprise-scale/ba-p/4540155"
+          "title": "Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 23, 2026)\n\nPROMPT OF THE WEEK — Stress-test my thinking\n\"Act as a skeptical reviewer. Here is my plan for [topic]. Identify the three weakest assumptions, what could go wrong, and what evidence would change your mind.\"\n\nCOPILOT IN WORD\nAsk Copilot to 'draft a [document type] from these bullet points', then 'add a section on [topic]' and 'rewrite the intro to be more concise'. Reference an existing file with the / command to ground it in your own content.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Edit with Copilot in Excel (Web, Win32, Mac) - GCC (In development)\nEdit with Copilot lets you build and edit workbooks side by side with Copilot. When you're updating budgets, creating financial models, or analyzing data, Copilot uses Excel's most powerful tools like tables, charts, PivotTables, and formulas to help you get the job done.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=542181\n\nWORTH A READ\n- Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524\n- 1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/1-million-documents-to-300-agents-building-an-enterprise-scale/ba-p/4540155\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 23, 2026)\n\nPROMPT OF THE WEEK — Stress-test my thinking\n\"Act as a skeptical reviewer. Here is my plan for [topic]. Identify the three weakest assumptions, what could go wrong, and what evidence would change your mind.\"\n\nCOPILOT IN WORD\nAsk Copilot to 'draft a [document type] from these bullet points', then 'add a section on [topic]' and 'rewrite the intro to be more concise'. Reference an existing file with the / command to ground it in your own content.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — [Copilot Extensibility] Users in GCC-H will be able to use custom engine agents (In development)\nUsers in GCC-H will be able to use custom engine agents.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503771\n\nWORTH A READ\n- More control over web grounding with Domain Exclusion for Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151\n- Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W29",
@@ -93,22 +129,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Capture voice notes in the Microsoft 365 Copilot mobile app",
+        "title": "[Copilot Extensibility] Users in DoD will be able to use custom engine agents",
         "status": "In development",
-        "description": "With a Microsoft 365 Copilot license, transform offline discussions into structured, actionable, and searchable content with voice notes in Copilot.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=498640"
+        "description": "Users in DoD will be able to use custom engine agents.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503772"
       },
       "reads": [
         {
-          "title": "Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524"
+          "title": "More control over web grounding with Domain Exclusion for Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151"
         },
         {
-          "title": "1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/1-million-documents-to-300-agents-building-an-enterprise-scale/ba-p/4540155"
+          "title": "Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 16, 2026)\n\nPROMPT OF THE WEEK — Catch me up\n\"I've been out for [N] days. Catch me up on [project/channel]: what changed, what decisions were made, what needs my attention, and anything I was @mentioned in.\"\n\nCOPILOT IN ONENOTE\nAsk Copilot to 'summarize my notes from this section', 'turn these notes into a to-do list', or 'draft a plan based on this brainstorm' to convert messy notes into structured next steps.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Capture voice notes in the Microsoft 365 Copilot mobile app (In development)\nWith a Microsoft 365 Copilot license, transform offline discussions into structured, actionable, and searchable content with voice notes in Copilot.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=498640\n\nWORTH A READ\n- Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524\n- 1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/1-million-documents-to-300-agents-building-an-enterprise-scale/ba-p/4540155\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 16, 2026)\n\nPROMPT OF THE WEEK — Catch me up\n\"I've been out for [N] days. Catch me up on [project/channel]: what changed, what decisions were made, what needs my attention, and anything I was @mentioned in.\"\n\nCOPILOT IN ONENOTE\nAsk Copilot to 'summarize my notes from this section', 'turn these notes into a to-do list', or 'draft a plan based on this brainstorm' to convert messy notes into structured next steps.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — [Copilot Extensibility] Users in DoD will be able to use custom engine agents (In development)\nUsers in DoD will be able to use custom engine agents.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503772\n\nWORTH A READ\n- More control over web grounding with Domain Exclusion for Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151\n- Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W28",
