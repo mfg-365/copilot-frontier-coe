@@ -1,13 +1,81 @@
 {
-  "generatedAt": "2026-08-01T13:03:51.191Z",
+  "generatedAt": "2026-08-04T13:54:37.950Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 696,
+  "totalCopilotFeatures": 689,
   "counts": {
-    "inDevelopment": 44,
-    "rollingOut": 4,
+    "inDevelopment": 42,
+    "rollingOut": 6,
     "launched": 12
   },
   "items": [
+    {
+      "id": 567320,
+      "title": "Microsoft Viva: Viva Glint - Copilot admin configuration assistance",
+      "description": "A Copilot-powered conversational assistant embedded in the Viva Glint admin experience that answers configuration and how-to questions and provides step-by-step guidance. Responses will include deep links to configuration pages streamlining navigation and discoverability. Only available for Viva Glint users with Admin permissions.",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-08-03T22:55:03",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567320"
+    },
+    {
+      "id": 567302,
+      "title": "Microsoft Teams: Ability for IT admins to customize the user notification messages for recording and transcription in calls",
+      "description": "This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-08-03T22:55:03",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567302"
+    },
+    {
+      "id": 555852,
+      "title": "Microsoft Copilot (Microsoft 365): Branded footer in the Microsoft 365 Copilot app",
+      "description": "This update introduces a co-branding experience in the Microsoft 365 Copilot app that helps organizations present an admin approved visual identifier directly within the Chat screen. Specifically, the experience enables administrators to leverage the organization-supported logo already managed in the Microsoft Admin Center theming settings and display it in the footer of the Chat screen, paired with a fixed label: “Approved by”.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft 365",
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-08-03T22:55:03",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555852"
+    },
     {
       "id": 566322,
       "title": "OneNote: Multimodal capture in Copilot Notebooks (Windows)",
@@ -1180,69 +1248,6 @@
       "preview": "",
       "modified": "2026-07-17T22:12:56",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557255"
-    },
-    {
-      "id": 503553,
-      "title": "Microsoft 365 Admin Center: Authoritative content management for Microsoft 365 Copilot Search",
-      "description": "Specify and manage SharePoint sites deemed as authoritative content to enhance their relevance and ranking in Microsoft 365 Copilot Search. In the Microsoft 365 admin center, under Copilot > Search > Authoritative content, add and manage up to 100 SharePoint sites. #copilotcontrolsystem",
-      "status": "In development",
-      "products": [
-        "Microsoft 365 admin center"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-07-17T22:12:56",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503553"
-    },
-    {
-      "id": 562353,
-      "title": "Microsoft Copilot (Microsoft 365): Session and Response Sharing in M365 Copilot",
-      "description": "Session and Response Sharing let Microsoft 365 Copilot users share Copilot chat content through a link. Session Sharing shares a full chat session, while Response Sharing shares a single Copilot response. The shared content opens as a read-only view, and recipients can continue from it in their own Copilot chat. This gives Copilot users an easier and more controlled way to share useful Copilot outputs with coworkers instead of copying and pasting. It helps teams reuse work, share context, and collaborate more efficiently while keeping sharing within organizational controls.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "Mac",
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-16T23:08:19",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562353"
-    },
-    {
-      "id": 566703,
-      "title": "Microsoft Edge: Upgraded Copilot new tab page",
-      "description": "Search, chat, and explore the web from one search box with Copilot-suggested actions and curated work content to help your users get things done faster on the Copilot new tab page. Users will see upgraded Copilot new tab page functionality and features.",
-      "status": "In development",
-      "products": [
-        "Microsoft Edge",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "August CY2026",
-      "modified": "2026-07-16T23:08:19",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566703"
     }
   ]
 }
