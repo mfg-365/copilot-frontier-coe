@@ -1,13 +1,121 @@
 {
-  "generatedAt": "2026-08-07T12:46:35.921Z",
+  "generatedAt": "2026-08-10T12:53:13.065Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 690,
+  "totalCopilotFeatures": 685,
   "counts": {
-    "inDevelopment": 39,
+    "inDevelopment": 40,
     "rollingOut": 8,
-    "launched": 13
+    "launched": 12
   },
   "items": [
+    {
+      "id": 569023,
+      "title": "Outlook: Language support for Summarize in Classic Outlook",
+      "description": "When the content language and the Outlook language do not match, you will be able to select a different language to view summarize Copilot responses.",
+      "status": "In development",
+      "products": [
+        "Outlook"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "September CY2026",
+      "modified": "2026-08-07T21:45:15",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569023"
+    },
+    {
+      "id": 569017,
+      "title": "Microsoft Teams: Intelligent call recaps in Queues app",
+      "description": "Spend less time catching up on call recordings to resolve customer issues faster. For recorded call queue calls, the Queues app now supports intelligent call recaps for recorded calls that includes AI-generated summary notes, key discussion points, and follow-up actions. Navigate to the call record in the Queues app and select the Recap tab to access.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-08-07T21:45:15",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569017"
+    },
+    {
+      "id": 568930,
+      "title": "Microsoft Copilot Studio: SQL server Support in Microsoft Copilot Studio",
+      "description": "The Azure SQL Knowledge Source capability extends the range of enterprise data sources that makers can leverage when building agents in Copilot Studio. This enables organizations to bring business-critical information stored in Azure SQL into their agent experiences using the same knowledge-centric approach that customers already use across other supported knowledge sources. Azure SQL knowledge support represents another step toward a unified knowledge platform strategy, where customers can connect enterprise data sources through a common knowledge framework and leverage those sources consistently across agent experiences. It also strengthens the story for organizations seeking to build grounded, enterprise-ready AI solutions using existing Microsoft data assets.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot Studio"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "Current Channel",
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "September CY2026",
+      "preview": "August CY2026",
+      "modified": "2026-08-07T21:45:15",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568930"
+    },
+    {
+      "id": 568933,
+      "title": "Microsoft Teams: Use Copilot Chat after a call in Queues app",
+      "description": "After a recorded call is completed, use Copilot in the Queues app to quickly catch up on key details, uncover insights, and resolve customer issues faster without having to manually search through a transcript or listen back to a recording. Navigate to the unified call history in the Queues app, select the recorded call record, and launch the Copilot Chat sidecar from within the Recap tab. You can then ask Copilot to generate a summary or answer questions about specific details related to the call.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-08-07T21:45:15",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568933"
+    },
+    {
+      "id": 554934,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot Chat in Outlook expands to reason over inbox, calendar, and enterprise data",
+      "description": "Copilot Chat in Outlook expanding to support reasoning over a user's entire inbox, calendar and other enterprise data for Microsoft 365 Copilot Chat users (without a Microsoft 365 Copilot license) .",
+      "status": "In development",
+      "products": [
+        "Outlook",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-08-07T21:45:15",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=554934"
+    },
     {
       "id": 562662,
       "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App",
@@ -69,27 +177,6 @@
       "preview": "December CY2025",
       "modified": "2026-08-06T22:57:59",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=500872"
-    },
-    {
-      "id": 568933,
-      "title": "Microsoft Teams: Use Copilot Chat after a call in Queues app",
-      "description": "After a recorded call is completed, use Copilot in the Queues app to quickly catch up on key details, uncover insights, and resolve customer issues faster without having to manually search through a transcript or listen back to a recording. Navigate to the unified call history in the Queues app, select the recorded call record, and launch the Copilot Chat sidecar from within the Recap tab. You can then ask Copilot to generate a summary or answer questions about specific details related to the call.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-08-06T22:54:24",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568933"
     },
     {
       "id": 568762,
@@ -1160,88 +1247,6 @@
       "preview": "",
       "modified": "2026-07-23T23:27:16",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=565905"
-    },
-    {
-      "id": 498640,
-      "title": "Microsoft Copilot (Microsoft 365): Capture voice notes in the Microsoft 365 Copilot mobile app",
-      "description": "With a Microsoft 365 Copilot license, transform offline discussions into structured, actionable, and searchable content with voice notes in Copilot.",
-      "status": "In development",
-      "products": [
-        "Microsoft 365",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "iOS"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "August CY2026",
-      "preview": "July CY2026",
-      "modified": "2026-07-23T23:27:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=498640"
-    },
-    {
-      "id": 542181,
-      "title": "Microsoft Copilot (Microsoft 365): Edit with Copilot in Excel (Web, Win32, Mac) - GCC",
-      "description": "Edit with Copilot lets you build and edit workbooks side by side with Copilot. When you're updating budgets, creating financial models, or analyzing data, Copilot uses Excel's most powerful tools like tables, charts, PivotTables, and formulas to help you get the job done.",
-      "status": "In development",
-      "products": [
-        "Excel",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-07-23T23:27:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=542181"
-    },
-    {
-      "id": 503590,
-      "title": "Microsoft Copilot (Microsoft 365): Admins can now edit user mappings and query filters for ServiceNow Connector",
-      "description": "Support connection edit of user mapping, query filter for ServiceNow",
-      "status": "Launched",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "March CY2026",
-      "preview": "February CY2026",
-      "modified": "2026-07-23T23:27:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503590"
-    },
-    {
-      "id": 502533,
-      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility]​​[Search UX] Rich entity representation for connectors in Search results",
-      "description": "Rich entity representation for connectors in Search results.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-07-23T23:27:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=502533"
     }
   ]
 }
