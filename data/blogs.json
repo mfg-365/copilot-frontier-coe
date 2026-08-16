@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T12:54:43.681Z",
+  "generatedAt": "2026-08-16T12:24:56.087Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -12,6 +12,22 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652",
+      "description": "Add your READMEs, wikis, logs, and transcripts to your notebook Your most useful project knowledge does not always live in a polished document. It might be captured in a README, project wiki, system log, meeting transcript, research export,",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-08-13T16:00:00.000Z"
+    },
+    {
+      "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016",
+      "description": "The tools that run a business rarely live in one place. For a small business owner, that means stepping out of the document you're writing to search for an attorney, digging through a folder for the LLC paperwork you half-remember filing, o",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-08-12T16:00:00.000Z"
+    },
     {
       "title": "ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027",
@@ -195,14 +211,6 @@
       "date": "2026-06-02T12:00:00.000Z"
     },
     {
-      "title": "Finance Agent Benchmark: evaluating and improving AI for Finance",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/finance-agent-benchmark-evaluating-and-improving-ai-for-finance/ba-p/4522978",
-      "description": "As business complexity accelerates, finance organizations are being asked to support more stakeholders, guide more decisions, and operate at unprecedented speed, often without additional resources. As these demands outpace traditional tools",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-05-29T20:43:08.000Z"
-    },
-    {
       "title": "Available today: Anthropic Claude Opus 4.8 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-4-8-in-microsoft-365/ba-p/4523405",
       "description": "Today we’re expanding model choice in Microsoft 365 Copilot with the addition of Anthropic’s latest model—Claude Opus 4.8. Available now in Copilot Cowork (Frontier) and rolling out to Copilot Chat, Excel, PowerPoint, and Copilot Studio. Op",
@@ -239,14 +247,6 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-05-27T16:00:00.000Z"
-    },
-    {
-      "title": "Scaling the reach of finance: what’s next with Finance Agent in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/scaling-the-reach-of-finance-what-s-next-with-finance-agent-in/ba-p/4522976",
-      "description": "In most organizations, finance is a small but mighty strategic partner to the business, supporting enterprise-wide decisions while managing core processes from record-to-report and source-to-pay to forecast-to-plan. The insights and guidanc",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-05-27T12:00:00.000Z"
     },
     {
       "title": "New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences",
