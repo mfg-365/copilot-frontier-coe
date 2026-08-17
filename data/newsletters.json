@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-08-10T13:55:45.137Z",
-  "count": 13,
+  "generatedAt": "2026-08-17T13:21:19.649Z",
+  "count": 14,
   "editions": [
+    {
+      "id": "2026-W34",
+      "year": 2026,
+      "week": 34,
+      "dateLabel": "August 20, 2026",
+      "prompt": {
+        "title": "Turn a meeting into an action plan",
+        "text": "Based on the transcript and chat from my last meeting with [team], list every decision made, every open question, and a table of action items with owners and due dates. Then draft a short follow-up email I can send to attendees."
+      },
+      "tip": {
+        "app": "Teams",
+        "tip": "During or after a meeting, ask Copilot to 'recap the key points', 'list action items and owners', or 'what was decided about [topic]?'. Catch up on long chats with 'summarize what I missed'."
+      },
+      "capability": {
+        "name": "Copilot Cowork",
+        "text": "Describe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
+      },
+      "roadmap": {
+        "title": "Copilot memory in Researcher",
+        "status": "In development",
+        "description": "Copilot memory within Researcher brings forward relevant context from your past interactions—helping ground insights, personalize outputs, and reduce repetitive setup as you explore complex topics.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562996"
+      },
+      "reads": [
+        {
+          "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652"
+        },
+        {
+          "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016"
+        }
+      ],
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 20, 2026)\n\nPROMPT OF THE WEEK — Turn a meeting into an action plan\n\"Based on the transcript and chat from my last meeting with [team], list every decision made, every open question, and a table of action items with owners and due dates. Then draft a short follow-up email I can send to attendees.\"\n\nCOPILOT IN TEAMS\nDuring or after a meeting, ask Copilot to 'recap the key points', 'list action items and owners', or 'what was decided about [topic]?'. Catch up on long chats with 'summarize what I missed'.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Copilot memory in Researcher (In development)\nCopilot memory within Researcher brings forward relevant context from your past interactions—helping ground insights, personalize outputs, and reduce repetitive setup as you explore complex topics.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562996\n\nWORTH A READ\n- Copilot Notebooks now works with Markdown, plain-text, and rich-text files — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652\n- Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+    },
     {
       "id": "2026-W33",
       "year": 2026,
@@ -21,22 +57,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Outlook: Copilot now provides concise summaries with Outlook search results",
+        "title": "Microsoft Copilot Studio: Agent Readiness in Microsoft Copilot Studio",
         "status": "In development",
-        "description": "Get answers to queries quickly with Copilot's concise AI summaries at the top of Outlook search results. Users can dig deeper by opening Copilot chat directly from the Copilot summary card.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559989"
+        "description": "Agent Readiness gives makers a real-time, always-visible health check for their Copilot Studio agents. A single \"Review\" indicator in the build experience surfaces anything blocking or at risk — from policy restrictions to missing evaluations — before it derails a publish. Blocked capabilities are grayed out up front with a clear reason, so makers never waste time configuring something that was never going to work.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568762"
       },
       "reads": [
         {
-          "title": "ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027"
+          "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652"
         },
         {
-          "title": "Update: Domain Exclusion for Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/update-domain-exclusion-for-microsoft-365-copilot/ba-p/4543648"
+          "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 13, 2026)\n\nPROMPT OF THE WEEK — Rewrite for clarity\n\"Rewrite this so a non-expert can understand it. Remove jargon, shorten sentences, and lead with the most important point. Keep the meaning exact.\"\n\nCOPILOT IN OUTLOOK\nTry 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Outlook: Copilot now provides concise summaries with Outlook search results (In development)\nGet answers to queries quickly with Copilot's concise AI summaries at the top of Outlook search results. Users can dig deeper by opening Copilot chat directly from the Copilot summary card.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559989\n\nWORTH A READ\n- ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027\n- Update: Domain Exclusion for Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/update-domain-exclusion-for-microsoft-365-copilot/ba-p/4543648\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 13, 2026)\n\nPROMPT OF THE WEEK — Rewrite for clarity\n\"Rewrite this so a non-expert can understand it. Remove jargon, shorten sentences, and lead with the most important point. Keep the meaning exact.\"\n\nCOPILOT IN OUTLOOK\nTry 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Copilot Studio: Agent Readiness in Microsoft Copilot Studio (In development)\nAgent Readiness gives makers a real-time, always-visible health check for their Copilot Studio agents. A single \"Review\" indicator in the build experience surfaces anything blocking or at risk — from policy restrictions to missing evaluations — before it derails a publish. Blocked capabilities are grayed out up front with a clear reason, so makers never waste time configuring something that was never going to work.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568762\n\nWORTH A READ\n- Copilot Notebooks now works with Markdown, plain-text, and rich-text files — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652\n- Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W32",
@@ -57,22 +93,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program"
       },
       "roadmap": {
-        "title": "Microsoft Purview: Data Loss Prevention – New Guided Experience to Diagnose and Resolve DLP Issues",
+        "title": "Export Copilot metrics in the Copilot Dashboard",
         "status": "In development",
-        "description": "We’re introducing a new guided diagnostics experience to help users understand why their DLP policies may not be behaving as expected. This experience provides a clear summary of why a DLP action was taken on a document, including which policies were triggered, the order of evaluation, and detailed insights into which conditions evaluated as true or false. For Microsoft 365 E5 customers, the experience also includes Copilot-powered insights and tailored recommendations to accelerate troubleshooting and policy optimization.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561032"
+        "description": "This enables users to export row-level Copilot metrics from the Copilot Dashboard for reporting and deeper analysis.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=500872"
       },
       "reads": [
         {
-          "title": "ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027"
+          "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652"
         },
         {
-          "title": "Update: Domain Exclusion for Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/update-domain-exclusion-for-microsoft-365-copilot/ba-p/4543648"
+          "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 6, 2026)\n\nPROMPT OF THE WEEK — Data to narrative\n\"Look at this spreadsheet and tell me the three most important trends. Explain what's driving each one and suggest a chart that would communicate it best to leadership.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Researcher\nA reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program\n\nON THE ROADMAP — Microsoft Purview: Data Loss Prevention – New Guided Experience to Diagnose and Resolve DLP Issues (In development)\nWe’re introducing a new guided diagnostics experience to help users understand why their DLP policies may not be behaving as expected. This experience provides a clear summary of why a DLP action was taken on a document, including which policies were triggered, the order of evaluation, and detailed insights into which conditions evaluated as true or false. For Microsoft 365 E5 customers, the experience also includes Copilot-powered insights and tailored recommendations to accelerate troubleshooting and policy optimization.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561032\n\nWORTH A READ\n- ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027\n- Update: Domain Exclusion for Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/update-domain-exclusion-for-microsoft-365-copilot/ba-p/4543648\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 6, 2026)\n\nPROMPT OF THE WEEK — Data to narrative\n\"Look at this spreadsheet and tell me the three most important trends. Explain what's driving each one and suggest a chart that would communicate it best to leadership.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Researcher\nA reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program\n\nON THE ROADMAP — Export Copilot metrics in the Copilot Dashboard (In development)\nThis enables users to export row-level Copilot metrics from the Copilot Dashboard for reporting and deeper analysis.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=500872\n\nWORTH A READ\n- Copilot Notebooks now works with Markdown, plain-text, and rich-text files — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652\n- Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W31",
@@ -93,22 +129,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Microsoft Purview: Data Lifecycle Management – Archive SharePoint files under retention",
+        "title": "Planner capabilities in Copilot chat (M365 Copilot)",
         "status": "In development",
-        "description": "We are introducing file archiving support in SharePoint Online, utilizing this feature administrators can seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins can now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SharePoint Online. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208"
+        "description": "We will support creating Planner tasks and plans querying Planner information in M365 Copilot chat, allowing users to manage their tasks and plans between Copilot and Planner seamlessly.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516577"
       },
       "reads": [
         {
-          "title": "ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027"
+          "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652"
         },
         {
-          "title": "Update: Domain Exclusion for Microsoft 365 Copilot",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/update-domain-exclusion-for-microsoft-365-copilot/ba-p/4543648"
+          "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 30, 2026)\n\nPROMPT OF THE WEEK — Role-based onboarding\n\"Create a 30-day onboarding checklist for a new [role] on my team, including who they should meet, what systems they need, and three quick wins for their first two weeks.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Agentic Copilot in Outlook\nCopilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Purview: Data Lifecycle Management – Archive SharePoint files under retention (In development)\nWe are introducing file archiving support in SharePoint Online, utilizing this feature administrators can seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins can now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SharePoint Online. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208\n\nWORTH A READ\n- ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027\n- Update: Domain Exclusion for Microsoft 365 Copilot — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/update-domain-exclusion-for-microsoft-365-copilot/ba-p/4543648\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (July 30, 2026)\n\nPROMPT OF THE WEEK — Role-based onboarding\n\"Create a 30-day onboarding checklist for a new [role] on my team, including who they should meet, what systems they need, and three quick wins for their first two weeks.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Agentic Copilot in Outlook\nCopilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Planner capabilities in Copilot chat (M365 Copilot) (In development)\nWe will support creating Planner tasks and plans querying Planner information in M365 Copilot chat, allowing users to manage their tasks and plans between Copilot and Planner seamlessly.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516577\n\nWORTH A READ\n- Copilot Notebooks now works with Markdown, plain-text, and rich-text files — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652\n- Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W30",
