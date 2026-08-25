@@ -1,13 +1,32 @@
 {
-  "generatedAt": "2026-08-22T12:24:27.050Z",
+  "generatedAt": "2026-08-25T12:34:30.318Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 685,
+  "totalCopilotFeatures": 672,
   "counts": {
-    "inDevelopment": 38,
+    "inDevelopment": 37,
     "rollingOut": 4,
-    "launched": 18
+    "launched": 19
   },
   "items": [
+    {
+      "id": 565905,
+      "title": "Microsoft Copilot (Microsoft 365): People Skills- removal and deletion admin control",
+      "description": "A new admin control in the People Skills settings lets administrators permanently remove their organization's People Skills data from the tenant. With this new control, organizations can delete their entire skills library along with all users confirmed, inferred, and imported skills data—giving them full control to offboard from People Skills in support of data governance and compliance needs. Once deletion is initiated, skills will no longer appear on user profile cards or be used across Microsoft 365 skills-based experiences such as Copilot and Viva. The control is admin-only with no automatic changes.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-08-24T22:41:12",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=565905"
+    },
     {
       "id": 569612,
       "title": "Microsoft Purview: Data Lifecycle Management – Retention for Copilot Memory",
@@ -1237,26 +1256,6 @@
       "preview": "",
       "modified": "2026-08-04T22:45:42",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562996"
-    },
-    {
-      "id": 561208,
-      "title": "Microsoft Purview: Data Lifecycle Management – Archive SharePoint files under retention",
-      "description": "We are introducing file archiving support in SharePoint Online, utilizing this feature administrators can seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins can now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SharePoint Online. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
-      "status": "In development",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "August CY2026",
-      "modified": "2026-08-04T22:45:42",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208"
     }
   ]
 }
