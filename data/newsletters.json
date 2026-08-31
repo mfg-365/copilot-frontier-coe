@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-08-24T13:30:32.148Z",
-  "count": 15,
+  "generatedAt": "2026-08-31T19:11:57.357Z",
+  "count": 16,
   "editions": [
+    {
+      "id": "2026-W36",
+      "year": 2026,
+      "week": 36,
+      "dateLabel": "September 3, 2026",
+      "prompt": {
+        "title": "Compare and recommend",
+        "text": "Compare these [proposals/vendors/options] across cost, risk, time-to-value, and effort in a table. Recommend one and explain the trade-offs in two sentences."
+      },
+      "tip": {
+        "app": "Loop / Pages",
+        "tip": "Promote a great Copilot answer into a Copilot Page, then @mention teammates to co-edit. It's the fastest way to turn an AI draft into shared, living team content."
+      },
+      "capability": {
+        "name": "Microsoft Scout",
+        "text": "An AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
+      },
+      "roadmap": {
+        "title": "Microsoft 365 admin center: Data Quality Report for Profile Data",
+        "status": "In development",
+        "description": "Microsoft 365 Organizational Data Services is introducing a new data quality report that helps administrators assess the coverage and health of people data used across Microsoft 365 experiences. High-quality people data enables users to more effectively discover and learn about colleagues through experiences such as the People Card, Org Explorer, Microsoft 365 Copilot, and Microsoft 365 Cowork. The new report provides organizational data administrators, People Administrators, and AI Administrators with visibility into the completeness and quality of people attributes available in Microsoft 365. Administrators can use these insights to identify data gaps, improve attribute coverage, and help ensure users and AI-powered experiences have access to accurate organizational information. Key benefits: - Monitor the health and completeness of people profile attributes across the organization. - Identify missing or incomplete organizational data that may impact user and AI experiences. - Improve discoverability and organizational understanding in People Card and Org Explorer. - Help increase the effectiveness of Microsoft 365 Copilot and Microsoft 365 Cowork by improving the quality of underlying people data. This feature is available to Organizational Data Administrators, People Administrators, and AI Administrators through Microsoft 365 Organizational Data Services.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568937"
+      },
+      "reads": [
+        {
+          "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652"
+        },
+        {
+          "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016"
+        }
+      ],
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (September 3, 2026)\n\nPROMPT OF THE WEEK — Compare and recommend\n\"Compare these [proposals/vendors/options] across cost, risk, time-to-value, and effort in a table. Recommend one and explain the trade-offs in two sentences.\"\n\nCOPILOT IN LOOP / PAGES\nPromote a great Copilot answer into a Copilot Page, then @mention teammates to co-edit. It's the fastest way to turn an AI draft into shared, living team content.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft 365 admin center: Data Quality Report for Profile Data (In development)\nMicrosoft 365 Organizational Data Services is introducing a new data quality report that helps administrators assess the coverage and health of people data used across Microsoft 365 experiences. High-quality people data enables users to more effectively discover and learn about colleagues through experiences such as the People Card, Org Explorer, Microsoft 365 Copilot, and Microsoft 365 Cowork. The new report provides organizational data administrators, People Administrators, and AI Administrators with visibility into the completeness and quality of people attributes available in Microsoft 365. Administrators can use these insights to identify data gaps, improve attribute coverage, and help ensure users and AI-powered experiences have access to accurate organizational information. Key benefits: - Monitor the health and completeness of people profile attributes across the organization. - Identify missing or incomplete organizational data that may impact user and AI experiences. - Improve discoverability and organizational understanding in People Card and Org Explorer. - Help increase the effectiveness of Microsoft 365 Copilot and Microsoft 365 Cowork by improving the quality of underlying people data. This feature is available to Organizational Data Administrators, People Administrators, and AI Administrators through Microsoft 365 Organizational Data Services.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568937\n\nWORTH A READ\n- Copilot Notebooks now works with Markdown, plain-text, and rich-text files — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652\n- Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+    },
     {
       "id": "2026-W35",
       "year": 2026,
@@ -21,10 +57,10 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Review PDFs using the Copilot context menu on OneDrive iOS",
+        "title": "Microsoft Copilot Studio: Agent Sharing amongst makers",
         "status": "In development",
-        "description": "Microsoft 365 Copilot makes PDF reviews faster and easier on mobile. Select text in any PDF in OneDrive iOS and tap Ask Copilot to explain, summarize, translate, or ask a custom question about the selection — the same in-context Copilot experience already generally available on desktop, now on OneDrive iOS.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568790"
+        "description": "Enables sharing of agents with other makers in the new GHCP harness. Makers can grant other makers Agent Viewer (view analytics/evaluations only) or Editor (view, edit, configure, share, publish) access to an agent, with auto-assigned security roles.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569475"
       },
       "reads": [
         {
@@ -36,7 +72,7 @@
           "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 27, 2026)\n\nPROMPT OF THE WEEK — Executive-ready summary\n\"Summarize this document for a busy executive in 5 bullet points, then add a one-line 'so what' that explains the business impact. Flag anything that needs a decision from me.\"\n\nCOPILOT IN COPILOT CHAT\nUse the work grounding to ask cross-app questions: 'What are the latest updates on [project] from my emails, chats, and files?' Then turn the answer into a Copilot Page to collaborate on it.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Review PDFs using the Copilot context menu on OneDrive iOS (In development)\nMicrosoft 365 Copilot makes PDF reviews faster and easier on mobile. Select text in any PDF in OneDrive iOS and tap Ask Copilot to explain, summarize, translate, or ask a custom question about the selection — the same in-context Copilot experience already generally available on desktop, now on OneDrive iOS.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568790\n\nWORTH A READ\n- Copilot Notebooks now works with Markdown, plain-text, and rich-text files — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652\n- Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 27, 2026)\n\nPROMPT OF THE WEEK — Executive-ready summary\n\"Summarize this document for a busy executive in 5 bullet points, then add a one-line 'so what' that explains the business impact. Flag anything that needs a decision from me.\"\n\nCOPILOT IN COPILOT CHAT\nUse the work grounding to ask cross-app questions: 'What are the latest updates on [project] from my emails, chats, and files?' Then turn the answer into a Copilot Page to collaborate on it.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Copilot Studio: Agent Sharing amongst makers (In development)\nEnables sharing of agents with other makers in the new GHCP harness. Makers can grant other makers Agent Viewer (view analytics/evaluations only) or Editor (view, edit, configure, share, publish) access to an agent, with auto-assigned security roles.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569475\n\nWORTH A READ\n- Copilot Notebooks now works with Markdown, plain-text, and rich-text files — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652\n- Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W34",
@@ -57,10 +93,10 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Microsoft Copilot Studio: Dataverse integration on Copilot Studio",
+        "title": "Microsoft Edge: Auto-open Copilot side pane for Outlook links",
         "status": "In development",
-        "description": "We are enabling Microsoft Dataverse as a native knowledge source in Copilot Studio, expanding the platform’s ability to ground AI agents in structured enterprise data. This enhancement allows organizations to leverage business-critical information stored in Dataverse—including records, customer data, operational data, and business application content—as a trusted knowledge source for agent experiences.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568929"
+        "description": "When users open links from Outlook, Microsoft Edge can automatically open the Copilot side pane to provide contextual insights and actionable suggestion chips based on email and destination content - such as highlighting key points, and recommending next actions - without disrupting the browsing flow. This experience helps users quickly understand content, take action with fewer steps, and get more value from Copilot while extending productive browsing time in Edge. Admins can control availability to this feature using the M365LinksAutoOpenCopilotEnabled policy.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557561"
       },
       "reads": [
         {
@@ -72,7 +108,7 @@
           "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 20, 2026)\n\nPROMPT OF THE WEEK — Turn a meeting into an action plan\n\"Based on the transcript and chat from my last meeting with [team], list every decision made, every open question, and a table of action items with owners and due dates. Then draft a short follow-up email I can send to attendees.\"\n\nCOPILOT IN TEAMS\nDuring or after a meeting, ask Copilot to 'recap the key points', 'list action items and owners', or 'what was decided about [topic]?'. Catch up on long chats with 'summarize what I missed'.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Copilot Studio: Dataverse integration on Copilot Studio (In development)\nWe are enabling Microsoft Dataverse as a native knowledge source in Copilot Studio, expanding the platform’s ability to ground AI agents in structured enterprise data. This enhancement allows organizations to leverage business-critical information stored in Dataverse—including records, customer data, operational data, and business application content—as a trusted knowledge source for agent experiences.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568929\n\nWORTH A READ\n- Copilot Notebooks now works with Markdown, plain-text, and rich-text files — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652\n- Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 20, 2026)\n\nPROMPT OF THE WEEK — Turn a meeting into an action plan\n\"Based on the transcript and chat from my last meeting with [team], list every decision made, every open question, and a table of action items with owners and due dates. Then draft a short follow-up email I can send to attendees.\"\n\nCOPILOT IN TEAMS\nDuring or after a meeting, ask Copilot to 'recap the key points', 'list action items and owners', or 'what was decided about [topic]?'. Catch up on long chats with 'summarize what I missed'.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Edge: Auto-open Copilot side pane for Outlook links (In development)\nWhen users open links from Outlook, Microsoft Edge can automatically open the Copilot side pane to provide contextual insights and actionable suggestion chips based on email and destination content - such as highlighting key points, and recommending next actions - without disrupting the browsing flow. This experience helps users quickly understand content, take action with fewer steps, and get more value from Copilot while extending productive browsing time in Edge. Admins can control availability to this feature using the M365LinksAutoOpenCopilotEnabled policy.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557561\n\nWORTH A READ\n- Copilot Notebooks now works with Markdown, plain-text, and rich-text files — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652\n- Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W33",
@@ -93,10 +129,10 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Get actionable suggestions from Copilot in your Copilot Page",
+        "title": "Microsoft Teams: AI-generated meeting archive for knowledge retention",
         "status": "In development",
-        "description": "Request feedback from Copilot on your Page by selecting \"Suggested edits\" in the Copilot Shortcuts menu. Copilot will analyze the content on your page and provide actionable suggestions about what you can change to improve clarity and quality of your written content. You can then apply suggestions directly to the page.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562351"
+        "description": "Admins can enable a tenant-wide policy that allows Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods. This enables Copilot to continue answering questions about past meetings even after transcripts expire. Admins can also configure how long this AI-generated meeting archive is stored.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933"
       },
       "reads": [
         {
@@ -108,7 +144,7 @@
           "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 13, 2026)\n\nPROMPT OF THE WEEK — Rewrite for clarity\n\"Rewrite this so a non-expert can understand it. Remove jargon, shorten sentences, and lead with the most important point. Keep the meaning exact.\"\n\nCOPILOT IN OUTLOOK\nTry 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Get actionable suggestions from Copilot in your Copilot Page (In development)\nRequest feedback from Copilot on your Page by selecting \"Suggested edits\" in the Copilot Shortcuts menu. Copilot will analyze the content on your page and provide actionable suggestions about what you can change to improve clarity and quality of your written content. You can then apply suggestions directly to the page.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562351\n\nWORTH A READ\n- Copilot Notebooks now works with Markdown, plain-text, and rich-text files — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652\n- Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (August 13, 2026)\n\nPROMPT OF THE WEEK — Rewrite for clarity\n\"Rewrite this so a non-expert can understand it. Remove jargon, shorten sentences, and lead with the most important point. Keep the meaning exact.\"\n\nCOPILOT IN OUTLOOK\nTry 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Teams: AI-generated meeting archive for knowledge retention (In development)\nAdmins can enable a tenant-wide policy that allows Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods. This enables Copilot to continue answering questions about past meetings even after transcripts expire. Admins can also configure how long this AI-generated meeting archive is stored.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933\n\nWORTH A READ\n- Copilot Notebooks now works with Markdown, plain-text, and rich-text files — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652\n- Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W32",
