@@ -1,13 +1,32 @@
 {
-  "generatedAt": "2026-08-31T18:34:44.643Z",
+  "generatedAt": "2026-09-01T15:53:53.450Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 670,
+  "totalCopilotFeatures": 671,
   "counts": {
     "inDevelopment": 37,
     "rollingOut": 7,
     "launched": 16
   },
   "items": [
+    {
+      "id": 570155,
+      "title": "SharePoint: Site Skills in Copilot in SharePoint",
+      "description": "The feature introduces enhanced Site Skills management capabilities, including skill editing, version control, publishing, restoration, and cross-site duplication, enabling organizations to govern and reuse skills more effectively across SharePoint sites.",
+      "status": "In development",
+      "products": [
+        "SharePoint"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-08-31T23:13:25",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570155"
+    },
     {
       "id": 567320,
       "title": "Microsoft Viva: Viva Glint - Copilot admin configuration assistance",
@@ -1228,26 +1247,6 @@
       "preview": "May CY2026",
       "modified": "2026-08-10T22:43:02",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=508524"
-    },
-    {
-      "id": 569023,
-      "title": "Outlook: Language support for Summarize in Classic Outlook",
-      "description": "When the content language and the Outlook language do not match, you will be able to select a different language to view summarize Copilot responses.",
-      "status": "In development",
-      "products": [
-        "Outlook"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "September CY2026",
-      "modified": "2026-08-07T21:45:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569023"
     }
   ]
 }
