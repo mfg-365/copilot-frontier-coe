@@ -1,13 +1,35 @@
 {
-  "generatedAt": "2026-09-04T15:34:28.508Z",
+  "generatedAt": "2026-09-07T17:00:54.635Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 678,
+  "totalCopilotFeatures": 674,
   "counts": {
     "inDevelopment": 38,
-    "rollingOut": 11,
-    "launched": 11
+    "rollingOut": 10,
+    "launched": 12
   },
   "items": [
+    {
+      "id": 553215,
+      "title": "Microsoft Copilot (Microsoft 365): Create Videos in the Clipchamp Start Page",
+      "description": "<p>Users can use Copilot to create videos directly from the Clipchamp Start page. Turn a simple prompt or existing document into a polished video in minutes. Copilot will automatically draft a script, selects visuals, add narration, and assembles the video for you—no video editing experience required. Review, refine, and export your video quickly, all in one flow.</p>",
+      "status": "Launched",
+      "products": [
+        "Microsoft Clipchamp",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "April CY2026",
+      "preview": "",
+      "modified": "2026-09-04T22:03:41",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553215"
+    },
     {
       "id": 506749,
       "title": "Microsoft Viva: Copilot Analytics - Agent Dashboard.",
@@ -1218,25 +1240,6 @@
       "preview": "April CY2026",
       "modified": "2026-08-19T22:58:06",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559019"
-    },
-    {
-      "id": 553224,
-      "title": "Microsoft Viva: Copilot Enhanced Topic Assignment",
-      "description": "We're upgrading our topic assignment pipeline to be powered by Copilot, delivering significantly improved accuracy in categorizing survey comments into relevant topics. Updated August 18, 2026: Rollout timing of this feature is now planned for end of August through early September. We apologize for any inconvenience.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft Viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-08-19T22:58:06",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553224"
     }
   ]
 }
