@@ -1,13 +1,193 @@
 {
-  "generatedAt": "2026-09-19T15:09:32.513Z",
+  "generatedAt": "2026-09-22T16:04:13.540Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 675,
+  "totalCopilotFeatures": 674,
   "counts": {
-    "inDevelopment": 37,
+    "inDevelopment": 35,
     "rollingOut": 7,
-    "launched": 16
+    "launched": 18
   },
   "items": [
+    {
+      "id": 571886,
+      "title": "Microsoft Copilot (Microsoft 365): Local inferencing",
+      "description": "<p>Local inferencing expands Microsoft Copilot’s sovereign controls by enabling AI inferencing for supported Copilot interactions to occur within the applicable local geography.</p> <p>Launching in Australia, India, the United Arab Emirates, the United Kingdom, and the United States, this capability gives organizations greater control over where AI inferencing occurs, helping them address sovereignty and regional requirements. Inferencing is the processing step when an AI model executes a prompt to produce an output or response.</p>",
+      "status": "In development",
+      "products": [
+        "Excel",
+        "Exchange",
+        "Forms",
+        "Microsoft 365",
+        "Microsoft 365 admin center",
+        "OneDrive",
+        "OneNote",
+        "Outlook",
+        "Planner",
+        "Word",
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft Agent 365"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-09-21T23:04:49",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571886"
+    },
+    {
+      "id": 570846,
+      "title": "Microsoft Teams: Express face enrollment",
+      "description": "<p>Express face enrollment makes it easier for users to create a face profile in Teams by using their camera during eligible meetings, after they opt in. Once enrolled, users can be recognized in supported Teams Rooms experiences, helping identify who is in the room and improving downstream meeting experiences such as Copilot and recap. Admins can enable or disable the feature for their organization.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "November CY2026",
+      "preview": "",
+      "modified": "2026-09-21T23:04:49",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570846"
+    },
+    {
+      "id": 559017,
+      "title": "Microsoft Copilot (Microsoft 365): Work IQ APIs: Pay-As-You-Go usage",
+      "description": "<p>Enables metered, pay-as-you-go access to Work IQ endpoints, allowing developers to invoke agents and capabilities without requiring pre-assigned licenses, with usage billed based on the agents and models invoked per request.</p>",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Linux",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2026",
+      "preview": "",
+      "modified": "2026-09-21T23:04:49",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559017"
+    },
+    {
+      "id": 562017,
+      "title": "Microsoft Viva: Fresh Copilot Metrics in Custom Person Queries & Reports- Viva Advanced Analysis",
+      "description": "<p>Key Microsoft 365 Copilot metrics in custom person queries and reports will have values up to 2-3 days old from the current date. This will provide fresher copilot usage analysis to analysts in Viva Advanced analysis.</p>",
+      "status": "Launched",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-09-21T23:04:49",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562017"
+    },
+    {
+      "id": 560076,
+      "title": "SharePoint: Create charts on pages with AI",
+      "description": "<p>This feature empowers authors to create rich, interactive charts with AI in SharePoint when editing SharePoint pages. Authors can describe the chart they want to create in plain language within a chat on a SharePoint page.</p>",
+      "status": "Launched",
+      "products": [
+        "SharePoint",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "May CY2026",
+      "preview": "",
+      "modified": "2026-09-21T23:04:49",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560076"
+    },
+    {
+      "id": 558933,
+      "title": "Microsoft Teams: AI-generated meeting archive for knowledge retention",
+      "description": "<p>Admins can enable a tenant-wide policy that allows Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods. This enables Copilot to continue answering questions about past meetings even after transcripts expire. Admins can also configure how long this AI-generated meeting archive is stored.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "November CY2026",
+      "preview": "",
+      "modified": "2026-09-21T23:04:49",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933"
+    },
+    {
+      "id": 503772,
+      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users in DoD will be able to use custom engine agents",
+      "description": "<p>Users in DoD will be able to use custom engine agents.</p>",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2025",
+      "preview": "",
+      "modified": "2026-09-21T23:04:49",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503772"
+    },
+    {
+      "id": 503553,
+      "title": "Microsoft 365 Admin Center: Authoritative content management for Microsoft 365 Copilot Search",
+      "description": "<p>Specify and manage SharePoint sites deemed as authoritative content to enhance their relevance and ranking in Microsoft 365 Copilot Search. In the Microsoft 365 admin center, under Copilot &gt; Search &gt; Authoritative content, add and manage up to 100 SharePoint sites. #copilotcontrolsystem</p>",
+      "status": "Launched",
+      "products": [
+        "Microsoft 365 admin center"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-09-21T23:04:49",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503553"
+    },
     {
       "id": 571637,
       "title": "Microsoft Copilot (Microsoft 365): Copilot Cowork for Government Clouds",
@@ -49,28 +229,6 @@
       "preview": "",
       "modified": "2026-09-18T22:00:04",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571306"
-    },
-    {
-      "id": 570846,
-      "title": "Microsoft Teams: Express face enrollment",
-      "description": "<p>Express face enrollment makes it easier for users to create a face profile in Teams by using their camera during eligible meetings, after they opt in. Once enrolled, users can be recognized in supported Teams Rooms experiences, helping identify who is in the room and improving downstream meeting experiences such as Copilot and recap. Admins can enable or disable the feature for their organization.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-09-18T22:00:04",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570846"
     },
     {
       "id": 566702,
@@ -1095,153 +1253,6 @@
       "preview": "",
       "modified": "2026-09-09T19:34:47",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=499153"
-    },
-    {
-      "id": 570847,
-      "title": "Microsoft Viva: Copilot Analytics - Agent value insights in Agent 365 Dashboard",
-      "description": "<p>Customers can now view value insights in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). These insights help business leaders and change and adoption specialists understand not only whether agents are being used, but also the estimated assisted hours agents provide and the types of work contributing to that value.</p> <p>This update builds on the existing Agent 365 Dashboard adoption experience by connecting agent activity with a clearer view of the work agents support across the organization.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "September CY2026",
-      "modified": "2026-09-08T22:57:21",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570847"
-    },
-    {
-      "id": 570845,
-      "title": "Microsoft Purview: Data Loss Prevention for Microsoft Cowork",
-      "description": "<p>Microsoft Purview Data Loss Prevention (DLP) is expanding to Microsoft Cowork, enabling data security admins to use a single policy across Microsoft 365 Copilot and Cowork. The integration helps protect sensitive AI interactions by preventing the use of labeled knowledge sources, blocking prompts that contain supported sensitive information types, and restricting sensitive prompts from being sent to Bing for web search.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "September CY2026",
-      "modified": "2026-09-08T22:57:21",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570845"
-    },
-    {
-      "id": 557560,
-      "title": "Microsoft Copilot (Microsoft 365): AI Generated video drafts include text animations and new layout options",
-      "description": "<p>Users will find updated layouts and text animations on video projects generated with Copilot.</p>",
-      "status": "Launched",
-      "products": [
-        "Microsoft Clipchamp",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "May CY2026",
-      "preview": "",
-      "modified": "2026-09-08T22:57:21",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557560"
-    },
-    {
-      "id": 550513,
-      "title": "Microsoft Clipchamp: Upgraded music selection for Copilot AI Videos",
-      "description": "<p>With a Microsoft365 Copilot license, Copilot AI-generated video projects have improved audio with realistic AI voiceover, professional sound effects, and enhanced audio mixing.</p>",
-      "status": "Launched",
-      "products": [
-        "Microsoft Clipchamp",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-09-08T22:57:21",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=550513"
-    },
-    {
-      "id": 547749,
-      "title": "Microsoft Viva: Copilot Analytics - Export metrics in the Copilot Dashboard at Day Level",
-      "description": "<p>This feature enables users to export fresher row-level Copilot metrics from the Copilot Dashboard for reporting and deeper analysis at day level. #copilotcontrolsystem</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "May CY2026",
-      "modified": "2026-09-08T22:57:21",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=547749"
-    },
-    {
-      "id": 553215,
-      "title": "Microsoft Copilot (Microsoft 365): Create Videos in the Clipchamp Start Page",
-      "description": "<p>Users can use Copilot to create videos directly from the Clipchamp Start page. Turn a simple prompt or existing document into a polished video in minutes. Copilot will automatically draft a script, selects visuals, add narration, and assembles the video for you—no video editing experience required. Review, refine, and export your video quickly, all in one flow.</p>",
-      "status": "Launched",
-      "products": [
-        "Microsoft Clipchamp",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "April CY2026",
-      "preview": "",
-      "modified": "2026-09-04T22:03:41",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553215"
-    },
-    {
-      "id": 506749,
-      "title": "Microsoft Viva: Copilot Analytics - Agent Dashboard.",
-      "description": "<p>Viva Insights is creating an Agent Dashboard, designed to be a central place for leaders, delegates and analysts to understand how your organization is adopting agents. #copilotcontrolsystem</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "February CY2026",
-      "modified": "2026-09-03T22:50:06",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=506749"
     }
   ]
 }
