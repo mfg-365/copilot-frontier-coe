@@ -1,13 +1,138 @@
 {
-  "generatedAt": "2026-09-25T16:17:32.999Z",
+  "generatedAt": "2026-09-28T19:04:48.808Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 677,
+  "totalCopilotFeatures": 678,
   "counts": {
-    "inDevelopment": 36,
+    "inDevelopment": 38,
     "rollingOut": 4,
-    "launched": 20
+    "launched": 18
   },
   "items": [
+    {
+      "id": 570967,
+      "title": "Microsoft Power Platform governance and administration: Maker Guidelines",
+      "description": "<p>The Maker guidelines feature gives organizations a direct way to share guidance with Copilot Studio makers in the flow of work. Administrators can explain which tools, models, connectors, and channels are approved for an environment and point makers to the right policy, request process, or support contact.</p> <p>The message appears in the Review pane alongside the agent's blockers and warnings and remains available when the agent has no issues. This gives makers a consistent place to understand organizational expectations and find help without leaving Copilot Studio.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Power Platform governance and administration"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "November CY2026",
+      "preview": "September CY2026",
+      "modified": "2026-09-25T22:37:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570967"
+    },
+    {
+      "id": 570436,
+      "title": "PowerPoint: Async Notifications for Copilot in PowerPoint",
+      "description": "<p>Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention.</p>",
+      "status": "In development",
+      "products": [
+        "PowerPoint"
+      ],
+      "platforms": [
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-09-25T22:37:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570436"
+    },
+    {
+      "id": 554934,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot Chat in Outlook expands to reason over inbox, calendar, and enterprise data",
+      "description": "<p>Copilot Chat in Outlook expanding to support reasoning over a user's entire inbox, calendar and other enterprise data for Microsoft 365 Copilot Chat users (without a Microsoft 365 Copilot license) .</p>",
+      "status": "In development",
+      "products": [
+        "Outlook",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-09-25T22:37:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=554934"
+    },
+    {
+      "id": 516577,
+      "title": "Microsoft Copilot (Microsoft 365): Planner capabilities in Copilot chat (M365 Copilot)",
+      "description": "<p>We will support creating Planner tasks and plans querying Planner information in M365 Copilot chat, allowing users to manage their tasks and plans between Copilot and Planner seamlessly.</p>",
+      "status": "Rolling out",
+      "products": [
+        "Planner",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "August CY2026",
+      "modified": "2026-09-25T22:37:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516577"
+    },
+    {
+      "id": 501451,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot in SharePoint",
+      "description": "<p>Simplifies SharePoint content management and ensures content is Copilot-ready by automating metadata, fixing stale content, enabling fast page creation, improving compliance, and enriching content so Copilot can deliver more accurate, grounded answers. Updated April 16: We are still in development for GA and have launched to Preview only.</p>",
+      "status": "In development",
+      "products": [
+        "SharePoint",
+        "SharePoint Syntex",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "September CY2026",
+      "preview": "September CY2025",
+      "modified": "2026-09-25T22:37:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=501451"
+    },
+    {
+      "id": 499423,
+      "title": "Microsoft Edge: Ground Microsoft 365 Copilot Chat in Edge for Business in your open OneDrive and SharePoint documents",
+      "description": "<p>Get relevant answers and insights about your open cloud documents in Copilot Chat in Edge.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Edge",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-09-25T22:37:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=499423"
+    },
     {
       "id": 571663,
       "title": "Dynamics 365 Field Service: Microsoft Copilot in Field Service Mobile app",
@@ -88,30 +213,6 @@
       "preview": "",
       "modified": "2026-09-24T22:58:55",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560700"
-    },
-    {
-      "id": 554934,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot Chat in Outlook expands to reason over inbox, calendar, and enterprise data",
-      "description": "<p>Copilot Chat in Outlook expanding to support reasoning over a user's entire inbox, calendar and other enterprise data for Microsoft 365 Copilot Chat users (without a Microsoft 365 Copilot license) .</p>",
-      "status": "In development",
-      "products": [
-        "Outlook",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-09-24T22:58:55",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=554934"
     },
     {
       "id": 569018,
@@ -1137,108 +1238,6 @@
       "preview": "",
       "modified": "2026-09-11T22:10:10",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562353"
-    },
-    {
-      "id": 567005,
-      "title": "Microsoft Copilot (Microsoft 365): Insights: Copilot Analytics - Cowork adoption and impact",
-      "description": "<p>Deeper insights into Cowork adoption and impact accessible from the new AI Cost dashboard and Copilot dashboard. Includes export capability. All metrics can be queried by analysts with the new AI cost query in advanced insights.</p>",
-      "status": "Launched",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "July CY2026",
-      "preview": "",
-      "modified": "2026-09-11T22:10:10",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567005"
-    },
-    {
-      "id": 566870,
-      "title": "OneNote: Suggested Artifact Creation in Copilot Notebooks",
-      "description": "<p>Copilot Notebooks in OneNote now suggests artifacts to create, such as Word documents, Excel workbooks, and PowerPoint presentations, based on Microsoft 365 knowledge and the content in your notebook. Select the suggestion and Copilot will generate the artifact.</p>",
-      "status": "Rolling out",
-      "products": [
-        "OneNote",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "August CY2026",
-      "preview": "July CY2026",
-      "modified": "2026-09-11T22:10:10",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566870"
-    },
-    {
-      "id": 564605,
-      "title": "Outlook: Co-Authoring Highlight and Rewrite",
-      "description": "<p>Users can now collaborate with Copilot to make improvements to email drafts. Select a section of the draft and ask Copilot to make changes, like changing its length, tone, or structure.</p>",
-      "status": "Launched",
-      "products": [
-        "Outlook"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "July CY2026",
-      "preview": "",
-      "modified": "2026-09-11T22:10:10",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=564605"
-    },
-    {
-      "id": 542181,
-      "title": "Microsoft Copilot (Microsoft 365): Edit with Copilot in Excel (Web, Win32, Mac) - GCC",
-      "description": "<p>Edit with Copilot lets you build and edit workbooks side by side with Copilot. When you're updating budgets, creating financial models, or analyzing data, Copilot uses Excel's most powerful tools like tables, charts, PivotTables, and formulas to help you get the job done.</p>",
-      "status": "In development",
-      "products": [
-        "Excel",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-09-11T22:10:10",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=542181"
-    },
-    {
-      "id": 570469,
-      "title": "Microsoft Copilot (Microsoft M365): Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint file",
-      "description": "<p>Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint files is user's working files — such as scanned contracts in Word, screenshots of tables in Excel, or whiteboard photos in PowerPoint — content that was previously difficult to search and find.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-09-10T23:01:27",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570469"
     }
   ]
 }
