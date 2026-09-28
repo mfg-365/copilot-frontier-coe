@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-09-21T18:16:42.328Z",
-  "count": 19,
+  "generatedAt": "2026-09-28T19:47:10.570Z",
+  "count": 20,
   "editions": [
+    {
+      "id": "2026-W40",
+      "year": 2026,
+      "week": 40,
+      "dateLabel": "October 1, 2026",
+      "prompt": {
+        "title": "Build a project tracker",
+        "text": "From these notes, create a project plan: phases, key milestones with target dates, risks with mitigations, and a RACI for the core team. Output it as a table I can paste into a doc."
+      },
+      "tip": {
+        "app": "PowerPoint",
+        "tip": "Turn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast."
+      },
+      "capability": {
+        "name": "Copilot Cowork",
+        "text": "Describe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
+      },
+      "roadmap": {
+        "title": "PowerPoint: Async Notifications for PowerPoint Agent (Web)",
+        "status": "In development",
+        "description": "<p>Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570438"
+      },
+      "reads": [
+        {
+          "title": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"
+        },
+        {
+          "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
+        }
+      ],
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (October 1, 2026)\n\nPROMPT OF THE WEEK — Build a project tracker\n\"From these notes, create a project plan: phases, key milestones with target dates, risks with mitigations, and a RACI for the core team. Output it as a table I can paste into a doc.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — PowerPoint: Async Notifications for PowerPoint Agent (Web) (In development)\n<p>Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570438\n\nWORTH A READ\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+    },
     {
       "id": "2026-W39",
       "year": 2026,
@@ -21,22 +57,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Realtime voice interactions in Word and PowerPoint",
+        "title": "Microsoft Copilot Studio: Cost visibility in Preview Chat and History",
         "status": "In development",
-        "description": "<p>Use your voice to talk with Copilot, interact in-real time, and understand the content within your document or presentation. Updated September 9, 2026: We will be re-releasing this feature with updates in October. Thank you for your patience.</p>",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=487852"
+        "description": "<p>Now makers will have clear visibility into their consumption costs directly within preview tab and agent history for their preview/testing usage as well as all every historical run. Makers can see the costs as they test, iterate, and review conversations, making usage costs transparent throughout the development experience.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571194"
       },
       "reads": [
         {
-          "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
+          "title": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"
         },
         {
-          "title": "Build apps in Copilot Cowork and Copilot Studio",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/"
+          "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (September 24, 2026)\n\nPROMPT OF THE WEEK — Find the signal in my inbox\n\"Review my unread email from the past week and group it into 'Needs my reply', 'FYI', and 'Can wait'. For the first group, draft a one-line suggested reply for each.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Realtime voice interactions in Word and PowerPoint (In development)\n<p>Use your voice to talk with Copilot, interact in-real time, and understand the content within your document or presentation. Updated September 9, 2026: We will be re-releasing this feature with updates in October. Thank you for your patience.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=487852\n\nWORTH A READ\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n- Build apps in Copilot Cowork and Copilot Studio — https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (September 24, 2026)\n\nPROMPT OF THE WEEK — Find the signal in my inbox\n\"Review my unread email from the past week and group it into 'Needs my reply', 'FYI', and 'Can wait'. For the first group, draft a one-line suggested reply for each.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Copilot Studio: Cost visibility in Preview Chat and History (In development)\n<p>Now makers will have clear visibility into their consumption costs directly within preview tab and agent history for their preview/testing usage as well as all every historical run. Makers can see the costs as they test, iterate, and review conversations, making usage costs transparent throughout the development experience.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571194\n\nWORTH A READ\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W38",
@@ -57,22 +93,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program"
       },
       "roadmap": {
-        "title": "Copilot in PowerPoint for Government clouds",
+        "title": "Microsoft Copilot Studio: Cost visibility in Agent Evaluations",
         "status": "In development",
-        "description": "<p>Copilot in PowerPoint lets you create, edit, and refine presentations through natural conversation, directly in your presentation. You can start a new presentation or build on an existing one, asking Copilot to generate slides, update content, improve layouts, and polish design—while preserving formatting, structure, and branding. Copilot uses your files, meetings, emails, and more to help shape content and iterate quickly, and it connects to your brand kit so you can apply branded templates, insert brand approved images, and check for brand compliance. Available to Microsoft 365 Copilot–licensed users.</p>",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561322"
+        "description": "<p>Now makers will have clear visibility into their consumption costs directly associated with their evaluations, including a breakdown of usage for eval generation, test runs and model grading/judgement. Makers can see the costs as they test, iterate, and review conversations, making usage transparent throughout the development lifecycle.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571195"
       },
       "reads": [
         {
-          "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
+          "title": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"
         },
         {
-          "title": "Build apps in Copilot Cowork and Copilot Studio",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/"
+          "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (September 17, 2026)\n\nPROMPT OF THE WEEK — Draft, then sharpen\n\"Draft a [proposal/update/announcement] about [topic] for [audience]. Keep it under 200 words, confident and concrete. Then give me an alternate version that's more concise and one that's more persuasive.\"\n\nCOPILOT IN WORD\nAsk Copilot to 'draft a [document type] from these bullet points', then 'add a section on [topic]' and 'rewrite the intro to be more concise'. Reference an existing file with the / command to ground it in your own content.\n\nFRONTIER SPOTLIGHT — Researcher\nA reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program\n\nON THE ROADMAP — Copilot in PowerPoint for Government clouds (In development)\n<p>Copilot in PowerPoint lets you create, edit, and refine presentations through natural conversation, directly in your presentation. You can start a new presentation or build on an existing one, asking Copilot to generate slides, update content, improve layouts, and polish design—while preserving formatting, structure, and branding. Copilot uses your files, meetings, emails, and more to help shape content and iterate quickly, and it connects to your brand kit so you can apply branded templates, insert brand approved images, and check for brand compliance. Available to Microsoft 365 Copilot–licensed users.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561322\n\nWORTH A READ\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n- Build apps in Copilot Cowork and Copilot Studio — https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (September 17, 2026)\n\nPROMPT OF THE WEEK — Draft, then sharpen\n\"Draft a [proposal/update/announcement] about [topic] for [audience]. Keep it under 200 words, confident and concrete. Then give me an alternate version that's more concise and one that's more persuasive.\"\n\nCOPILOT IN WORD\nAsk Copilot to 'draft a [document type] from these bullet points', then 'add a section on [topic]' and 'rewrite the intro to be more concise'. Reference an existing file with the / command to ground it in your own content.\n\nFRONTIER SPOTLIGHT — Researcher\nA reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program\n\nON THE ROADMAP — Microsoft Copilot Studio: Cost visibility in Agent Evaluations (In development)\n<p>Now makers will have clear visibility into their consumption costs directly associated with their evaluations, including a breakdown of usage for eval generation, test runs and model grading/judgement. Makers can see the costs as they test, iterate, and review conversations, making usage transparent throughout the development lifecycle.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571195\n\nWORTH A READ\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W37",
@@ -93,22 +129,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Edit your document with Copilot in PowerPoint in Government Clouds",
+        "title": "Microsoft Copilot Studio: Cost visibility in Monitor tab",
         "status": "In development",
-        "description": "<p>Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve layouts, and polish design, all while preserving your formatting, structure, and branding. Copilot can also connect to your brand kit to apply branded templates, insert brand-approved images, and check for brand compliance. Available to Microsoft 365 Copilot (Premium) users.</p>",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566701"
+        "description": "<p>Now makers will have clear visibility into their consumption costs directly within Monitor tab at both a per-agent level and an estimated breakdown of those costs across the agents lifecylce. This will allow makers to see costs distributed across activities such as authoring, testing, evaluations, and production usage, helping connect overall consumption to specific actions and experiences.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571196"
       },
       "reads": [
         {
-          "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
+          "title": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"
         },
         {
-          "title": "Build apps in Copilot Cowork and Copilot Studio",
-          "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/"
+          "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (September 10, 2026)\n\nPROMPT OF THE WEEK — Prep me for a 1:1\n\"Using our recent emails, chats, and shared files, prepare me for my 1:1 with [name]. Summarize what we last agreed, what's outstanding, and suggest three thoughtful questions to ask.\"\n\nCOPILOT IN ONENOTE\nAsk Copilot to 'summarize my notes from this section', 'turn these notes into a to-do list', or 'draft a plan based on this brainstorm' to convert messy notes into structured next steps.\n\nFRONTIER SPOTLIGHT — Agentic Copilot in Outlook\nCopilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Edit your document with Copilot in PowerPoint in Government Clouds (In development)\n<p>Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve layouts, and polish design, all while preserving your formatting, structure, and branding. Copilot can also connect to your brand kit to apply branded templates, insert brand-approved images, and check for brand compliance. Available to Microsoft 365 Copilot (Premium) users.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566701\n\nWORTH A READ\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n- Build apps in Copilot Cowork and Copilot Studio — https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (September 10, 2026)\n\nPROMPT OF THE WEEK — Prep me for a 1:1\n\"Using our recent emails, chats, and shared files, prepare me for my 1:1 with [name]. Summarize what we last agreed, what's outstanding, and suggest three thoughtful questions to ask.\"\n\nCOPILOT IN ONENOTE\nAsk Copilot to 'summarize my notes from this section', 'turn these notes into a to-do list', or 'draft a plan based on this brainstorm' to convert messy notes into structured next steps.\n\nFRONTIER SPOTLIGHT — Agentic Copilot in Outlook\nCopilot can carry out multi-step inbox and calendar tasks over time — triaging email, organizing messages, and resolving meeting conflicts.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Copilot Studio: Cost visibility in Monitor tab (In development)\n<p>Now makers will have clear visibility into their consumption costs directly within Monitor tab at both a per-agent level and an estimated breakdown of those costs across the agents lifecylce. This will allow makers to see costs distributed across activities such as authoring, testing, evaluations, and production usage, helping connect overall consumption to specific actions and experiences.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571196\n\nWORTH A READ\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W36",
