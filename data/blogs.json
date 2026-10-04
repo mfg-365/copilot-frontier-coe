@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T17:50:23.470Z",
+  "generatedAt": "2026-10-04T16:16:46.371Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -12,14 +12,6 @@
   ],
   "count": 10,
   "items": [
-    {
-      "title": "Introducing the new Copilot with Home, Code and Autopilot",
-      "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-      "description": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilo",
-      "categories": [],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-09-25T12:00:00.000Z"
-    },
     {
       "title": "Building the system for AI at work",
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
@@ -110,6 +102,16 @@
       "categories": [
         "Agents",
         "AI"
+      ],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-06-02T12:00:00.000Z"
+    },
+    {
+      "title": "Announcing the new Work IQ APIs",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/06/02/announcing-the-new-work-iq-apis/",
+      "description": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations. The post Announcing the new Work IQ APIs appeared first on AI at Work Blog .",
+      "categories": [
+        "Work IQ"
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-06-02T12:00:00.000Z"
