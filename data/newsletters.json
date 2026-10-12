@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-10-05T20:40:10.107Z",
-  "count": 21,
+  "generatedAt": "2026-10-12T21:21:30.454Z",
+  "count": 22,
   "editions": [
+    {
+      "id": "2026-W42",
+      "year": 2026,
+      "week": 42,
+      "dateLabel": "October 15, 2026",
+      "prompt": {
+        "title": "Stress-test my thinking",
+        "text": "Act as a skeptical reviewer. Here is my plan for [topic]. Identify the three weakest assumptions, what could go wrong, and what evidence would change your mind."
+      },
+      "tip": {
+        "app": "Teams",
+        "tip": "During or after a meeting, ask Copilot to 'recap the key points', 'list action items and owners', or 'what was decided about [topic]?'. Catch up on long chats with 'summarize what I missed'."
+      },
+      "capability": {
+        "name": "Microsoft Scout",
+        "text": "An AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
+      },
+      "roadmap": {
+        "title": "Microsoft Viva: Expanded agent coverage in Agent Dashboard",
+        "status": "In development",
+        "description": "<p>Customers can now view reporting for agents from third-party platforms in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). This expanded coverage provides a more comprehensive view of agent activity across their organization.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573169"
+      },
+      "reads": [
+        {
+          "title": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"
+        },
+        {
+          "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+          "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
+        }
+      ],
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (October 15, 2026)\n\nPROMPT OF THE WEEK — Stress-test my thinking\n\"Act as a skeptical reviewer. Here is my plan for [topic]. Identify the three weakest assumptions, what could go wrong, and what evidence would change your mind.\"\n\nCOPILOT IN TEAMS\nDuring or after a meeting, ask Copilot to 'recap the key points', 'list action items and owners', or 'what was decided about [topic]?'. Catch up on long chats with 'summarize what I missed'.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Viva: Expanded agent coverage in Agent Dashboard (In development)\n<p>Customers can now view reporting for agents from third-party platforms in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). This expanded coverage provides a more comprehensive view of agent activity across their organization.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573169\n\nWORTH A READ\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+    },
     {
       "id": "2026-W41",
       "year": 2026,
@@ -21,10 +57,10 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Microsoft Copilot Studio: Persistent identity for Copilot Studio Agents",
+        "title": "Copilot Chat in OneNote can create, edit, and refine content",
         "status": "In development",
-        "description": "<p>Makers can now give their Copilot Studio agents their own accounts, making it a governed Microsoft 365 identity for shared, collaborative business processes that spans across teams. With its own mailbox, Teams presence &amp; Office access, the agent can collaborate where work happens while admins can control and govern its access, policies and use as its own first-class entity.</p>",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570430"
+        "description": "<p>Copilot in OneNote can generate new content and directly edit when in edit mode. In this mode you can create, rename, and delete pages, sections, or notebooks as well as add or edit content in pages. Copilot can bring content from across WorkIQ as well as complete actions across other workflows such as creating Word, Excel, and PowerPoint files.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573446"
       },
       "reads": [
         {
@@ -36,7 +72,7 @@
           "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (October 8, 2026)\n\nPROMPT OF THE WEEK — Catch me up\n\"I've been out for [N] days. Catch me up on [project/channel]: what changed, what decisions were made, what needs my attention, and anything I was @mentioned in.\"\n\nCOPILOT IN OUTLOOK\nTry 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Copilot Studio: Persistent identity for Copilot Studio Agents (In development)\n<p>Makers can now give their Copilot Studio agents their own accounts, making it a governed Microsoft 365 identity for shared, collaborative business processes that spans across teams. With its own mailbox, Teams presence &amp; Office access, the agent can collaborate where work happens while admins can control and govern its access, policies and use as its own first-class entity.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570430\n\nWORTH A READ\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (October 8, 2026)\n\nPROMPT OF THE WEEK — Catch me up\n\"I've been out for [N] days. Catch me up on [project/channel]: what changed, what decisions were made, what needs my attention, and anything I was @mentioned in.\"\n\nCOPILOT IN OUTLOOK\nTry 'summarize this email thread', 'draft a reply that politely declines', or 'turn this email into a meeting agenda'. Coaching tips can also score your draft for tone, clarity, and reader sentiment before you send.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Copilot Chat in OneNote can create, edit, and refine content (In development)\n<p>Copilot in OneNote can generate new content and directly edit when in edit mode. In this mode you can create, rename, and delete pages, sections, or notebooks as well as add or edit content in pages. Copilot can bring content from across WorkIQ as well as complete actions across other workflows such as creating Word, Excel, and PowerPoint files.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573446\n\nWORTH A READ\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W40",
@@ -57,10 +93,10 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Microsoft Copilot Studio: Self-learning for Copilot Studio Agents",
+        "title": "SharePoint: AI input widget and content preview in Copilot",
         "status": "In development",
-        "description": "<p>Soon agents can help makers improve agents using lessons from completed runs. It will identify repeated tool sequences that can be handled by workflows to standardize agent behavior, minimize errors, and most importantly control costs. Makers will be presented with recommendations and supporting evidence, expected impact, and the related instruction and tool changes. Makers accept recommendations, configure, test, and publish a refined copy of the agent. This helps improve agent output quality and controls costs while preserving work that requires model judgment and keeping makers in control.</p>",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570432"
+        "description": "<p>With this new capability, users of Copilot in SharePoint will be able to view saved and unsaved preview content side by side with chat. Users will also be able to interact with created HTML forms and confirm responses to send to chat.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574106"
       },
       "reads": [
         {
@@ -72,7 +108,7 @@
           "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (October 1, 2026)\n\nPROMPT OF THE WEEK — Build a project tracker\n\"From these notes, create a project plan: phases, key milestones with target dates, risks with mitigations, and a RACI for the core team. Output it as a table I can paste into a doc.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Copilot Studio: Self-learning for Copilot Studio Agents (In development)\n<p>Soon agents can help makers improve agents using lessons from completed runs. It will identify repeated tool sequences that can be handled by workflows to standardize agent behavior, minimize errors, and most importantly control costs. Makers will be presented with recommendations and supporting evidence, expected impact, and the related instruction and tool changes. Makers accept recommendations, configure, test, and publish a refined copy of the agent. This helps improve agent output quality and controls costs while preserving work that requires model judgment and keeping makers in control.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570432\n\nWORTH A READ\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (October 1, 2026)\n\nPROMPT OF THE WEEK — Build a project tracker\n\"From these notes, create a project plan: phases, key milestones with target dates, risks with mitigations, and a RACI for the core team. Output it as a table I can paste into a doc.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — SharePoint: AI input widget and content preview in Copilot (In development)\n<p>With this new capability, users of Copilot in SharePoint will be able to view saved and unsaved preview content side by side with chat. Users will also be able to interact with created HTML forms and confirm responses to send to chat.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574106\n\nWORTH A READ\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W39",
@@ -93,10 +129,10 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Dynamics 365 Customer Service: Service tools, skills and plugins are now available for Cowork, Code and Scout",
+        "title": "Viva Engage - Community Agent",
         "status": "In development",
-        "description": "<p>The updated Service application brings Dynamics 365 Customer Service context, actions, and guided workflows into supported Copilot experiences, including Chat, Cowork, Code, and Scout. Customer service teams can work with service information and take supported actions in the flow of work, reducing the need to switch to Dynamics 365.</p> <p>First-party tools delivered through the Service package on Dynamics 365 MCP respect Dynamics 365 business logic and the user's existing permissions on each call. The package provides a governed foundation for the supported tools and skills. Availability is tracked separately for each experience.</p>",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571678"
+        "description": "<p>Community Agent helps members get answers to questions in Viva Engage communities using community knowledge and connected sources. Community admins can choose to require human review before answers are posted or allow automatic posting.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=499898"
       },
       "reads": [
         {
@@ -108,7 +144,7 @@
           "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (September 24, 2026)\n\nPROMPT OF THE WEEK — Find the signal in my inbox\n\"Review my unread email from the past week and group it into 'Needs my reply', 'FYI', and 'Can wait'. For the first group, draft a one-line suggested reply for each.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Dynamics 365 Customer Service: Service tools, skills and plugins are now available for Cowork, Code and Scout (In development)\n<p>The updated Service application brings Dynamics 365 Customer Service context, actions, and guided workflows into supported Copilot experiences, including Chat, Cowork, Code, and Scout. Customer service teams can work with service information and take supported actions in the flow of work, reducing the need to switch to Dynamics 365.</p> <p>First-party tools delivered through the Service package on Dynamics 365 MCP respect Dynamics 365 business logic and the user's existing permissions on each call. The package provides a governed foundation for the supported tools and skills. Availability is tracked separately for each experience.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571678\n\nWORTH A READ\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (September 24, 2026)\n\nPROMPT OF THE WEEK — Find the signal in my inbox\n\"Review my unread email from the past week and group it into 'Needs my reply', 'FYI', and 'Can wait'. For the first group, draft a one-line suggested reply for each.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Viva Engage - Community Agent (In development)\n<p>Community Agent helps members get answers to questions in Viva Engage communities using community knowledge and connected sources. Community admins can choose to require human review before answers are posted or allow automatic posting.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=499898\n\nWORTH A READ\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n- Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead — https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W38",
