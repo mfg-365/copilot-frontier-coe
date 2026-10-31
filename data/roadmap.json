@@ -1,13 +1,340 @@
 {
-  "generatedAt": "2026-10-28T17:45:24.051Z",
+  "generatedAt": "2026-10-31T16:39:05.466Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 765,
+  "totalCopilotFeatures": 769,
   "counts": {
-    "inDevelopment": 34,
-    "rollingOut": 7,
-    "launched": 19
+    "inDevelopment": 29,
+    "rollingOut": 11,
+    "launched": 20
   },
   "items": [
+    {
+      "id": 578225,
+      "title": "Microsoft 365: Frontier expands to public previews in Teams, Outlook, OneDrive, and SharePoint",
+      "description": "<p>Frontier is expanding to bring eligible public preview features across Microsoft 365 into one program. Users enrolled in Frontier can get eligible previews for new Outlook for Windows, OneDrive, SharePoint, Microsoft Teams, and Copilot, managed through a single admin-controlled enrollment experience. Frontier enrollment is optional and separate from Standard and Deferred release preferences for generally available features. Existing Frontier users do not need to re-enroll.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft 365"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Teams and Surface Devices",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "November CY2026",
+      "preview": "",
+      "modified": "2026-10-30T22:08:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=578225"
+    },
+    {
+      "id": 577392,
+      "title": "Microsoft Copilot (Microsoft 365): [Education] Create multi-week unit plans with Teach",
+      "description": "<p>Educators can use Teach in Microsoft 365 Copilot to create structured unit plans that span multiple lessons or weeks. They can customize the plan components to organize connected lesson plans and quizzes across a unit.</p> <p>#education</p>",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-30T22:08:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577392"
+    },
+    {
+      "id": 570964,
+      "title": "Microsoft Copilot (Microsoft 365): Federated Copilot Connectors will support write, update and delete actions",
+      "description": "<p>Federated Copilot connectors (MCP type) currently let Microsoft 365 Copilot read data from third-party services in real time. With this update, the connector tools that create, update, and delete content in those services are unblocked in Copilot Chat, so users can complete work without leaving Copilot. Copilot acts with the user's own account and permissions at the third-party service, and every create, update, or delete action requires the user's explicit confirmation before it runs. Admins can view each connector's read and write/delete tools in the Microsoft 365 admin center and disable connectors that don't meet their organization's policies.</p>",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-30T22:08:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570964"
+    },
+    {
+      "id": 516577,
+      "title": "Microsoft Copilot (Microsoft 365): Planner capabilities in Copilot chat (M365 Copilot)",
+      "description": "<p>We will support creating Planner tasks and plans querying Planner information in M365 Copilot chat, allowing users to manage their tasks and plans between Copilot and Planner seamlessly.</p>",
+      "status": "Rolling out",
+      "products": [
+        "Planner",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "August CY2026",
+      "modified": "2026-10-30T22:08:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516577"
+    },
+    {
+      "id": 499423,
+      "title": "Microsoft Edge: Ground Microsoft 365 Copilot Chat in Edge for Business",
+      "description": "<p>Get relevant answers and insights about your open browser tabs and YouTube videos directly from the Edge side pane</p>",
+      "status": "Launched",
+      "products": [
+        "Microsoft Edge",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-30T22:08:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=499423"
+    },
+    {
+      "id": 577834,
+      "title": "Microsoft Copilot Studio: Copilot studio cost controls in MAC",
+      "description": "<p>We’re expanding cost management for Microsoft Copilot Studio into the Microsoft 365 admin center. This gives administrators a more centralized way to manage Copilot Credit spend across usage-based AI workloads while retaining Copilot Studio cost management capabilities in the Power Platform admin center.<br> With this update, administrators can bring supported Copilot Studio environments and agents under Cost Management spending policies. Resource-based policies for environments and agents are the first planned scopes, with broader user and group policy support planned for a later phase.<br> Furthermore, this update will introduce cost data into cost management and agent registry for AI services and agents built on Microsoft platforms (e.g., Cowork, Microsoft Copilot Studio agents).</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft 365",
+        "Microsoft 365 admin center",
+        "Microsoft Copilot Studio",
+        "Microsoft Power Platform governance and administration"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-29T23:01:00",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577834"
+    },
+    {
+      "id": 574114,
+      "title": "Dynamics 365 Customer Service: Shared analytics foundation for historical reporting",
+      "description": "<p>Dynamics 365 Customer Service provides out-of-the-box historical reporting built on a shared analytics foundation: a scalable, open, and AI-ready data foundation for Customer Experience and AI analytics scenarios across Dynamics 365. It uses a lakehouse-based architecture that can scale with data volume, supports curated analytics datasets for direct querying, and enables consistent reporting and semantic definitions across reports, agents, and copilots.</p>",
+      "status": "Launched",
+      "products": [
+        "Dynamics 365 Customer Service"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-29T23:01:00",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574114"
+    },
+    {
+      "id": 564609,
+      "title": "Outlook: All Accounts view (Unified Inbox) brings your email into a single inbox view",
+      "description": "<p>The All-Accounts view, also known as Unified Inbox, lets you see emails from multiple accounts in a single inbox view in the new Outlook for Windows, without merging your mailboxes. Each account's inbox stays separate; the view brings them together so you can triage in one place. Users can read, delete, move, archive, and mark messages across accounts without switching between mailboxes. The experience integrates with Copilot for AI-assisted email workflows and supports Immersive Search for finding messages across your primary account. Advanced scenarios such as cross-account search and shared mailbox support will follow in later releases.</p>",
+      "status": "Rolling out",
+      "products": [
+        "Outlook"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-10-29T23:01:00",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=564609"
+    },
+    {
+      "id": 554934,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot Chat in Outlook expands to reason over inbox, calendar, and enterprise data",
+      "description": "<p>Copilot Chat in Outlook expanding to support reasoning over a user's entire inbox, calendar and other enterprise data for Microsoft 365 Copilot Chat users (without a Microsoft 365 Copilot license) .</p>",
+      "status": "Rolling out",
+      "products": [
+        "Outlook",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-29T23:01:00",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=554934"
+    },
+    {
+      "id": 576606,
+      "title": "Dynamics 365 Contact Center: Use bullseye routing with user groups to orchestrate conversations",
+      "description": "<p>Bullseye routing with user groups enables a tiered assignment strategy that automatically expands the pool of eligible representatives as conversation wait time increases. Rather than assigning from a fixed pool or waiting for overflow rules to trigger, this approach progressively widens availability in concentric rings—starting with the best-fit representatives and expanding outward as needed.</p> <p>Administrators configure this scenario by associating user groups with a queue and defining wait time thresholds for each tier. For example:</p> <ul> <li>0–30 seconds: Assign to Tier 1 specialists (primary user group)</li> <li>30–60 seconds: Expand to include Tier 2 representatives (secondary user group)</li> <li>60+ seconds: Include all available representatives (tertiary user group)</li> </ul> <p>Conversation orchestration monitors each conversation's wait time and automatically expands the eligible pool when thresholds are reached. This process ensures that customers are matched with the most qualified available representative, while preventing excessive wait times when the primary pool is at capacity.</p> <p>Key benefits:</p> <ul> <li><strong>Best-fit first</strong>: Prioritizes the most qualified representatives before expanding to broader pools.</li> <li><strong>Automatic expansion</strong>: No manual intervention required—wait time thresholds trigger expansion automatically.</li> <li><strong>Configurable tiers</strong>: Define as many user group tiers as needed, with custom wait time thresholds for each.</li> <li><strong>Seamless integration</strong>: Works alongside other conversation orchestration scenarios like dynamic priority escalation and overflow based on representative availability.</li> </ul>",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Dynamics 365 Contact Center"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "July CY2026",
+      "modified": "2026-10-28T23:04:31",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576606"
+    },
+    {
+      "id": 574112,
+      "title": "Dynamics 365 Customer Service: Shared analytics for historical reporting",
+      "description": "<p>Dynamics 365 Customer Service provides out-of-the-box historical reporting built on a shared analytics foundation: a scalable, open, and AI-ready data foundation for Customer Experience and AI analytics scenarios across Dynamics 365. It uses a lakehouse-based architecture that can scale with data volume, supports curated analytics datasets for direct querying, and enables consistent reporting and semantic definitions across reports, agents, and copilots.</p>",
+      "status": "Rolling out",
+      "products": [
+        "Dynamics 365 Contact Center",
+        "Dynamics 365 Customer Service"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-28T23:04:31",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574112"
+    },
+    {
+      "id": 571306,
+      "title": "Microsoft Purview: Data Lifecycle Management-Legacy Teams retention policies covering Copilot will be treated as Teams-only",
+      "description": "<p>Some existing retention policies scoped to Microsoft Teams may currently also apply to Microsoft 365 Copilot interactions. As part of an upcoming change, these legacy Teams retention policies will be converted to—and treated as—Teams-only policies. They will no longer implicitly govern Copilot workloads.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "January CY2027",
+      "preview": "",
+      "modified": "2026-10-28T23:04:31",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571306"
+    },
+    {
+      "id": 569475,
+      "title": "Microsoft Copilot Studio: Agent Sharing amongst makers",
+      "description": "<p>Enables sharing of agents with other makers in the new Microsoft Copilot harness. Makers can grant other makers Agent Viewer (view analytics/evaluations only) or Editor (view, edit, configure, share, publish) access to an agent, with auto-assigned security roles.</p>",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot Studio"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "September CY2026",
+      "modified": "2026-10-28T23:04:31",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569475"
+    },
+    {
+      "id": 566864,
+      "title": "Microsoft Edge: Ask Copilot about an image",
+      "description": "<p>Ask Copilot about an image in Edge enables users to instantly analyze images from the web by sending them directly to Copilot from the Edge context menu, making it easy to ask questions, gain insights, and understand visual content without leaving their browsing experience. Admins can control availability to this feature using the EdgeEntraCopilotPageContext and Microsoft365CopilotChatIconEnabled policies.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Edge",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "January CY2027",
+      "preview": "",
+      "modified": "2026-10-28T23:04:31",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566864"
+    },
+    {
+      "id": 490738,
+      "title": "Microsoft 365 Admin Center: Usage reports - Message consumption for Pay-as-you-go experiences in Copilot Chat.",
+      "description": "<p>A new report to help IT admins manage costs for billed messages that are Pay-as-you-go enabled for Copilot Chat. Reporting includes drill down of billed messages per user, per billing policy, per agent-level and agent-user level pair. #copilotcontrolsystem</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft 365 Admin Center",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "April CY2027",
+      "preview": "May CY2025",
+      "modified": "2026-10-28T23:04:31",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=490738"
+    },
+    {
+      "id": 576272,
+      "title": "Copilot Studio: Computer Use for web browsing on Microsoft Copilot Harness",
+      "description": "<p>Enable Microsoft Copilot Studio agents to browse and interact with websites as a native capability powered by the Microsoft Copilot harness. Using natural-language instructions, agents can navigate web pages, extract information, and download files. Agents can then use that information and those files alongside other tools to complete end-to-end workflows, extending their reach beyond configured knowledge sources and API-based integrations.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot Studio"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "January CY2027",
+      "preview": "November CY2026",
+      "modified": "2026-10-28T20:19:16",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576272"
+    },
     {
       "id": 577869,
       "title": "Power Automate: AI-assisted UI Automation repair",
@@ -171,30 +498,6 @@
       "preview": "",
       "modified": "2026-10-27T23:05:02",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555240"
-    },
-    {
-      "id": 554934,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot Chat in Outlook expands to reason over inbox, calendar, and enterprise data",
-      "description": "<p>Copilot Chat in Outlook expanding to support reasoning over a user's entire inbox, calendar and other enterprise data for Microsoft 365 Copilot Chat users (without a Microsoft 365 Copilot license) .</p>",
-      "status": "In development",
-      "products": [
-        "Outlook",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-10-27T23:05:02",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=554934"
     },
     {
       "id": 577745,
@@ -947,324 +1250,6 @@
       "preview": "June CY2026",
       "modified": "2026-10-22T22:58:40",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577418"
-    },
-    {
-      "id": 577417,
-      "title": "Dynamics 365 Customer Insights - Journeys: Improve engagement and message timing with Outreach Optimization Agent",
-      "description": "<p>Add the Outreach Optimization Agent to your journey, select the emails you want delivered, and let the agent handle timing and cadence automatically. With Outreach Optimization Agent, you can:</p> <ul> <li><strong>Start with an intelligent baseline</strong>: Outreach Optimization Agent automatically creates a baseline messaging plan for your audience by analyzing overall historical engagement patterns, producing a smart, generic plan that is designed to work well for most customers before any individual optimization kicks in.</li> <li><strong>Listen to incoming interactions and adapt the plan in real time</strong>: The agent continuously monitors incoming signals, including engagement and non-responsiveness, and adjusts follow-up timing and cadence, or exits the plan based on whether the goal is progressing or has been achieved.</li> <li><strong>Respect quiet times</strong>: The agent enforces quiet time settings as a hard constraint, ensuring that messages are never sent outside approved communication windows, even if engagement data suggests otherwise.</li> </ul> <p><strong>Scenario</strong></p> <p>A global retail brand uses Outreach Optimization Agent in a seasonal campaign to re-engage customers. Unlike previous efforts with fixed schedules and repeated reminders, the agent creates a smart baseline plan, then adjusts message timing for each customer based on their engagement. It slows or stops follow-ups when customers show interest and spaces out reminders for unresponsive customers, all while respecting quiet times and consent. This leads to better engagement and less message fatigue, with minimal manual intervention.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Dynamics 365 Customer Insights - Journeys"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "April CY2027",
-      "preview": "July CY2026",
-      "modified": "2026-10-22T22:58:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577417"
-    },
-    {
-      "id": 577405,
-      "title": "Dynamics 365 Commerce: Author Commerce receipt formats with Copilot Cowork",
-      "description": "<p>Use natural language in Copilot Cowork to create, update, translate, and check Commerce receipt layouts using existing formats in headquarters.</p> <p>The Commerce receipt format designer skill lets authorized users work with receipt layouts through natural-language requests in Copilot Cowork, using receipt configuration in Dynamics 365 Commerce headquarters. It applies to receipt formats used by Store Commerce point of sale (POS).</p> <p>Users can:</p> <ul> <li><strong>Create and adapt formats:</strong> Start from an existing format in the modern Receipt designer representation, create a new format, or request changes to an existing target.</li> <li><strong>Edit receipt sections:</strong> Modify header, line, and footer content, field positions, alignment, and supported formatting.</li> <li><strong>Translate and personalize content:</strong> Translate static labels and add user-supplied text while preserving dynamic fields. Missing business details are identified rather than invented.</li> <li><strong>Check layouts without changing them:</strong> Request structural or geometry checks that identify overlaps, width violations, and truncation risks, with findings and suggested remediation.</li> <li><strong>Verify saved changes:</strong> Review the resulting format and changes, with saved configuration re-read to confirm the requested update. Creating a format from a source preserves that source.</li> </ul> <p>The skill is available automatically to authorized Copilot Cowork users. Users describe the source format and desired outcome, resolve any source or target ambiguity, and review the results. A Commerce administrator ensures appropriate headquarters access and that the source format is available in the modern structured representation.</p> <p>Structural checks do not establish visual appearance, barcode scanability, runtime values, or legal and fiscal compliance. Users review the layout in the Receipt designer and perform appropriate test printing before operational use. Assigning formats to receipt profiles or printers and printing or reprinting transactions are separate setup and operational workflows.</p>",
-      "status": "In development",
-      "products": [
-        "Dynamics 365 Commerce"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "December CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-22T22:58:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577405"
-    },
-    {
-      "id": 577173,
-      "title": "Microsoft 365: [Education] Provide a Copilot starter prompt in Teams and LMS Assignments",
-      "description": "<p>Educators can provide a Copilot starter prompt from Student AI Guidelines in Teams and LMS Assignments. Students open Copilot with the educator's prompt ready in their chat, helping them begin with instructions tailored to the assignment.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft 365",
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-22T22:58:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577173"
-    },
-    {
-      "id": 575289,
-      "title": "Microsoft Copilot (Microsoft 365): Sales Development Agent - Meeting scheduling",
-      "description": "<p>Sales Development Agent can turn a prospect’s interest in meeting into a booked seller meeting. The agent asks the prospect to provide preferred dates and times, evaluates those options against the appropriate seller’s calendar, and books the first valid option in the prospect’s stated preference order. The seller and prospect receive the meeting invitation, while the seller receives additional conversation context to support a warm handoff. If scheduling cannot be completed, the agent transfers the request and relevant context to the seller for follow-up.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "Current Channel",
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-10-22T22:58:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575289"
-    },
-    {
-      "id": 573294,
-      "title": "Microsoft Copilot (Microsoft 365): Enable semantic model in Sales agent",
-      "description": "<p>Semantic model helps Sales Agent understand the structure and meaning of an organization’s CRM data. It creates a connected representation of CRM metadata, including tables or objects, fields, descriptions, data types, relationships, views, pick-list values, and glossary terms. Sales Agent can retrieve this context when responding to questions, improving its ability to interpret business language and answer complex questions that span related CRM records.</p> <p>Dynamics 365 admins can enable and turn on semantic model in Power Apps Maker Portal and configure the data coverage and signals that Sales Agent should use. Admins can configure the underlying data, views, metadata and relationships used in the model.</p> <p>For Salesforce customers, the semantic model will be based on existing Sales agent table and glossary configuration in Sales agent settings or Power Apps Maker Portal. In Power Apps Maker Portal, Salesforce admins will can configure additional Salesforce signals to use in semantic model such as relationships and views.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mobile",
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-22T22:58:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573294"
-    },
-    {
-      "id": 555895,
-      "title": "Microsoft Copilot (Microsoft 365): Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Agent Mode in PowerPoint",
-      "description": "<p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot using Agent Mode in PowerPoint.</p>",
-      "status": "Launched",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-10-22T22:58:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555895"
-    },
-    {
-      "id": 555891,
-      "title": "Microsoft Copilot (Microsoft 365): Reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation",
-      "description": "<p>You can now reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation.</p>",
-      "status": "Launched",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "March CY2026",
-      "preview": "",
-      "modified": "2026-10-22T22:58:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555891"
-    },
-    {
-      "id": 573700,
-      "title": "Microsoft Copilot (Microsoft 365): Sales Development Agent is now available",
-      "description": "<p>Autonomous agent that researches, qualifies, engages with leads, scaling sales capacity 24/7.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "January CY2027",
-      "preview": "October CY2026",
-      "modified": "2026-10-21T23:02:10",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573700"
-    },
-    {
-      "id": 567302,
-      "title": "Microsoft Teams: Ability for IT admins to customize the user notification messages for recording and transcription in calls",
-      "description": "<p>This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls.</p>",
-      "status": "Launched",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-10-21T23:02:10",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567302"
-    },
-    {
-      "id": 567315,
-      "title": "Planner: Capabilities in Microsoft Cowork",
-      "description": "<p>You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your Planner tasks across Microsoft 365, such as drafting and sending emails, scheduling meetings, posting updates to Teams, and working with files. It can then write progress back to Planner with your approval. You can move from planning your work to getting it done in one place.</p>",
-      "status": "In development",
-      "products": [
-        "Planner",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-21T23:02:10",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567315"
-    },
-    {
-      "id": 560318,
-      "title": "Microsoft Teams: AI-powered notes for in-person meetings with Facilitator in Teams Rooms on Windows",
-      "description": "<p>In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Windows. Simply invite Facilitator with one tap of the room console. Meeting notes appear on the front of room display or touch board, are available via meeting recap when shared, and deleted if no one selected. Rest assured no data remains in the room. Available with Teams Rooms Pro.</p>",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Teams and Surface Devices"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-10-21T23:02:10",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560318"
-    },
-    {
-      "id": 577185,
-      "title": "Microsoft Dataverse: Enable semantic data understanding for agentic use",
-      "description": "<p>Give AI agents and Copilot a true understanding of your business data — not just raw schema — so they can answer questions accurately with less manual configuration.</p> <ul> <li><strong>Learns from the systems you already run</strong> — Automatically extracts semantic knowledge from views, forms, and metadata already defined in your Dataverse environment, reducing agent deployment from days of manual setup to near-zero effort.</li> <li><strong>Full visibility for makers</strong> — View generated semantic knowledge per entity — including name, description, and sample questions — directly in the Power Apps maker portal. Search for understanding gaps and enrich missing context with a built-in glossary for domain-specific terms.</li> <li><strong>Governance and privacy built in</strong> — Enable or disable semantic signals at the org level, or at the individual signal-type or table level, giving makers and admins granular control to meet compliance and privacy requirements without sacrificing agent quality.</li> </ul> <p>No manual schema mapping. No custom query logic. No disambiguation between what your data is called and what your business actually means.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Dataverse"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "June CY2026",
-      "modified": "2026-10-20T23:00:34",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577185"
-    },
-    {
-      "id": 577184,
-      "title": "Dynamics 365 Customer Service: Manage intraday operations with AI agent",
-      "description": "<p>Intraday Agent is an autonomous AI agent that helps manage intraday operational scenarios. The following are its high-level capabilities.</p> <p><strong>Intraday queue tracking</strong></p> <ul> <li>Continuously monitors queue volumes in real time.</li> <li>Detects anomalies when actual volume deviates significantly from forecasted demand.</li> <li>Automatically reforecasts in real time to assess current demand.</li> <li>Notifies supervisors with proactive alerts and recommendations.</li> <li>Automates corrective actions such as adjusting schedules, rescheduling breaks, or reallocating service representatives to maintain SLA performance.</li> <li>Supports customizable instructions to align mitigation actions with business needs.</li> </ul> <p><strong>Intraday adherence tracking</strong></p> <ul> <li>Monitors service representative adherence to scheduled shift activities in real time.</li> <li>Detects deviations such as late logins, extended breaks, or early logouts.</li> <li>Autonomously mitigates deviations through actions such as break rescheduling, shift extensions, overtime activation, or flexible channel reassignment.</li> <li>Supports customizable instructions to align mitigation actions with business needs.</li> </ul>",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Dynamics 365 Customer Service"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "March CY2027",
-      "preview": "September CY2026",
-      "modified": "2026-10-20T23:00:34",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577184"
-    },
-    {
-      "id": 577183,
-      "title": "Microsoft Power Platform governance and administration: Multi-grader comparison",
-      "description": "<p>Multi-grader comparison enables makers to compare the results of multiple graders applied to the same evaluation.</p> <p>The experience highlights agreement, differences, and overall grading behavior.</p> <p><strong>Core capabilities</strong></p> <p>The core capabilities include:</p> <ul> <li>Compare graders side-by-side.</li> <li>Compare scores.</li> <li>Review explanations from each grader.</li> <li>Analyze grading consistency.</li> </ul> <p><strong>Results experience</strong></p> <p>Results include:</p> <ul> <li>Comparative score view.</li> <li>Pass / fail comparison.</li> <li>Grader explanations.</li> <li>Evidence supporting each evaluation.</li> </ul>",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Power Platform governance and administration"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "September CY2026",
-      "modified": "2026-10-20T23:00:34",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577183"
-    },
-    {
-      "id": 571884,
-      "title": "Word: Legal plugins in Copilot",
-      "description": "<p>Legal plugins in Copilot provide purpose-built skills to help legal professionals summarize, draft, review, and redline legal documents. Available in Word and Cowork, these plugins can use work context from Microsoft 365 and connect to supported third-party legal sources.</p>",
-      "status": "Rolling out",
-      "products": [
-        "Word",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "April CY2026",
-      "modified": "2026-10-20T23:00:34",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571884"
     }
   ]
 }
