@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-11-09T22:37:36.094Z",
+  "generatedAt": "2026-11-16T22:25:32.033Z",
   "count": 24,
   "editions": [
+    {
+      "id": "2026-W47",
+      "year": 2026,
+      "week": 47,
+      "dateLabel": "November 19, 2026",
+      "prompt": {
+        "title": "Executive-ready summary",
+        "text": "Summarize this document for a busy executive in 5 bullet points, then add a one-line 'so what' that explains the business impact. Flag anything that needs a decision from me."
+      },
+      "tip": {
+        "app": "Excel",
+        "tip": "Select your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go."
+      },
+      "capability": {
+        "name": "Copilot Notebooks",
+        "text": "Pull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.",
+        "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
+      },
+      "roadmap": {
+        "title": "Work IQ: Execute (Recipes)",
+        "status": "In development",
+        "description": "<p>Enable agents to execute reusable Work IQ recipes that coordinate supported tools and actions.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570866"
+      },
+      "reads": [
+        {
+          "title": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
+        },
+        {
+          "title": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"
+        }
+      ],
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (November 19, 2026)\n\nPROMPT OF THE WEEK — Executive-ready summary\n\"Summarize this document for a busy executive in 5 bullet points, then add a one-line 'so what' that explains the business impact. Flag anything that needs a decision from me.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Work IQ: Execute (Recipes) (In development)\n<p>Enable agents to execute reusable Work IQ recipes that coordinate supported tools and actions.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570866\n\nWORTH A READ\n- Introducing the new Copilot with Home, Code and Autopilot — https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+    },
     {
       "id": "2026-W46",
       "year": 2026,
@@ -21,22 +57,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Microsoft Purview: Data Lifecycle Management-Legacy Teams retention policies covering Copilot will be treated as Teams-only",
+        "title": "Copilot Chat in OneNote can create, edit, and refine content",
         "status": "In development",
-        "description": "<p>Some existing retention policies scoped to Microsoft Teams may currently also apply to Microsoft 365 Copilot interactions. As part of an upcoming change, these legacy Teams retention policies will be converted to—and treated as—Teams-only policies. They will no longer implicitly govern Copilot workloads.</p>",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571306"
+        "description": "<p>Copilot in OneNote can generate new content and directly edit when in edit mode. In this mode you can create, rename, and delete pages, sections, or notebooks as well as add or edit content in pages. Copilot can bring content from across WorkIQ as well as complete actions across other workflows such as creating Word, Excel, and PowerPoint files.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573446"
       },
       "reads": [
         {
-          "title": "The AI advantage your company can keep",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/"
+          "title": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
         },
         {
-          "title": "Bringing CRM into the flow of work and agents into business process for sales and service teams",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/"
+          "title": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (November 12, 2026)\n\nPROMPT OF THE WEEK — Turn a meeting into an action plan\n\"Based on the transcript and chat from my last meeting with [team], list every decision made, every open question, and a table of action items with owners and due dates. Then draft a short follow-up email I can send to attendees.\"\n\nCOPILOT IN WORD\nAsk Copilot to 'draft a [document type] from these bullet points', then 'add a section on [topic]' and 'rewrite the intro to be more concise'. Reference an existing file with the / command to ground it in your own content.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Purview: Data Lifecycle Management-Legacy Teams retention policies covering Copilot will be treated as Teams-only (In development)\n<p>Some existing retention policies scoped to Microsoft Teams may currently also apply to Microsoft 365 Copilot interactions. As part of an upcoming change, these legacy Teams retention policies will be converted to—and treated as—Teams-only policies. They will no longer implicitly govern Copilot workloads.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571306\n\nWORTH A READ\n- The AI advantage your company can keep — https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/\n- Bringing CRM into the flow of work and agents into business process for sales and service teams — https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (November 12, 2026)\n\nPROMPT OF THE WEEK — Turn a meeting into an action plan\n\"Based on the transcript and chat from my last meeting with [team], list every decision made, every open question, and a table of action items with owners and due dates. Then draft a short follow-up email I can send to attendees.\"\n\nCOPILOT IN WORD\nAsk Copilot to 'draft a [document type] from these bullet points', then 'add a section on [topic]' and 'rewrite the intro to be more concise'. Reference an existing file with the / command to ground it in your own content.\n\nFRONTIER SPOTLIGHT — Copilot Cowork\nDescribe the outcome you want and Cowork plans the steps and takes action across your files and conversations — completing long-running, multi-step work. Now supports plugins and mobile.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Copilot Chat in OneNote can create, edit, and refine content (In development)\n<p>Copilot in OneNote can generate new content and directly edit when in edit mode. In this mode you can create, rename, and delete pages, sections, or notebooks as well as add or edit content in pages. Copilot can bring content from across WorkIQ as well as complete actions across other workflows such as creating Word, Excel, and PowerPoint files.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573446\n\nWORTH A READ\n- Introducing the new Copilot with Home, Code and Autopilot — https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W45",
@@ -57,22 +93,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
       },
       "roadmap": {
-        "title": "Microsoft Copilot Studio: Copilot studio cost controls in MAC",
+        "title": "Enable semantic model in Sales agent",
         "status": "In development",
-        "description": "<p>We’re expanding cost management for Microsoft Copilot Studio into the Microsoft 365 admin center. This gives administrators a more centralized way to manage Copilot Credit spend across usage-based AI workloads while retaining Copilot Studio cost management capabilities in the Power Platform admin center.<br> With this update, administrators can bring supported Copilot Studio environments and agents under Cost Management spending policies. Resource-based policies for environments and agents are the first planned scopes, with broader user and group policy support planned for a later phase.<br> Furthermore, this update will introduce cost data into cost management and agent registry for AI services and agents built on Microsoft platforms (e.g., Cowork, Microsoft Copilot Studio agents).</p>",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577834"
+        "description": "<p>Semantic model helps Sales Agent understand the structure and meaning of an organization’s CRM data. It creates a connected representation of CRM metadata, including tables or objects, fields, descriptions, data types, relationships, views, pick-list values, and glossary terms. Sales Agent can retrieve this context when responding to questions, improving its ability to interpret business language and answer complex questions that span related CRM records.</p> <p>Dynamics 365 admins can enable and turn on semantic model in Power Apps Maker Portal and configure the data coverage and signals that Sales Agent should use. Admins can configure the underlying data, views, metadata and relationships used in the model.</p> <p>For Salesforce customers, the semantic model will be based on existing Sales agent table and glossary configuration in Sales agent settings or Power Apps Maker Portal. In Power Apps Maker Portal, Salesforce admins will can configure additional Salesforce signals to use in semantic model such as relationships and views.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573294"
       },
       "reads": [
         {
-          "title": "The AI advantage your company can keep",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/"
+          "title": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
         },
         {
-          "title": "Bringing CRM into the flow of work and agents into business process for sales and service teams",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/"
+          "title": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (November 5, 2026)\n\nPROMPT OF THE WEEK — Rewrite for clarity\n\"Rewrite this so a non-expert can understand it. Remove jargon, shorten sentences, and lead with the most important point. Keep the meaning exact.\"\n\nCOPILOT IN ONENOTE\nAsk Copilot to 'summarize my notes from this section', 'turn these notes into a to-do list', or 'draft a plan based on this brainstorm' to convert messy notes into structured next steps.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Microsoft Copilot Studio: Copilot studio cost controls in MAC (In development)\n<p>We’re expanding cost management for Microsoft Copilot Studio into the Microsoft 365 admin center. This gives administrators a more centralized way to manage Copilot Credit spend across usage-based AI workloads while retaining Copilot Studio cost management capabilities in the Power Platform admin center.<br> With this update, administrators can bring supported Copilot Studio environments and agents under Cost Management spending policies. Resource-based policies for environments and agents are the first planned scopes, with broader user and group policy support planned for a later phase.<br> Furthermore, this update will introduce cost data into cost management and agent registry for AI services and agents built on Microsoft platforms (e.g., Cowork, Microsoft Copilot Studio agents).</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577834\n\nWORTH A READ\n- The AI advantage your company can keep — https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/\n- Bringing CRM into the flow of work and agents into business process for sales and service teams — https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (November 5, 2026)\n\nPROMPT OF THE WEEK — Rewrite for clarity\n\"Rewrite this so a non-expert can understand it. Remove jargon, shorten sentences, and lead with the most important point. Keep the meaning exact.\"\n\nCOPILOT IN ONENOTE\nAsk Copilot to 'summarize my notes from this section', 'turn these notes into a to-do list', or 'draft a plan based on this brainstorm' to convert messy notes into structured next steps.\n\nFRONTIER SPOTLIGHT — Finance Agent\nGives finance teams and stakeholders a centralized, role-aware view of financial performance with up-to-date, permission-aware insights.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Enable semantic model in Sales agent (In development)\n<p>Semantic model helps Sales Agent understand the structure and meaning of an organization’s CRM data. It creates a connected representation of CRM metadata, including tables or objects, fields, descriptions, data types, relationships, views, pick-list values, and glossary terms. Sales Agent can retrieve this context when responding to questions, improving its ability to interpret business language and answer complex questions that span related CRM records.</p> <p>Dynamics 365 admins can enable and turn on semantic model in Power Apps Maker Portal and configure the data coverage and signals that Sales Agent should use. Admins can configure the underlying data, views, metadata and relationships used in the model.</p> <p>For Salesforce customers, the semantic model will be based on existing Sales agent table and glossary configuration in Sales agent settings or Power Apps Maker Portal. In Power Apps Maker Portal, Salesforce admins will can configure additional Salesforce signals to use in semantic model such as relationships and views.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573294\n\nWORTH A READ\n- Introducing the new Copilot with Home, Code and Autopilot — https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W44",
@@ -93,22 +129,22 @@
         "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program"
       },
       "roadmap": {
-        "title": "Microsoft Teams: AI-generated meeting memory for knowledge retention (formerly AI-generated meeting archive)",
+        "title": "Federated Copilot Connectors in Microsoft 365 Copilot",
         "status": "In development",
-        "description": "<p>Teams will store AI-generated meeting memory files for meetings where Intelligent Recap was turned on, allowing Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods and when a transcript was not saved. This enables Copilot to continue answering questions about past meetings even after the transcript expires or the meeting is over. Admins can also configure how long this AI-generated meeting memory file is stored.</p>",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933"
+        "description": "<p>Federated Copilot connectors enable users to securely connect Microsoft Copilot to their favorite third party sources, retrieving data in real-time using the Model Context Protocol (MCP). Federated Copilot connectors do not store or index customer data in Microsoft - access happens in real time using the user’s own identity, while administrators retain full governance and control through the Microsoft 365 Admin Center. With GA, federated Copilot connectors will be supported across Researcher agent and Microsoft 365 Chat, allowing users to bring data into their workflows.</p>",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569212"
       },
       "reads": [
         {
-          "title": "The AI advantage your company can keep",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/"
+          "title": "Introducing the new Copilot with Home, Code and Autopilot",
+          "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
         },
         {
-          "title": "Bringing CRM into the flow of work and agents into business process for sales and service teams",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/"
+          "title": "Building the system for AI at work",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/"
         }
       ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (October 29, 2026)\n\nPROMPT OF THE WEEK — Data to narrative\n\"Look at this spreadsheet and tell me the three most important trends. Explain what's driving each one and suggest a chart that would communicate it best to leadership.\"\n\nCOPILOT IN LOOP / PAGES\nPromote a great Copilot answer into a Copilot Page, then @mention teammates to co-edit. It's the fastest way to turn an AI draft into shared, living team content.\n\nFRONTIER SPOTLIGHT — Researcher\nA reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program\n\nON THE ROADMAP — Microsoft Teams: AI-generated meeting memory for knowledge retention (formerly AI-generated meeting archive) (In development)\n<p>Teams will store AI-generated meeting memory files for meetings where Intelligent Recap was turned on, allowing Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods and when a transcript was not saved. This enables Copilot to continue answering questions about past meetings even after the transcript expires or the meeting is over. Admins can also configure how long this AI-generated meeting memory file is stored.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933\n\nWORTH A READ\n- The AI advantage your company can keep — https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/\n- Bringing CRM into the flow of work and agents into business process for sales and service teams — https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
+      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (October 29, 2026)\n\nPROMPT OF THE WEEK — Data to narrative\n\"Look at this spreadsheet and tell me the three most important trends. Explain what's driving each one and suggest a chart that would communicate it best to leadership.\"\n\nCOPILOT IN LOOP / PAGES\nPromote a great Copilot answer into a Copilot Page, then @mention teammates to co-edit. It's the fastest way to turn an AI draft into shared, living team content.\n\nFRONTIER SPOTLIGHT — Researcher\nA reasoning agent that runs deeper, multi-step research across your work and the web to produce thorough, cited answers for complex questions.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program\n\nON THE ROADMAP — Federated Copilot Connectors in Microsoft 365 Copilot (In development)\n<p>Federated Copilot connectors enable users to securely connect Microsoft Copilot to their favorite third party sources, retrieving data in real-time using the Model Context Protocol (MCP). Federated Copilot connectors do not store or index customer data in Microsoft - access happens in real time using the user’s own identity, while administrators retain full governance and control through the Microsoft 365 Admin Center. With GA, federated Copilot connectors will be supported across Researcher agent and Microsoft 365 Chat, allowing users to bring data into their workflows.</p>\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569212\n\nWORTH A READ\n- Introducing the new Copilot with Home, Code and Autopilot — https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/\n- Building the system for AI at work — https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     },
     {
       "id": "2026-W43",
@@ -829,42 +865,6 @@
         }
       ],
       "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 11, 2026)\n\nPROMPT OF THE WEEK — Compare and recommend\n\"Compare these [proposals/vendors/options] across cost, risk, time-to-value, and effort in a table. Recommend one and explain the trade-offs in two sentences.\"\n\nCOPILOT IN POWERPOINT\nTurn a Word doc into a deck: 'create a presentation from this document'. Then refine with 'add a slide summarizing the budget' or 'make this slide more visual'. Use 'summarize this presentation' to brief yourself fast.\n\nFRONTIER SPOTLIGHT — Microsoft Scout\nAn AI desktop app that stays connected to your priorities, monitors what matters, and moves work forward across the Microsoft 365 apps you use every day.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Work IQ APIs: Pay-As-You-Go usage (In development)\nEnables metered, pay-as-you-go access to Work IQ endpoints, allowing developers to invoke agents and capabilities without requiring pre-assigned licenses, with usage billed based on the agents and models invoked per request.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559017\n\nWORTH A READ\n- Copilot in Excel: Built for the era of Frontier Finance — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
-    },
-    {
-      "id": "2026-W23",
-      "year": 2026,
-      "week": 23,
-      "dateLabel": "June 4, 2026",
-      "prompt": {
-        "title": "Executive-ready summary",
-        "text": "Summarize this document for a busy executive in 5 bullet points, then add a one-line 'so what' that explains the business impact. Flag anything that needs a decision from me."
-      },
-      "tip": {
-        "app": "Excel",
-        "tip": "Select your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go."
-      },
-      "capability": {
-        "name": "Copilot Notebooks",
-        "text": "Pull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features"
-      },
-      "roadmap": {
-        "title": "Reference an attached PowerPoint deck’s style when creating a new presentation with Agent Mode in PowerPoint",
-        "status": "In development",
-        "description": "When creating a presentation with Copilot in PowerPoint using Agent Mode, you can reference an existing PowerPoint file, so Copilot applies its theme and styles to the new deck, keeping formatting consistent. Updated June 5, 2026: This feature is still in development and will begin rolling out mid-June 2026. We apologize for the inconvenience.",
-        "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555878"
-      },
-      "reads": [
-        {
-          "title": "Copilot Cowork is now generally available",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
-        },
-        {
-          "title": "What’s New in Notebooks | June 2026",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625"
-        }
-      ],
-      "copyText": "MICROSOFT 365 COPILOT — CHAMPION WEEKLY (June 4, 2026)\n\nPROMPT OF THE WEEK — Executive-ready summary\n\"Summarize this document for a busy executive in 5 bullet points, then add a one-line 'so what' that explains the business impact. Flag anything that needs a decision from me.\"\n\nCOPILOT IN EXCEL\nSelect your data and ask Copilot to 'highlight the top trends', 'add a column that calculates [metric]', or 'create a PivotTable summarizing sales by region'. It explains the formulas it writes so you can learn as you go.\n\nFRONTIER SPOTLIGHT — Copilot Notebooks\nPull Teams meetings, Outlook emails, and web content in as sources, then generate richer outputs like Excel worksheets and infographics directly from your notebook.\nLearn more: https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-features\n\nON THE ROADMAP — Reference an attached PowerPoint deck’s style when creating a new presentation with Agent Mode in PowerPoint (In development)\nWhen creating a presentation with Copilot in PowerPoint using Agent Mode, you can reference an existing PowerPoint file, so Copilot applies its theme and styles to the new deck, keeping formatting consistent. Updated June 5, 2026: This feature is still in development and will begin rolling out mid-June 2026. We apologize for the inconvenience.\nDetails: https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555878\n\nWORTH A READ\n- Copilot Cowork is now generally available — https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/\n- What’s New in Notebooks | June 2026 — https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625\n\nQuestions? Reach your Copilot Champion. Built for guidance only; references public Microsoft sources."
     }
   ]
 }
