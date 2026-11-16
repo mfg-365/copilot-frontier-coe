@@ -1,13 +1,142 @@
 {
-  "generatedAt": "2026-11-13T19:01:59.208Z",
+  "generatedAt": "2026-11-16T21:29:40.224Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 763,
+  "totalCopilotFeatures": 762,
   "counts": {
-    "inDevelopment": 27,
-    "rollingOut": 5,
+    "inDevelopment": 28,
+    "rollingOut": 4,
     "launched": 28
   },
   "items": [
+    {
+      "id": 579980,
+      "title": "Dynamics 365 Business Central: Copilot and agents - Fill forms faster with Autofill - Auto paste",
+      "description": "<p>Save time entering information into Business Central with Auto paste. Building on Autofill, Auto paste uses AI to identify relevant information from text or HTML copied to your clipboard and map it to the appropriate fields on a Business Central page.</p> <p><strong>Benefits</strong></p> <p>Reduce manual data entry when bringing information from external sources into Business Central.<br> Populate multiple relevant fields from copied content instead of copying and pasting individual values.<br> Extend AI-assisted data entry to more everyday Business Central workflows.</p>",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "April CY2027",
+      "preview": "December CY2026",
+      "modified": "2026-11-13T23:01:18",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579980"
+    },
+    {
+      "id": 570846,
+      "title": "Microsoft Teams: Express face enrollment",
+      "description": "<p>Express face enrollment makes it easier for users to create a face profile in Teams by using their camera during eligible meetings, after they opt in. Once enrolled, users can be recognized in supported Teams Rooms experiences, helping identify who is in the room and improving downstream meeting experiences such as Copilot and recap. Admins can enable or disable the feature for their organization.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "February CY2027",
+      "preview": "",
+      "modified": "2026-11-13T19:41:44",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570846"
+    },
+    {
+      "id": 558341,
+      "title": "Microsoft Teams: Facilitator detects and answers questions",
+      "description": "<p>Facilitator now automatically detects open questions raised during a Teams meeting and offers to help answer them using web search. When a participant asks a question (e.g., “What is an LLM?”) and no one answers, Facilitator posts a prompt offering to find an answer. Participants can select “Yes” to have the agent retrieve and share the information.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "February CY2027",
+      "preview": "",
+      "modified": "2026-11-13T19:41:44",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558341"
+    },
+    {
+      "id": 508526,
+      "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 Copilot Search Supports SharePoint Online Custom Properties Search",
+      "description": "<p>Discover and find people through Microsoft 365 Copilot Search based on your company's custom profile properties from SharePoint Online.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2027",
+      "preview": "",
+      "modified": "2026-11-13T19:41:44",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=508526"
+    },
+    {
+      "id": 537269,
+      "title": "Microsoft Teams: Express voice enrollment in Microsoft Teams",
+      "description": "<p>Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you don’t yet have a voice profile, just go to the recognition tab in Teams settings and opt-in to enroll your voice from audio during your Teams meetings. Admins can enable or disable this feature.</p>",
+      "status": "Launched",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Teams and Surface Devices"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "June CY2026",
+      "preview": "",
+      "modified": "2026-11-13T19:41:44",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=537269"
+    },
+    {
+      "id": 579977,
+      "title": "Microsoft Copilot (Microsoft 365): Discover and act on recommended lead and opportunity actions in Sales agent",
+      "description": "<p>Sellers can discover and act on lead and opportunity recommendations that are already prioritized for them in Sales agent. A single prioritized list helps sellers see what needs attention without monitoring each agent separately or prioritizing the actions themselves. Sellers can review each recommended action, understand its details and business context, and take action from the same experience.</p> <p>The initial release focuses on lead outreach actions from Sales qualification agent and opportunity risk actions from Sales opportunity agent. Sellers can discover leads that need outreach and opportunities that need attention, review the recommended next step and its context, and act to move customer conversations and opportunities forward.</p> <p>Recommended actions will be turned on by default. Additional agents, including custom agents, are a future direction and are not part of this initial release commitment.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "November CY2026",
+      "preview": "",
+      "modified": "2026-11-13T19:37:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579977"
+    },
     {
       "id": 566523,
       "title": "Microsoft Teams: Facilitator follow-up mode",
@@ -1117,131 +1246,6 @@
       "preview": "",
       "modified": "2026-11-04T23:59:50",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577884"
-    },
-    {
-      "id": 571400,
-      "title": "Microsoft Copilot (Microsoft 365): Chat: Access to UBB models via the model selector",
-      "description": "<p>Users will be able to access models that require usage-based billing (UBB) from the model selector in Chat. Tenant admins will need to allocate credits so that users can interact with these models. If users consume their allotted credits, they will be able to request credits from their tenant admins.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "December CY2026",
-      "preview": "November CY2026",
-      "modified": "2026-11-04T23:59:50",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571400"
-    },
-    {
-      "id": 578859,
-      "title": "Microsoft Teams: Copilot in the Queues app on Mobile",
-      "description": "<p>Agents and supervisors can use Copilot in the Queues app on Mobile to quickly understand and follow up on customer conversations. From shared call history, users can ask questions about a past call and use Copilot to surface relevant information and insights from the conversation, helping them get up to speed and take the next step without having to review the entire call</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Android",
-        "iOS"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "December CY2026",
-      "preview": "",
-      "modified": "2026-11-04T00:02:09",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=578859"
-    },
-    {
-      "id": 577893,
-      "title": "Dynamics 365 Commerce: Design POS screen layouts in a modern browser designer",
-      "description": "<p>Create and preview POS screen layouts in headquarters with a modern web designer that simplifies configuration and reduces design iterations.</p> <p>The Screen layout designer is modernized as a React-based web experience embedded in Commerce headquarters, with a JSON-based layout backbone replacing the legacy XML representation. The feature applies to Store Commerce point of sale (POS).</p> <p>The modernization includes these core capabilities:</p> <ul> <li><strong>Visual layout and button-grid authoring:</strong> Arrange and resize supported POS components on a drag-and-drop canvas, configure properties, and edit associated button grids and POS operation mappings in a unified experience.</li> <li><strong>Live preview:</strong> Inspect layouts and their associated button-grid operations while designing, and preview supported device sizes and orientations without distributing every design iteration to stores.</li> <li><strong>Existing layout migration:</strong> Bring existing screen layouts and button-grid configurations into the modern designer rather than recreate them from scratch.</li> <li><strong>Reusable configuration:</strong> Reuse layout templates with store-specific overrides to reduce the need to maintain duplicate layouts.</li> <li><strong>Modern usability:</strong> Work with contextual properties, familiar Fluent UI controls, and inline validation.</li> </ul> <p>Administrators enable or disable the modern designer through feature management in headquarters. Authorized users open <strong>Retail and Commerce &gt; Channel setup &gt; POS setup &gt; POS &gt; Screen layouts</strong>, select a layout, and open the designer. They configure the layout and button grids, inspect the preview, and save changes to headquarters. Administrators distribute the saved configuration to stores through the existing Commerce data distribution process. Previewing changes does not replace the distribution needed to update Store Commerce.</p> <p>Setup is performed by a Commerce administrator, who enables the feature, grants appropriate headquarters permissions, and manages layout assignments and distribution. No separate ClickOnce designer installation or Copilot license is required for manual design.</p>",
-      "status": "In development",
-      "products": [
-        "Dynamics 365 Commerce"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "June CY2027",
-      "preview": "January CY2027",
-      "modified": "2026-11-04T00:02:09",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577893"
-    },
-    {
-      "id": 577746,
-      "title": "Dynamics 365 Customer Insights - Journeys: Marketing tools, skills and plugin are now available in Copilot Cowork",
-      "description": "<p>The Customer Insights plugin brings Dynamics 365 Customer Insights context, actions, and guided workflows to Copilot Cowork. Marketers and other customer-facing teams can understand customer profiles, author brand-compliant content, and prepare consent-aware outreach using existing segments directly in the flow of work, reducing the need to switch to Dynamics 365 Customer Insights.</p> <p>The native Customer Insights skills (Customer Brief &amp; Value Metrics, Email Content Advisor, and Customer Outreach) invoke tools published through the Dynamics 365 MCP server to retrieve unified customer profile and journey context and to perform supported actions in Customer Insights – Journeys. These tools respect Dynamics 365 business logic and the user's existing permissions on each call. The skills are included in the Customer Insights plugin, providing administrators with a governed way to deploy and manage the capabilities.</p>",
-      "status": "Launched",
-      "products": [
-        "Dynamics 365 Customer Insights - Data",
-        "Dynamics 365 Customer Insights - Journeys"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-11-04T00:02:09",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577746"
-    },
-    {
-      "id": 577399,
-      "title": "Microsoft Teams: Enhanced Copilot and AI controls for meetings",
-      "description": "<p>Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more predictable administration and greater flexibility for compliance and governance scenarios.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "December CY2026",
-      "preview": "",
-      "modified": "2026-11-04T00:02:09",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577399"
-    },
-    {
-      "id": 571299,
-      "title": "Microsoft Teams: Ask Copilot from Search on Mobile",
-      "description": "<p>Get answers without leaving search. As you type in the Teams search bar, you'll see an option to ask Copilot alongside search results. You can also select Ask Copilot from the search results page to turn your query into a Copilot conversation, helping you quickly find information, get answers, and ask follow-up questions in context.</p>",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Android",
-        "iOS"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-11-04T00:02:09",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571299"
     }
   ]
 }
