@@ -1,13 +1,121 @@
 {
-  "generatedAt": "2026-11-22T18:54:52.503Z",
+  "generatedAt": "2026-11-25T20:55:55.746Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 773,
+  "totalCopilotFeatures": 771,
   "counts": {
-    "inDevelopment": 40,
+    "inDevelopment": 41,
     "rollingOut": 6,
-    "launched": 14
+    "launched": 13
   },
   "items": [
+    {
+      "id": 581772,
+      "title": "Dynamics 365 Human Resources: Agent onboarding for new employees",
+      "description": "<p><strong>Business value</strong></p> <p>Onboarding in Dynamics 365 Human Resources spans several pages and two people: HR administrators hire the candidate, enroll leave and set compensation, while the new employee completes personal details, address, emergency contacts and identification. Steps are easy to miss.<br> A new agentic onboarding experience will brings the tasks into one guided conversation over live Human Resources data. Every change is previewed and confirmed explicitly, and all reads and writes run under the signed-in user's security roles and legal entities, so teams move faster without giving up control.</p> <p><strong>Capability details</strong></p> <ul> <li><strong>Ready-to-start worklist:</strong> unprocessed candidates whose estimated start date falls in the configured trigger lead-days window, across the HR manager's legal entities.</li> <li><strong>Guided hire:</strong> opens the standard Hire new worker dialog with real lookup values (worker type, employment type, dates, position, personnel number, checklist templates), then creates the worker and re-reads the result.</li> <li><strong>Start date adjustment, leave plan enrollment and fixed compensation,</strong> each confirmed and read back, plus a read-only onboarding status view.</li> <li><strong>New employee self-service:</strong> own checklist grouped overdue, pending and done, plus personal details, home address, emergency contacts and identification.</li> <li><strong>Identification capture:</strong> the employee uploads a passport, license, national ID or work permit image; the agent proposes the type, number, issuing country and dates, masks the number and requires confirmation. The image is not retained.</li> <li><strong>Also included:</strong> natural-language address entry, progress summary, an introductory email draft and resource links.</li> </ul> <p><strong>Enablement</strong></p> <p>Configured per legal entity in Human resources parameters: the Copilot HR manager toggle and Copilot trigger lead days drive the candidate worklist. Administrator capabilities require the Human resource manager or assistant role; employee capabilities run under self-service access</p>",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Human Resources"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "July CY2027",
+      "preview": "March CY2027",
+      "modified": "2026-11-25T00:10:31",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=581772"
+    },
+    {
+      "id": 580889,
+      "title": "Microsoft Copilot (Microsoft 365): The more you use Copilot in Office the better it gets",
+      "description": "<p>Copilot in Word, Excel, PowerPoint, and Workspaces across Copilot App and OneNote will use memory to learn your work patterns and personalize responses. With memory, Copilot can offer more relevant suggestions, hold the pen in a way that represents you, and adapt to your preferences over time</p>",
+      "status": "In development",
+      "products": [
+        "Excel",
+        "Microsoft 365",
+        "OneNote",
+        "PowerPoint",
+        "Word",
+        "Microsoft Copilot (Microsoft 365)",
+        "Work IQ"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "Current Channel",
+        "General Availability",
+        "Preview",
+        "Targeted Release"
+      ],
+      "availability": "November CY2026",
+      "preview": "November CY2026",
+      "modified": "2026-11-24T00:13:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=580889"
+    },
+    {
+      "id": 570647,
+      "title": "SharePoint: Changes to the FAQ web part authoring experience",
+      "description": "<p>The SharePoint FAQ web part will provide a standard, non-AI experience for manually creating, editing, and managing FAQs. The AI-assisted FAQ creation and import will move to the Copilot in SharePoint authoring experience, where authors can use natural-language prompts and selected grounding sources to generate FAQ content that is saved to the compatible FAQ web part. Existing FAQ web parts and their content will continue to render without migration.</p>",
+      "status": "Launched",
+      "products": [
+        "SharePoint"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-11-24T00:13:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570647"
+    },
+    {
+      "id": 562345,
+      "title": "Microsoft Purview: Archive SharePoint files under retention policies",
+      "description": "<p>With the introduction of file archiving support in SharePoint Online, administrators are looking to seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins want to now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SPO. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "January CY2027",
+      "preview": "",
+      "modified": "2026-11-24T00:13:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345"
+    },
+    {
+      "id": 561208,
+      "title": "Microsoft Purview: Data Lifecycle Management – Archive SharePoint files under retention",
+      "description": "<p>We are introducing file archiving support in SharePoint Online, utilizing this feature administrators can seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins can now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SharePoint Online. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "December CY2026",
+      "preview": "September CY2026",
+      "modified": "2026-11-24T00:13:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208"
+    },
     {
       "id": 581992,
       "title": "Manage workforce requests in Microsoft 365 Copilot",
@@ -1147,113 +1255,6 @@
       "preview": "",
       "modified": "2026-11-11T00:52:46",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=564607"
-    },
-    {
-      "id": 573294,
-      "title": "Microsoft Copilot (Microsoft 365): Enable semantic model in Sales agent",
-      "description": "<p>Semantic model helps Sales Agent understand the structure and meaning of an organization’s CRM data. It creates a connected representation of CRM metadata, including tables or objects, fields, descriptions, data types, relationships, views, pick-list values, and glossary terms. Sales Agent can retrieve this context when responding to questions, improving its ability to interpret business language and answer complex questions that span related CRM records.</p> <p>Dynamics 365 admins can enable and turn on semantic model in Power Apps Maker Portal and configure the data coverage and signals that Sales Agent should use. Admins can configure the underlying data, views, metadata and relationships used in the model.</p> <p>For Salesforce customers, the semantic model will be based on existing Sales agent table and glossary configuration in Sales agent settings or Power Apps Maker Portal. In Power Apps Maker Portal, Salesforce admins will can configure additional Salesforce signals to use in semantic model such as relationships and views.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mobile",
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "December CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-11-11T00:51:09",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573294"
-    },
-    {
-      "id": 573446,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot Chat in OneNote can create, edit, and refine content",
-      "description": "<p>Copilot in OneNote can generate new content and directly edit when in edit mode. In this mode you can create, rename, and delete pages, sections, or notebooks as well as add or edit content in pages. Copilot can bring content from across WorkIQ as well as complete actions across other workflows such as creating Word, Excel, and PowerPoint files.</p>",
-      "status": "In development",
-      "products": [
-        "OneNote",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "January CY2027",
-      "preview": "November CY2026",
-      "modified": "2026-11-11T00:51:09",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573446"
-    },
-    {
-      "id": 571309,
-      "title": "Microsoft Purview: Information Protection-Auto-labeling scale increase for SharePoint and OneDrive",
-      "description": "<p>We are increasing the maximum auto-labeling capacity for SharePoint and OneDrive from 100,000 up to 500,000 files per tenant per day. This helps organizations label and protect more of their data at rest, faster, closing labeling gaps across existing content. With sensitivity labels and protection settings applied to more files sooner, organizations can better prepare their data estate for Microsoft 365 Copilot with greater confidence.</p>",
-      "status": "Launched",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-11-11T00:51:09",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571309"
-    },
-    {
-      "id": 570866,
-      "title": "Work IQ: Execute (Recipes)",
-      "description": "<p>Enable agents to execute reusable Work IQ recipes that coordinate supported tools and actions.</p>",
-      "status": "In development",
-      "products": [
-        "Work IQ",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-11-06T23:04:41",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570866"
-    },
-    {
-      "id": 578225,
-      "title": "Microsoft 365: Frontier expands to public previews in Teams, Outlook, OneDrive, and SharePoint",
-      "description": "<p>Frontier is expanding to bring eligible public preview features across Microsoft 365 into one program. Users enrolled in Frontier can get eligible previews for new Outlook for Windows, OneDrive, SharePoint, Microsoft Teams, and Copilot, managed through a single admin-controlled enrollment experience. Frontier enrollment is optional and separate from Standard and Deferred release preferences for generally available features. Existing Frontier users do not need to re-enroll.</p>",
-      "status": "Launched",
-      "products": [
-        "Microsoft 365"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-11-06T23:04:41",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=578225"
     }
   ]
 }
